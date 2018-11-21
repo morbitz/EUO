@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<title>MediaWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="MediaWiki 1.16alpha-wmf" />
+<link rel="stylesheet" type="text/css" href="w/extensions/UsabilityInitiative/css/combined.min.css@16" />
+<link rel="stylesheet" type="text/css" href="w/extensions/UsabilityInitiative/css/vector/jquery-ui-1.7.2.css@1.7.2" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="w/opensearch_desc.php" title="MediaWiki (en)" />
+<link rel="copyright" href="../creativecommons.org/licenses/by-sa/3.0/default.htm" />
+<link rel="alternate" type="application/rss+xml" title="MediaWiki RSS Feed" href="w/index.php@title=Special_3ARecentChanges&feed=rss" />
+<link rel="alternate" type="application/atom+xml" title="MediaWiki Atom Feed" href="w/index.php@title=Special_3ARecentChanges&feed=atom" />
+<link rel="stylesheet" href="skins-1.5/common/shared.css@248z2" type="text/css" media="screen" />
+<link rel="stylesheet" href="skins-1.5/common/commonPrint.css@248z2" type="text/css" media="print" />
+<link rel="stylesheet" href="skins-1.5/monobook/main.css@248z2" type="text/css" media="screen" />
+<link rel="stylesheet" href="skins-1.5/chick/main.css@248z2" type="text/css" media="handheld" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="skins-1.5/monobook/IE50Fixes.css@248z2" type="text/css" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="skins-1.5/monobook/IE55Fixes.css@248z2" type="text/css" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="skins-1.5/monobook/IE60Fixes.css@248z2" type="text/css" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="skins-1.5/monobook/IE70Fixes.css@248z2" type="text/css" media="screen" /><![endif]-->
+<link rel="stylesheet" href="w/index.php@title=MediaWiki_3ACommon.css&usemsgcache=yes&ctype=text_252Fcss&smaxage=2678400&action=raw&maxage=2678400" type="text/css" media="all" />
+<link rel="stylesheet" href="w/index.php@title=MediaWiki_3APrint.css&usemsgcache=yes&ctype=text_252Fcss&smaxage=2678400&action=raw&maxage=2678400" type="text/css" media="print" />
+<link rel="stylesheet" href="w/index.php@title=MediaWiki_3AHandheld.css&usemsgcache=yes&ctype=text_252Fcss&smaxage=2678400&action=raw&maxage=2678400" type="text/css" media="handheld" />
+<link rel="stylesheet" href="w/index.php@title=MediaWiki_3AMonobook.css&usemsgcache=yes&ctype=text_252Fcss&smaxage=2678400&action=raw&maxage=2678400" type="text/css" media="all" />
+<link rel="stylesheet" href="w/index.php@title=-&action=raw&maxage=2678400&gen=css" type="text/css" media="all" />
+<script type="text/javascript">
+var skin="monobook",
+stylepath="skins-1.5",
+wgArticlePath="wiki/$1",
+wgScriptPath="w",
+wgScriptExtension=".php",
+wgScript="w/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="./",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="MediaWiki",
+wgTitle="MediaWiki",
+wgAction="view",
+wgArticleId=1,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="en",
+wgContentLanguage="en",
+wgBreakFrames=false,
+wgCurRevisionId=65192,
+wgVersion="1.16alpha-wmf",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="MediaWiki",
+wgFormattedNamespaces={"-2": "Media", "-1": "Special", "0": "", "1": "Talk", "2": "User", "3": "User talk", "4": "Project", "5": "Project talk", "6": "File", "7": "File talk", "8": "MediaWiki", "9": "MediaWiki talk", "10": "Template", "11": "Template talk", "12": "Help", "13": "Help talk", "14": "Category", "15": "Category talk", "90": "Thread", "91": "Thread talk", "92": "Summary", "93": "Summary talk", "100": "Manual", "101": "Manual talk", "102": "Extension", "103": "Extension talk"},
+wgNamespaceIds={"media": -2, "special": -1, "": 0, "talk": 1, "user": 2, "user_talk": 3, "project": 4, "project_talk": 5, "file": 6, "file_talk": 7, "mediawiki": 8, "mediawiki_talk": 9, "template": 10, "template_talk": 11, "help": 12, "help_talk": 13, "category": 14, "category_talk": 15, "thread": 90, "thread_talk": 91, "summary": 92, "summary_talk": 93, "manual": 100, "manual_talk": 101, "extension": 102, "extension_talk": 103, "image": 6, "image_talk": 7},
+wgMWSuggestTemplate="w/api.php@action=opensearch&search={searchTerms}&namespace={namespaces}&suggest",
+wgDBname="mediawikiwiki",
+wgSearchNamespaces=[0, 12, 100, 102],
+wgMWSuggestMessages=["with suggestions", "no suggestions"],
+wgRestrictionEdit=["sysop"],
+wgRestrictionMove=["sysop"],
+wgNotice="",
+wgNoticeLocal="";
+</script>
+<script src="skins-1.5/common/wikibits.js@urid=248z2_1254880607" type="text/javascript"></script>
+<script src="skins-1.5/common/ajax.js@urid=248z2" type="text/javascript"></script>
+<script src="skins-1.5/common/mwsuggest.js@urid=248z2" type="text/javascript"></script>
+<script type="text/javascript" src="w/extensions/UsabilityInitiative/js/js2.combined.min.js@8"></script>
+<script type="text/javascript" src="w/extensions/UsabilityInitiative/js/plugins.combined.min.js@68"></script>
+<script type="text/javascript" src="w/extensions/UsabilityInitiative/CollapsibleTabs/CollapsibleTabs.js@9"></script>
+<script type="text/javascript" src="../upload.wikimedia.org/centralnotice/wikipedia/en/centralnotice.js@248z2"></script>
+
+<!--[if lt IE 7]><script type="text/javascript" src="skins-1.5/common/IEFixes.js@248z2"></script>
+	<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+<script src="w/index.php@title=-&action=raw&gen=js&useskin=monobook&urid=248z2" type="text/javascript"></script>
+
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-MediaWiki skin-monobook">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a id="top"></a>
+		<div id="siteNotice"><script type='text/javascript'>if (wgNotice != '') document.writeln(wgNotice);</script></div>		<h1 id="firstHeading" class="firstHeading">MediaWiki</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From MediaWiki.org</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<div id="mainpage_topbox">
+<div id="mainpage_pagetitle"><b>Welcome to <strong class="selflink"><span id="mainpage_mwtitle">MediaWiki.org</span></strong></b></div>
+<div class="mainpage_boxcontents"><b>MediaWiki</b> is a <a href="../en.wikipedia.org/wiki/Free_software" class="extiw" title="en:Free software">free software</a> <a href="../en.wikipedia.org/wiki/Wiki" class="extiw" title="en:Wiki">wiki</a> package written in <a href="../en.wikipedia.org/wiki/PHP" class="extiw" title="en:PHP">PHP</a>, originally for use on <a href="../en.wikipedia.org/wiki/Wikipedia" class="extiw" title="en:Wikipedia">Wikipedia</a>. It is now used by several other projects of the non-profit <a href="../en.wikipedia.org/wiki/Wikimedia_Foundation" class="extiw" title="en:Wikimedia Foundation">Wikimedia Foundation</a> and by <a href="wiki/Sites_using_MediaWiki" title="Sites using MediaWiki">many other wikis</a>, including this website, the home of MediaWiki.
+<p>Use the links below to explore the site contents. You'll find some content translated into other languages, but the primary documentation language is English.</p>
+For general questions about MediaWiki see the <a href="wiki/Communication" title="Communication">communication page</a>. If you have a question about this wiki, please visit <a href="wiki/Project_3AForum" title="Project:Forum">the forum</a>.</div>
+<div id="mainpage_sitelinks">
+<p><b><a href="wiki/Project_3AAbout" title="Project:About">About this site</a></b> &#160; | &#160; <b><a href="wiki/How_does_MediaWiki_work_253F" title="How does MediaWiki work?">About MediaWiki</a></b> &#160; | &#160; <b><a href="wiki/Download" title="Download">Download</a></b> &#160; | &#160; <b><a href="wiki/Project_3AHelp" title="Project:Help">Help and support</a></b></p>
+</div>
+</div>
+<table style="border:0; margin: 0;" width="100%" cellspacing="10">
+<tr>
+<td valign="top" class="mainpage_hubbox">
+<div class="mainpage_hubtitle"><b>Users</b></div>
+<div class="mainpage_boxcontents">
+<table style="border: 0; margin: 0;" cellpadding="3">
+<tr>
+<td valign="top"><a href="wiki/User_hub" title="User hub"><img alt="Crystal Clear app display.png" src="../upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Crystal_Clear_app_display.png/80px-Crystal_Clear_app_display.png" width="80" height="80" /></a></td>
+<td valign="top">
+<ul>
+<li><a href="../en.wikipedia.org/wiki/Wiki" class="extiw" title="w:Wiki">What is a wiki?</a></li>
+<li><a href="wiki/Help_3ANavigation" title="Help:Navigation">Navigation</a></li>
+<li><a href="wiki/Help_3AEditing_pages" title="Help:Editing pages">How to edit a page</a></li>
+<li><i><a href="wiki/User_hub" title="User hub">More...</a></i></li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td valign="top" class="mainpage_hubbox">
+<div class="mainpage_hubtitle"><b>System administrators</b></div>
+<div class="mainpage_boxcontents">
+<table style="border: 0; margin: 0;" cellpadding="3">
+<tr>
+<td valign="top"><a href="wiki/Sysadmin_hub" title="Sysadmin hub"><img alt="Crystal Clear app terminal.png" src="../upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Crystal_Clear_app_terminal.png/80px-Crystal_Clear_app_terminal.png" width="80" height="80" /></a></td>
+<td valign="top">
+<ul>
+<li><a href="wiki/Installation" title="Installation">Installing</a> / <a href="wiki/Manual_3AUpgrading" title="Manual:Upgrading">Upgrading</a></li>
+<li><a href="wiki/Manual_3AConfiguration" title="Manual:Configuration">Configuring</a></li>
+<li><a href="wiki/Category_3AExtensions" title="Category:Extensions">Third-party extensions</a></li>
+<li><i><a href="wiki/Sysadmin_hub" title="Sysadmin hub">More...</a></i></li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td valign="top" class="mainpage_hubbox">
+<div class="mainpage_hubtitle"><b>Developers</b></div>
+<div class="mainpage_boxcontents">
+<table style="border: 0; margin: 0;" cellpadding="3">
+<tr>
+<td valign="top"><a href="wiki/Developer_hub" title="Developer hub"><img alt="Crystal Clear app tutorials.png" src="../upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Crystal_Clear_app_tutorials.png/80px-Crystal_Clear_app_tutorials.png" width="80" height="80" /></a></td>
+<td valign="top">
+<ul>
+<li><a href="wiki/How_to_become_a_MediaWiki_hacker" title="How to become a MediaWiki hacker">Submitting a patch</a></li>
+<li><a href="wiki/Commit_access" title="Commit access">SVN commit access</a></li>
+<li><a href="wiki/Manual_3AContents" title="Manual:Contents">Reference manual</a></li>
+<li><i><a href="wiki/Developer_hub" title="Developer hub">More...</a></i></li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<table style="border:0; margin: 0;" width="100%" cellspacing="10">
+<tr>
+<td valign="top" id="mainpage_downloadcell">
+<div class="mainpage_boxtitle"><b>Current versions</b></div>
+<div class="mainpage_boxcontents_small">
+<ul>
+<li><span style="font-size:110%;"><b>1.15.1</b> – 2009-07-13</span><br /></li>
+<li>1.14.1 – 2009-07-13<br /></li>
+<li>1.6.12 – 2009-02-07</li>
+</ul>
+<table class="plainlinks" style="border:2px outset #cccccc; background:#dddddd; margin:10px auto 0; padding:5px; white-space:nowrap; width:90%; text-align:center;">
+<tr>
+<td style="text-align:right;"><a href="../download.wikimedia.org/mediawiki/1.15/mediawiki-1.15.1.tar.gz"><img alt="Nuvola apps download manager.png" src="../upload.wikimedia.org/wikipedia/commons/thumb/2/26/Nuvola_apps_download_manager.png/40px-Nuvola_apps_download_manager.png" width="40" height="40" /></a></td>
+<td style="padding-left:0; font-size:130%; font-weight:bold;"><a href="../download.wikimedia.org/mediawiki/1.15/mediawiki-1.15.1.tar.gz" class="external text" rel="nofollow">Download<br />
+1.15.1</a></td>
+</tr>
+</table>
+<div style="margin:0 auto; text-align:center; width:90%; font-size:90%;">
+<p><i><a href="wiki/Download" title="Download">Download other releases</a></i></p>
+</div>
+</div>
+</td>
+<td valign="top" id="mainpage_newscell">
+<div class="mainpage_boxtitle"><b>News</b></div>
+<div class="mainpage_boxcontents_small">
+<ul>
+<li><b>2009-07-13</b>: <b>1.15.1, 1.14.1 released</b>
+<dl>
+<dd><a href="wiki/File_3AAttention_niels_epting.svg" class="image" title="Security"><img alt="Security" src="../upload.wikimedia.org/wikipedia/commons/thumb/5/51/Attention_niels_epting.svg/18px-Attention_niels_epting.svg.png" width="18" height="18" /></a> <a href="../lists.wikimedia.org/pipermail/mediawiki-announce/2009-July/000087.html" class="external text" rel="nofollow">MediaWiki 1.15.1 bugfix release</a> available</dd>
+<dd><a href="wiki/File_3AAttention_niels_epting.svg" class="image" title="Security"><img alt="Security" src="../upload.wikimedia.org/wikipedia/commons/thumb/5/51/Attention_niels_epting.svg/18px-Attention_niels_epting.svg.png" width="18" height="18" /></a> <a href="../lists.wikimedia.org/pipermail/mediawiki-announce/2009-July/000087.html" class="external text" rel="nofollow">MediaWiki 1.14.1 bugfix release</a> available</dd>
+</dl>
+</li>
+<li><b>2009-06-10</b>: <b>1.15.0 released</b>
+<dl>
+<dd><a href="wiki/File_3ASymbol_OK.svg" class="image" title="Release"><img alt="Release" src="../upload.wikimedia.org/wikipedia/commons/thumb/8/80/Symbol_OK.svg/18px-Symbol_OK.svg.png" width="18" height="18" /></a> <a href="../lists.wikimedia.org/pipermail/mediawiki-announce/2009-June/000086.html" class="external text" rel="nofollow">MediaWiki 1.15.0 quarterly release</a> is now available</dd>
+</dl>
+</li>
+<li><b>2009-05-16</b>: <b>1.15.0rc1 released</b>
+<dl>
+<dd><a href="wiki/File_3ASymbol_OK.svg" class="image" title="Release"><img alt="Release" src="../upload.wikimedia.org/wikipedia/commons/thumb/8/80/Symbol_OK.svg/18px-Symbol_OK.svg.png" width="18" height="18" /></a> <a href="../lists.wikimedia.org/pipermail/mediawiki-announce/2009-May/000085.html" class="external text" rel="nofollow">MediaWiki 1.15.0rc1 release candidate</a> available</dd>
+</dl>
+</li>
+<li><b>2009-02-22</b>: <b>1.14.0, 1.13.5 released</b>
+<dl>
+<dd><a href="wiki/File_3ASymbol_OK.svg" class="image" title="Release"><img alt="Release" src="../upload.wikimedia.org/wikipedia/commons/thumb/8/80/Symbol_OK.svg/18px-Symbol_OK.svg.png" width="18" height="18" /></a> <a href="../lists.wikimedia.org/pipermail/mediawiki-announce/2009-February/000084.html" class="external text" rel="nofollow">MediaWiki 1.14.0 quarterly release</a> available</dd>
+<dd><a href="wiki/File_3ABulbgraph.svg" class="image" title="Maintenance update"><img alt="Maintenance update" src="../upload.wikimedia.org/wikipedia/commons/thumb/1/12/Bulbgraph.svg/18px-Bulbgraph.svg.png" width="18" height="22" /></a> <a href="../lists.wikimedia.org/pipermail/mediawiki-announce/2009-February/000084.html" class="external text" rel="nofollow">MediaWiki 1.13.5 bugfix release</a> available</dd>
+</dl>
+</li>
+<li><b><a href="wiki/News" title="News">Older news...</a></b></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<div class="LanguageLinks">
+<table width="100%">
+<tr valign="top" style="background: #EEF3E2">
+<td style="width: 25px; padding-left: 0.5em;"><img alt="Languages" src="../upload.wikimedia.org/wikipedia/commons/thumb/5/59/Geographylogo.png/25px-Geographylogo.png" width="25" height="25" /></td>
+<td style="white-space: nowrap; padding: 4px 1em 0 0.5em; border-right: 1px solid #aaaaaa;"><b><a href="wiki/Project_3ALanguage_policy" title="Project:Language policy">Languages:</a></b>&#160;</td>
+<td style="width: 99%; padding: 1px 1em 0; background: #F6F9ED;">
+<p><b><strong class="selflink">English</strong></b> &#160;•&#160;<span lang="af" xml:lang="af"><a href="wiki/MediaWiki/af" title="MediaWiki/af">Afrikaans</a></span> &#160;•&#160;<span lang="ar" xml:lang="ar"><a href="wiki/MediaWiki/ar" title="MediaWiki/ar">العربية</a></span> &#160;•&#160;<span lang="az" xml:lang="az"><a href="wiki/MediaWiki/az" title="MediaWiki/az">Azərbaycan</a></span> &#160;•&#160;<span lang="bcc" xml:lang="bcc"><a href="wiki/MediaWiki/bcc" title="MediaWiki/bcc">بلوچی مکرانی</a></span> &#160;•&#160;<span lang="bg" xml:lang="bg"><a href="wiki/MediaWiki/bg" title="MediaWiki/bg">Български</a></span> &#160;•&#160;<span lang="br" xml:lang="br"><a href="wiki/MediaWiki/br" title="MediaWiki/br">Brezhoneg</a></span> &#160;•&#160;<span lang="ca" xml:lang="ca"><a href="wiki/MediaWiki/ca" title="MediaWiki/ca">Català</a></span> &#160;•&#160;<span lang="cs" xml:lang="cs"><a href="wiki/MediaWiki/cs" title="MediaWiki/cs">Česky</a></span> &#160;•&#160;<span lang="de" xml:lang="de"><a href="wiki/MediaWiki/de" title="MediaWiki/de">Deutsch</a></span> &#160;•&#160;<span lang="el" xml:lang="el"><a href="wiki/MediaWiki/el" title="MediaWiki/el">Ελληνικά</a></span> &#160;•&#160;<span lang="es" xml:lang="es"><a href="wiki/MediaWiki/es" title="MediaWiki/es">Español</a></span> &#160;•&#160;<span lang="fa" xml:lang="fa"><a href="wiki/MediaWiki/fa" title="MediaWiki/fa">فارسی</a></span> &#160;•&#160;<span lang="fi" xml:lang="fi"><a href="wiki/MediaWiki/fi" title="MediaWiki/fi">Suomi</a></span> &#160;•&#160;<span lang="fr" xml:lang="fr"><a href="wiki/MediaWiki/fr" title="MediaWiki/fr">Français</a></span> &#160;•&#160;<span lang="gl" xml:lang="gl"><a href="wiki/MediaWiki/gl" title="MediaWiki/gl">Galego</a></span> &#160;•&#160;<span lang="he" xml:lang="he"><a href="wiki/MediaWiki/he" title="MediaWiki/he">עברית</a></span> &#160;•&#160;<span lang="hu" xml:lang="hu"><a href="wiki/MediaWiki/hu" title="MediaWiki/hu">Magyar</a></span> &#160;•&#160;<span lang="id" xml:lang="id"><a href="wiki/MediaWiki/id" title="MediaWiki/id">Bahasa Indonesia</a></span> &#160;•&#160;<span lang="it" xml:lang="it"><a href="wiki/MediaWiki/it" title="MediaWiki/it">Italiano</a></span> &#160;•&#160;<span lang="ja" xml:lang="ja"><a href="wiki/MediaWiki/ja" title="MediaWiki/ja">日本語</a></span> &#160;•&#160;<span lang="ka" xml:lang="ka"><a href="wiki/MediaWiki/ka" title="MediaWiki/ka">ქართული</a></span> &#160;•&#160;<span lang="ko" xml:lang="ko"><a href="wiki/MediaWiki/ko" title="MediaWiki/ko">한국어</a></span> &#160;•&#160;<span lang="ml" xml:lang="ml"><a href="wiki/MediaWiki/ml" title="MediaWiki/ml">മലയാളം</a></span> &#160;•&#160;<span lang="mr" xml:lang="mr"><a href="wiki/MediaWiki/mr" title="MediaWiki/mr">मराठी</a></span> &#160;•&#160;<span lang="ms" xml:lang="ms"><a href="wiki/MediaWiki/ms" title="MediaWiki/ms">Bahasa Melayu</a></span> &#160;•&#160;<span lang="nl" xml:lang="nl"><a href="wiki/MediaWiki/nl" title="MediaWiki/nl">Nederlands</a></span> &#160;•&#160;<span lang="no" xml:lang="no"><a href="wiki/MediaWiki/no" title="MediaWiki/no">‪Norsk (bokmål)‬</a></span> &#160;•&#160;<span lang="oc" xml:lang="oc"><a href="wiki/MediaWiki/oc" title="MediaWiki/oc">Occitan</a></span> &#160;•&#160;<span lang="pl" xml:lang="pl"><a href="wiki/MediaWiki/pl" title="MediaWiki/pl">Polski</a></span> &#160;•&#160;<span lang="pt" xml:lang="pt"><a href="wiki/MediaWiki/pt" title="MediaWiki/pt">Português</a></span> &#160;•&#160;<span lang="ro" xml:lang="ro"><a href="wiki/MediaWiki/ro" title="MediaWiki/ro">Română</a></span> &#160;•&#160;<span lang="ru" xml:lang="ru"><a href="wiki/MediaWiki/ru" title="MediaWiki/ru">Русский</a></span> &#160;•&#160;<span lang="si" xml:lang="si"><a href="wiki/MediaWiki/si" title="MediaWiki/si">සිංහල</a></span> &#160;•&#160;<span lang="sk" xml:lang="sk"><a href="wiki/MediaWiki/sk" title="MediaWiki/sk">Slovenčina</a></span> &#160;•&#160;<span lang="sq" xml:lang="sq"><a href="wiki/MediaWiki/sq" title="MediaWiki/sq">Shqip</a></span> &#160;•&#160;<span lang="sv" xml:lang="sv"><a href="wiki/MediaWiki/sv" title="MediaWiki/sv">Svenska</a></span> &#160;•&#160;<span lang="tr" xml:lang="tr"><a href="wiki/MediaWiki/tr" title="MediaWiki/tr">Türkçe</a></span> &#160;•&#160;<span lang="uk" xml:lang="uk"><a href="wiki/MediaWiki/uk" title="MediaWiki/uk">Українська</a></span> &#160;•&#160;<span lang="vi" xml:lang="vi"><a href="wiki/MediaWiki/vi" title="MediaWiki/vi">Tiếng Việt</a></span> &#160;•&#160;<span lang="yue" xml:lang="yue"><a href="wiki/MediaWiki/yue" title="MediaWiki/yue">粵語</a></span> &#160;•&#160;<span lang="zh" xml:lang="zh"><a href="wiki/MediaWiki/zh" title="MediaWiki/zh">中文</a></span> &#160;•&#160;<span lang="zh-hans" xml:lang="zh-hans"><a href="wiki/MediaWiki/zh-hans" title="MediaWiki/zh-hans">‪中文(简体)‬</a></span> &#160;•&#160;<span lang="zh-hant" xml:lang="zh-hant"><a href="wiki/MediaWiki/zh-hant" title="MediaWiki/zh-hant">‪中文(繁體)‬</a></span> &#160;•&#160;<span lang="zh-tw" xml:lang="zh-tw"><a href="wiki/MediaWiki/zh-tw" title="MediaWiki/zh-tw" class="mw-redirect">‪中文(台灣)‬</a></span></p>
+</td>
+</tr>
+</table>
+</div>
+
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 1456/1000000
+Post-expand include size: 29805/2048000 bytes
+Template argument size: 747/2048000 bytes
+Expensive parser function count: 50/500
+-->
+
+<!-- Saved in parser cache with key mediawikiwiki:pcache:idhash:1-0!1!0!!en!2!edit=0 and timestamp 20091119154022 -->
+<div class="printfooter">
+Retrieved from "<a href="wiki/MediaWiki">http://www.mediawiki.org/wiki/MediaWiki</a>"</div>
+			<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="wiki/Special_3ACategories" title="Special:Categories">Category</a>: <span dir='ltr'><a href="wiki/Category_3AMediaWiki_Introduction" title="Category:MediaWiki Introduction">MediaWiki Introduction</a></span></div></div>			<!-- end content -->
+						<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul lang="en" xml:lang="en">
+	
+				 <li id="ca-nstab-main" class="selected"><a href="wiki/MediaWiki" title="View the content page [c]" accesskey="c">Page</a></li>
+				 <li id="ca-talk"><a href="wiki/Talk_3AMediaWiki" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-viewsource"><a href="w/index.php@title=MediaWiki&action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+				 <li id="ca-history"><a href="w/index.php@title=MediaWiki&action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul lang="en" xml:lang="en">
+				<li id="pt-optin-try"><a href="w/index.php@title=Special_3AUsabilityInitiativeOptIn&from=MediaWiki" title="Try out new features" class="no-text-transform">Try Beta</a></li>
+				<li id="pt-login"><a href="w/index.php@title=Special_3AUserLogin&returnto=MediaWiki" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in / create account</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(../upload.wikimedia.org/wikipedia/mediawiki/b/bc/Wiki.png);" href="wiki/MediaWiki" title="Visit the main page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-site'>
+		<h5 lang="en" xml:lang="en">Site</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="wiki/MediaWiki" title="Visit the main page [z]" accesskey="z">Main Page</a></li>
+				<li id="n-cat-browser"><a href="wiki/Category_3ATop_level">Browse categories</a></li>
+				<li id="n-portal"><a href="wiki/Project_3AHelp" title="About the project, what you can do, where to find things">Community portal</a></li>
+				<li id="n-recentchanges"><a href="wiki/Special_3ARecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+				<li id="n-blog-text"><a href="../techblog.wikimedia.org/default.htm">Tech blog</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5 lang="en" xml:lang="en"><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/w/index.php" id="searchform">
+				<input type='hidden' name="title" value="Special:Search"/>
+				<input id="searchInput" title="Search MediaWiki" accesskey="f" value="" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" title="Go to a page with this exact name if exists" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" />
+			</form>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-support'>
+		<h5 lang="en" xml:lang="en">Support</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-help"><a href="wiki/Help_3AContents" title="The place to find out">User help</a></li>
+				<li id="n-manual-text"><a href="wiki/Manual_3AContents">Technical manual</a></li>
+				<li id="n-FAQ"><a href="wiki/Manual_3AFAQ">FAQ</a></li>
+				<li id="n-Support-desk"><a href="wiki/Project_3ASupport_desk">Support desk</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-download-header'>
+		<h5 lang="en" xml:lang="en">Download</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mediawiki"><a href="wiki/Download">Get MediaWiki</a></li>
+				<li id="n-extensions"><a href="wiki/Category_3AExtensions">Get extensions</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-development'>
+		<h5 lang="en" xml:lang="en">Development</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-bugtracker"><a href="wiki/Bugzilla">Bug tracker</a></li>
+				<li id="n-downloadfromsvn"><a href="wiki/Download_from_SVN">Download from SVN</a></li>
+				<li id="n-codereview"><a href="wiki/Special_3ACode/MediaWiki">View code changes</a></li>
+				<li id="n-Code-comments"><a href="wiki/Special_3ACode/MediaWiki/comments">Code comments</a></li>
+				<li id="n-browse-cvs"><a href="../svn.wikimedia.org/viewvc/mediawiki/trunk/default.htm">Browse SVN</a></li>
+				<li id="n-phpdoc"><a href="../svn.wikimedia.org/doc/default.htm">Code docs</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-communication'>
+		<h5 lang="en" xml:lang="en">Communication</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-irc"><a href="wiki/MediaWiki_on_IRC">IRC (#mediawiki)</a></li>
+				<li id="n-Mailing-lists"><a href="wiki/Mailing_lists">Mailing lists</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5 lang="en" xml:lang="en">Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="wiki/Special_3AWhatLinksHere/MediaWiki" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="wiki/Special_3ARecentChangesLinked/MediaWiki" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="wiki/Special_3ASpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="w/index.php@title=MediaWiki&printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="w/index.php@title=MediaWiki&oldid=65192" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-cite"><a href="w/index.php@title=Special_3ACite&page=MediaWiki&id=65192" title="Information on how to cite this page">Cite this page</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="default.htm"><img src="skins-1.5/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+				<div id="f-copyrightico"><a href="../wikimediafoundation.org/default.htm"><img src="images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a></div>
+			<ul id="f-list">
+					<li id="lastmod"> This page was last modified on 24 January 2007, at 19:51.</li>
+					<li id="copyright">Text is available under the <a href="../creativecommons.org/licenses/by-sa/3.0/default.htm">Creative Commons Attribution/Share-Alike License</a>;
+additional terms may apply.
+See <a href="../wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.</li>
+					<li id="privacy"><a href="../wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+					<li id="about"><a href="wiki/Project_3AAbout" title="Project:About">About MediaWiki.org</a></li>
+					<li id="disclaimer"><a href="wiki/Project_3AGeneral_disclaimer" title="Project:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+</div>
+
+<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served by srv213 in 0.048 secs. --></body></html>

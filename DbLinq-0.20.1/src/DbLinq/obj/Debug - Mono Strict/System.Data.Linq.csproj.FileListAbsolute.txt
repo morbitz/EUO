@@ -1,0 +1,5 @@
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\build.dbg.mono\System.Data.Linq.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\build.dbg.mono\System.Data.Linq.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\DbLinq\obj\Debug - Mono Strict\ResolveAssemblyReference.cache
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\DbLinq\obj\Debug - Mono Strict\System.Data.Linq.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\DbLinq\obj\Debug - Mono Strict\System.Data.Linq.pdb

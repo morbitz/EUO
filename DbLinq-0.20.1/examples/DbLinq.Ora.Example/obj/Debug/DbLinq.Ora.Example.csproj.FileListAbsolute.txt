@@ -1,0 +1,9 @@
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ora.Example\bin\Debug\ClientCodeOra.exe
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ora.Example\bin\Debug\ClientCodeOra.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ora.Example\bin\Debug\DbLinq.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ora.Example\bin\Debug\DbLinq.Oracle.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ora.Example\bin\Debug\DbLinq.Oracle.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ora.Example\bin\Debug\DbLinq.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ora.Example\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ora.Example\obj\Debug\ClientCodeOra.exe
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ora.Example\obj\Debug\ClientCodeOra.pdb

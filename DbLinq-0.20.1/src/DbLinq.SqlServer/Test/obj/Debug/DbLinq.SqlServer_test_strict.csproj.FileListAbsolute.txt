@@ -1,0 +1,5 @@
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\build.dbg\DbLinq.SqlServer_test_strict.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\build.dbg\DbLinq.SqlServer_test_strict.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\DbLinq.SqlServer\Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\DbLinq.SqlServer\Test\obj\Debug\DbLinq.SqlServer_test_strict.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\DbLinq.SqlServer\Test\obj\Debug\DbLinq.SqlServer_test_strict.pdb

@@ -1,0 +1,23 @@
+<!ENTITY % From "(server|client|both|unknown)">
+<!ENTITY % Type "(byte|word|dword|char|uchar|sbyte|loop|endloop|qword)">
+
+<!ELEMENT Packets (Packet*)>
+
+<!ELEMENT Packet (Name,Desc,Data*,Note?)>
+<!ATTLIST Packet
+  id        CDATA       #REQUIRED
+  size      CDATA       #REQUIRED
+  from      %From;      #REQUIRED
+  >
+
+<!ELEMENT Name ANY>
+
+<!ELEMENT Desc ANY>
+
+<!ELEMENT Note ANY>
+
+<!ELEMENT Data ANY>
+<!ATTLIST Data
+  type      %Type;      #REQUIRED
+  amount    CDATA       #IMPLIED
+  >

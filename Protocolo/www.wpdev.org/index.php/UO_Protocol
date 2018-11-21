@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="generator" content="MediaWiki 1.14.0" />
+		<meta name="keywords" content="UO Protocol,UO Protocol 0x00,UO Protocol 0x01,UO Protocol 0x02,UO Protocol 0x03,UO Protocol 0x04,UO Protocol 0x05,UO Protocol 0x06,UO Protocol 0x07,UO Protocol 0x08,UO Protocol 0x09" />
+		<link rel="shortcut icon" href="../favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="Wolfpack Wiki (en)" />
+		<link title="Creative Commons" type="application/rdf+xml" href="../index.php@title=UO_Protocol&action=creativecommons" rel="meta" />
+		<link rel="copyright" href="../../www.gnu.org/copyleft/fdl.html" />
+		<link rel="alternate" type="application/rss+xml" title="Wolfpack Wiki RSS Feed" href="../index.php@title=Special_3ARecentChanges&feed=rss" />
+		<link rel="alternate" type="application/atom+xml" title="Wolfpack Wiki Atom Feed" href="../index.php@title=Special_3ARecentChanges&feed=atom" />
+		<title>UO Protocol - Wolfpack Wiki</title>
+		<link rel="stylesheet" href="../skins/common/shared.css@195" type="text/css" media="screen" />
+		<link rel="stylesheet" href="../skins/common/commonPrint.css@195" type="text/css" media="print" />
+		<link rel="stylesheet" href="../skins/monobook/main.css@195" type="text/css" media="screen" />
+		<!--[if lt IE 5.5000]><link rel="stylesheet" href="../skins/monobook/IE50Fixes.css@195" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 5.5000]><link rel="stylesheet" href="../skins/monobook/IE55Fixes.css@195" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 6]><link rel="stylesheet" href="../skins/monobook/IE60Fixes.css@195" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" href="../skins/monobook/IE70Fixes.css@195" type="text/css" media="screen" /><![endif]-->
+		<link rel="stylesheet" href="../index.php@title=MediaWiki_3ACommon.css&usemsgcache=yes&ctype=text_252Fcss&smaxage=18000&action=raw&maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="../index.php@title=MediaWiki_3APrint.css&usemsgcache=yes&ctype=text_252Fcss&smaxage=18000&action=raw&maxage=18000" type="text/css" media="print" />
+		<link rel="stylesheet" href="../index.php@title=MediaWiki_3AMonobook.css&usemsgcache=yes&ctype=text_252Fcss&smaxage=18000&action=raw&maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="../index.php@title=-&action=raw&maxage=18000&gen=css" type="text/css" />
+		<!--[if lt IE 7]><script type="text/javascript" src="../skins/common/IEFixes.js@195"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+
+		<script type= "text/javascript">/*<![CDATA[*/
+		var skin = "monobook";
+		var stylepath = "../skins";
+		var wgArticlePath = "$1";
+		var wgScriptPath = "";
+		var wgScript = "../index.php";
+		var wgVariantArticlePath = false;
+		var wgActionPaths = {};
+		var wgServer = "../";
+		var wgCanonicalNamespace = "";
+		var wgCanonicalSpecialPageName = false;
+		var wgNamespaceNumber = 0;
+		var wgPageName = "UO_Protocol";
+		var wgTitle = "UO Protocol";
+		var wgAction = "view";
+		var wgArticleId = "1397";
+		var wgIsArticle = true;
+		var wgUserName = null;
+		var wgUserGroups = null;
+		var wgUserLanguage = "en";
+		var wgContentLanguage = "en";
+		var wgBreakFrames = false;
+		var wgCurRevisionId = "1960";
+		var wgVersion = "1.14.0";
+		var wgEnableAPI = true;
+		var wgEnableWriteAPI = true;
+		var wgSeparatorTransformTable = ["", ""];
+		var wgDigitTransformTable = ["", ""];
+		var wgRestrictionEdit = [];
+		var wgRestrictionMove = [];
+		/*]]>*/</script>
+
+		<script type="text/javascript" src="../skins/common/wikibits.js@195"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+		<script type="text/javascript" src="../skins/common/ajax.js@195"></script>
+		<script type="text/javascript" src="../index.php@title=-&action=raw&gen=js&useskin=monobook"><!-- site js --></script>
+	</head>
+<body class="mediawiki ltr ns-0 ns-subject page-UO_Protocol skin-monobook">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 id="firstHeading" class="firstHeading">UO Protocol</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From Wolfpack Wiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<p>The following information is mainly imported from <b>The Wolfpack Hackers' Guide</b> (<a href="../../www.gonzo.kiev.ua/guide/guide.html" class="external free" title="http://www.gonzo.kiev.ua/guide/guide.html" rel="nofollow">http://www.gonzo.kiev.ua/guide/guide.html</a> ...page dissappeared...). 
+</p><p>All known commands will be documented including obsolete packets.
+Please fill in the reasons for that and the corresponding version information.
+Also the version (date) of the first occurrence of new packet-types can
+be interesting.
+</p>
+<a name="Data_Types" id="Data_Types"></a><h2> <span class="mw-headline"> Data Types </span></h2>
+<pre>BYTE   8-bit unsigned
+SBYTE  8-bit signed
+BOOL   8-bit boolean (0x00=False, 0xFF=True)
+CHAR   8-bit single ASCII character
+UNI    16-bit single unicode character
+SHORT  16-bit signed
+USHORT 16-bit unsigned
+INT    32-bit signed
+UINT   32-bit unsigned
+</pre>
+<p>These seems to be no float data because of performance considerations.
+</p>
+<a name="Game_Packets_Structure" id="Game_Packets_Structure"></a><h2> <span class="mw-headline"> Game Packets Structure </span></h2>
+<ul><li> Create Character (<a href="UO_Protocol_0x00" title="UO Protocol 0x00">0x00</a>)
+</li><li> Disconnect Notification (<a href="UO_Protocol_0x01" title="UO Protocol 0x01">0x01</a>)
+</li><li> Move Request (<a href="UO_Protocol_0x02" title="UO Protocol 0x02">0x02</a>)
+</li><li> Talk Request (<a href="UO_Protocol_0x03" title="UO Protocol 0x03">0x03</a>)
+</li><li> GodMode Toggle (<a href="UO_Protocol_0x04" title="UO Protocol 0x04">0x04</a>)
+</li><li> Attack Request (<a href="UO_Protocol_0x05" title="UO Protocol 0x05">0x05</a>)
+</li><li> Double click (<a href="UO_Protocol_0x06" title="UO Protocol 0x06">0x06</a>)
+</li><li> Pick up Item(s) (<a href="UO_Protocol_0x07" title="UO Protocol 0x07">0x07</a>)
+</li><li> Drop Item(s) (<a href="UO_Protocol_0x08" title="UO Protocol 0x08">0x08</a>)
+</li><li> Single click (<a href="UO_Protocol_0x09" title="UO Protocol 0x09">0x09</a>)
+</li><li> PACKET_EDIT (<a href="UO_Protocol_0x0A" title="UO Protocol 0x0A">0x0A</a>)
+</li><li> PACKET_EDITAREA (<a href="UO_Protocol_0x0B" title="UO Protocol 0x0B">0x0B</a>)
+</li><li> PACKET_TILEDATA (<a href="UO_Protocol_0x0C" title="UO Protocol 0x0C">0x0C</a>)
+</li><li> PACKET_NPCDATA (<a href="UO_Protocol_0x0D" title="UO Protocol 0x0D">0x0D</a>)
+</li><li> PACKET_TEMPLATEDATA (<a href="UO_Protocol_0x0E" title="UO Protocol 0x0E">0x0E</a>)
+</li><li> PACKET_PAPERDOLL (<a href="UO_Protocol_0x0F" title="UO Protocol 0x0F">0x0F</a>)
+</li><li> PACKET_HUEDATA (<a href="UO_Protocol_0x10" title="UO Protocol 0x10">0x10</a>)
+</li><li> Stat window info (<a href="UO_Protocol_0x11" title="UO Protocol 0x11">0x11</a>)
+</li><li> Request Skill/Action/Magic Usage (<a href="UO_Protocol_0x12" title="UO Protocol 0x12">0x12</a>)
+</li><li> Equip Item Request (<a href="UO_Protocol_0x13" title="UO Protocol 0x13">0x13</a>)
+</li><li> Follow (<a href="UO_Protocol_0x15" title="UO Protocol 0x15">0x15</a>)
+</li><li> Object Information (<a href="UO_Protocol_0x1A" title="UO Protocol 0x1A">0x1A</a>)
+</li><li> Login Confirmation (<a href="UO_Protocol_0x1B" title="UO Protocol 0x1B">0x1B</a>)
+</li><li> Send Text (<a href="UO_Protocol_0x1C" title="UO Protocol 0x1C">0x1C</a>)
+</li><li> Delete Object (<a href="UO_Protocol_0x1D" title="UO Protocol 0x1D">0x1D</a>)
+</li><li> PACKET_ANIMATE (<a href="UO_Protocol_0x1E" title="UO Protocol 0x1E">0x1E</a>)
+</li><li> PACKET_EXPLODE (<a href="UO_Protocol_0x1F" title="UO Protocol 0x1F">0x1F</a>)
+</li><li> Teleport Player (<a href="UO_Protocol_0x20" title="UO Protocol 0x20">0x20</a>)
+</li><li> Character Move Reject (<a href="UO_Protocol_0x21" title="UO Protocol 0x21">0x21</a>)
+</li><li> Character Move ACK/ Resync Request (<a href="UO_Protocol_0x22" title="UO Protocol 0x22">0x22</a>)
+</li><li> Drag Item (<a href="UO_Protocol_0x23" title="UO Protocol 0x23">0x23</a>)
+</li><li> Draw Container (<a href="UO_Protocol_0x24" title="UO Protocol 0x24">0x24</a>)
+</li><li> Add Item to Container (<a href="UO_Protocol_0x25" title="UO Protocol 0x25">0x25</a>)
+</li><li> Kick Player (<a href="UO_Protocol_0x26" title="UO Protocol 0x26">0x26</a>)
+</li><li> Reject Request to move Items (<a href="UO_Protocol_0x27" title="UO Protocol 0x27">0x27</a>)
+</li><li> Clear Square (<a href="UO_Protocol_0x28" title="UO Protocol 0x28">0x28</a>)
+</li><li> Paperdoll Clothing Added (<a href="UO_Protocol_0x29" title="UO Protocol 0x29">0x29</a>)
+</li><li> PACKET_BLOOD (<a href="UO_Protocol_0x2A" title="UO Protocol 0x2A">0x2A</a>)
+</li><li> Toggle GodMode Reply (<a href="UO_Protocol_0x2B" title="UO Protocol 0x2B">0x2B</a>)
+</li><li> Death/Resurrection (<a href="UO_Protocol_0x2C" title="UO Protocol 0x2C">0x2C</a>)
+</li><li> PACKET_HEALTH (<a href="UO_Protocol_0x2D" title="UO Protocol 0x2D">0x2D</a>)
+</li><li> Equip Item (<a href="UO_Protocol_0x2E" title="UO Protocol 0x2E">0x2E</a>)
+</li><li> Fight Occurring (<a href="UO_Protocol_0x2F" title="UO Protocol 0x2F">0x2F</a>)
+</li><li> Pause/Resume Client (<a href="UO_Protocol_0x33" title="UO Protocol 0x33">0x33</a>)
+</li><li> Get Player Status (<a href="UO_Protocol_0x34" title="UO Protocol 0x34">0x34</a>)
+</li><li> Send Skills/Lock state (<a href="UO_Protocol_0x3A" title="UO Protocol 0x3A">0x3A</a>)
+</li><li> Buy Item(s) (<a href="UO_Protocol_0x3B" title="UO Protocol 0x3B">0x3B</a>)
+</li><li> Items in Container (<a href="UO_Protocol_0x3C" title="UO Protocol 0x3C">0x3C</a>)
+</li><li> Personal Light Level (<a href="UO_Protocol_0x4E" title="UO Protocol 0x4E">0x4E</a>)
+</li><li> Overall Light Level (<a href="UO_Protocol_0x4F" title="UO Protocol 0x4F">0x4F</a>)
+</li><li> Login Reject (<a href="UO_Protocol_0x53" title="UO Protocol 0x53">0x53</a>)
+</li><li> Play Sound Effect (<a href="UO_Protocol_0x54" title="UO Protocol 0x54">0x54</a>)
+</li><li> Login Complete (<a href="UO_Protocol_0x55" title="UO Protocol 0x55">0x55</a>)
+</li><li> Plot Course (<a href="UO_Protocol_0x56" title="UO Protocol 0x56">0x56</a>)
+</li><li> Time (<a href="UO_Protocol_0x5B" title="UO Protocol 0x5B">0x5B</a>)
+</li><li> Pre Login (<a href="UO_Protocol_0x5D" title="UO Protocol 0x5D">0x5D</a>)
+</li><li> Set Weather (<a href="UO_Protocol_0x65" title="UO Protocol 0x65">0x65</a>)
+</li><li> Book Contents (<a href="UO_Protocol_0x66" title="UO Protocol 0x66">0x66</a>)
+</li><li> Targeting Cursor Commands (<a href="UO_Protocol_0x6C" title="UO Protocol 0x6C">0x6C</a>)
+</li><li> Play Midi Music (<a href="UO_Protocol_0x6D" title="UO Protocol 0x6D">0x6D</a>)
+</li><li> Character Animation (<a href="UO_Protocol_0x6E" title="UO Protocol 0x6E">0x6E</a>)
+</li><li> Secure Trading (<a href="UO_Protocol_0x6F" title="UO Protocol 0x6F">0x6F</a>)
+</li><li> Graphical Effect (<a href="UO_Protocol_0x70" title="UO Protocol 0x70">0x70</a>)
+</li><li> Bulletin Board Message (<a href="UO_Protocol_0x71" title="UO Protocol 0x71">0x71</a>)
+</li><li> Request War Mode Change/Send War Mode status (<a href="UO_Protocol_0x72" title="UO Protocol 0x72">0x72</a>)
+</li><li> Ping message (<a href="UO_Protocol_0x73" title="UO Protocol 0x73">0x73</a>)
+</li><li> Open Buy Window (<a href="UO_Protocol_0x74" title="UO Protocol 0x74">0x74</a>)
+</li><li> Rename Character (<a href="UO_Protocol_0x75" title="UO Protocol 0x75">0x75</a>)
+</li><li> New Subserver (<a href="UO_Protocol_0x76" title="UO Protocol 0x76">0x76</a>)
+</li><li> Update Player (<a href="UO_Protocol_0x77" title="UO Protocol 0x77">0x77</a>)
+</li><li> Draw Object (<a href="UO_Protocol_0x78" title="UO Protocol 0x78">0x78</a>)
+</li><li> Object Picker (<a href="UO_Protocol_0x7C" title="UO Protocol 0x7C">0x7C</a>)
+</li><li> Client response to Dialog (<a href="UO_Protocol_0x7D" title="UO Protocol 0x7D">0x7D</a>)
+</li><li> Login Request (<a href="UO_Protocol_0x80" title="UO Protocol 0x80">0x80</a>)
+</li><li> Login Denied (<a href="UO_Protocol_0x82" title="UO Protocol 0x82">0x82</a>)
+</li><li> Delete Character (<a href="UO_Protocol_0x83" title="UO Protocol 0x83">0x83</a>)
+</li><li> Resend Characters After Delete (<a href="UO_Protocol_0x86" title="UO Protocol 0x86">0x86</a>)
+</li><li> Open Paperdoll (<a href="UO_Protocol_0x88" title="UO Protocol 0x88">0x88</a>)
+</li><li> Corpse Clothing (<a href="UO_Protocol_0x89" title="UO Protocol 0x89">0x89</a>)
+</li><li> Connect to Game Server (<a href="UO_Protocol_0x8C" title="UO Protocol 0x8C">0x8C</a>)
+</li><li> Map message (<a href="UO_Protocol_0x90" title="UO Protocol 0x90">0x90</a>)
+</li><li> Game Server Login (<a href="UO_Protocol_0x91" title="UO Protocol 0x91">0x91</a>)
+</li><li> Book Header (<a href="UO_Protocol_0x93" title="UO Protocol 0x93">0x93</a>)
+</li><li> Dye Window (<a href="UO_Protocol_0x95" title="UO Protocol 0x95">0x95</a>)
+</li><li> House/Boat Placement (<a href="UO_Protocol_0x99" title="UO Protocol 0x99">0x99</a>)
+</li><li> Console Entry Prompt (<a href="UO_Protocol_0x9A" title="UO Protocol 0x9A">0x9A</a>)
+</li><li> Request Help (<a href="UO_Protocol_0x9B" title="UO Protocol 0x9B">0x9B</a>)
+</li><li> Sell List (<a href="UO_Protocol_0x9E" title="UO Protocol 0x9E">0x9E</a>)
+</li><li> Sell Reply (<a href="UO_Protocol_0x9F" title="UO Protocol 0x9F">0x9F</a>)
+</li><li> Select Server(<a href="UO_Protocol_0xA0" title="UO Protocol 0xA0">0xA0</a>)
+</li><li> Update Current Health (<a href="UO_Protocol_0xA1" title="UO Protocol 0xA1">0xA1</a>)
+</li><li> Update Current Mana (<a href="UO_Protocol_0xA2" title="UO Protocol 0xA2">0xA2</a>)
+</li><li> Update Current Stamina (<a href="UO_Protocol_0xA3" title="UO Protocol 0xA3">0xA3</a>)
+</li><li> Client Machine info (<a href="UO_Protocol_0xA4" title="UO Protocol 0xA4">0xA4</a>)
+</li><li> Open Web Browser (<a href="UO_Protocol_0xA5" title="UO Protocol 0xA5">0xA5</a>)
+</li><li> Tip/Notice window (<a href="UO_Protocol_0xA6" title="UO Protocol 0xA6">0xA6</a>)
+</li><li> Request Tips/Notice (<a href="UO_Protocol_0xA7" title="UO Protocol 0xA7">0xA7</a>)
+</li><li> Game Server List (<a href="UO_Protocol_0xA8" title="UO Protocol 0xA8">0xA8</a>)
+</li><li> Characters/Starting Locations (<a href="UO_Protocol_0xA9" title="UO Protocol 0xA9">0xA9</a>)
+</li><li> Attack Request Reply (<a href="UO_Protocol_0xAA" title="UO Protocol 0xAA">0xAA</a>)
+</li><li> Gump Text Entry Dialog (<a href="UO_Protocol_0xAB" title="UO Protocol 0xAB">0xAB</a>)
+</li><li> Gump Text Entry Dialog Reply (<a href="UO_Protocol_0xAC" title="UO Protocol 0xAC">0xAC</a>)
+</li><li> Unicode speech request (<a href="UO_Protocol_0xAD" title="UO Protocol 0xAD">0xAD</a>)
+</li><li> Unicode Speech message (<a href="../index.php@title=UO_Protocol_0xAE&action=edit&redlink=1" class="new" title="UO Protocol 0xAE (page does not exist)">0xAE</a>)
+</li><li> Display Death Animation (<a href="UO_Protocol_0xAF" title="UO Protocol 0xAF">0xAF</a>)
+</li><li> Send Gump Menu Dialog (<a href="UO_Protocol_0xB0" title="UO Protocol 0xB0">0xB0</a>)
+</li><li> Gump Menu Selection (<a href="../index.php@title=UO_Protocol_0xB1&action=edit&redlink=1" class="new" title="UO Protocol 0xB1 (page does not exist)">0xB1</a>)
+</li><li> Chat Message (<a href="UO_Protocol_0xB2" title="UO Protocol 0xB2">0xB2</a>)
+</li><li> Open Chat Window (<a href="UO_Protocol_0xB5" title="UO Protocol 0xB5">0xB5</a>)
+</li><li> Send Help/Tip Request (<a href="UO_Protocol_0xB6" title="UO Protocol 0xB6">0xB6</a>)
+</li><li> Help/Tip Data (<a href="UO_Protocol_0xB7" title="UO Protocol 0xB7">0xB7</a>)
+</li><li> Request Char Profile (<a href="../index.php@title=UO_Protocol_0xB8&action=edit&redlink=1" class="new" title="UO Protocol 0xB8 (page does not exist)">0xB8</a>)
+</li><li> Client Features (<a href="UO_Protocol_0xB9" title="UO Protocol 0xB9">0xB9</a>)
+</li><li> Quest Arrow (<a href="../index.php@title=UO_Protocol_0xBA&action=edit&redlink=1" class="new" title="UO Protocol 0xBA (page does not exist)">0xBA</a>)
+</li><li> Ultima Messenger (<a href="../index.php@title=UO_Protocol_0xBB&action=edit&redlink=1" class="new" title="UO Protocol 0xBB (page does not exist)">0xBB</a>)
+</li><li> Seasonal Information (<a href="../index.php@title=UO_Protocol_0xBC&action=edit&redlink=1" class="new" title="UO Protocol 0xBC (page does not exist)">0xBC</a>)
+</li><li> Client Version Message (<a href="../index.php@title=UO_Protocol_0xBD&action=edit&redlink=1" class="new" title="UO Protocol 0xBD (page does not exist)">0xBD</a>)
+</li><li> Misc. Commands Packet (<a href="UO_Protocol_0xBF" title="UO Protocol 0xBF">0xBF</a>)
+</li><li> Predefined Message (<a href="../index.php@title=UO_Protocol_0xC1&action=edit&redlink=1" class="new" title="UO Protocol 0xC1 (page does not exist)">0xC1</a>)
+</li><li> Book Info (<a href="UO_Protocol_0xD4" title="UO Protocol 0xD4">0xD4</a>)
+</li><li> AOS Command (<a href="UO_Protocol_0xD7" title="UO Protocol 0xD7">0xD7</a>)
+</li><li> Compressed Gump (<a href="UO_Protocol_0xDD" title="UO Protocol 0xDD">0xDD</a>)
+</li></ul>
+<a name="Patch_Server_Protocol" id="Patch_Server_Protocol"></a><h2> <span class="mw-headline"> Patch Server Protocol </span></h2>
+<ul><li> HelloRequest
+</li><li> PatchServerTransfer
+</li><li> NoticeBlock
+</li><li> PatchListRequest
+</li><li> PatchListData
+</li><li> PatchDataRequest
+</li><li> PatchData
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 4/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wolfpack-wiki:pcache:idhash:1397-0!1!0!!en!2!edit=0 and timestamp 20091119083956 -->
+<div class="printfooter">
+Retrieved from "<a href="UO_Protocol">http://www.wpdev.org/index.php/UO_Protocol</a>"</div>
+			<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="Special_3ACategories" title="Special:Categories">Category</a>:&#32;<span dir='ltr'><a href="Category_3ADevelopment" title="Category:Development">Development</a></span></div></div>			<!-- end content -->
+						<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+	
+				 <li id="ca-nstab-main" class="selected"><a href="UO_Protocol" title="View the content page [c]" accesskey="c">Page</a></li>
+				 <li id="ca-talk" class="new"><a href="../index.php@title=Talk_3AUO_Protocol&action=edit&redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-viewsource"><a href="../index.php@title=UO_Protocol&action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+				 <li id="ca-history"><a href="../index.php@title=UO_Protocol&action=history" title="Past versions of this page [h]" accesskey="h">History</a></li>			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="../index.php@title=Special_3AUserLogin&returnto=UO_Protocol" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(../skins/common/images/wiki.png);" href="Main_Page" title="Visit the main page [z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="Main_Page">Main Page</a></li>
+				<li id="n-portal"><a href="Wolfpack_Wiki_3ACommunity_Portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+				<li id="n-currentevents"><a href="Wolfpack_Wiki_3ACurrent_events" title="Find background information on current events">Current events</a></li>
+				<li id="n-recentchanges"><a href="Special_3ARecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+				<li id="n-randompage"><a href="Special_3ARandom" title="Load a random page [x]" accesskey="x">Random page</a></li>
+				<li id="n-help"><a href="Help_3AContents" title="The place to find out">Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php/Special:Search" id="searchform"><div>
+				<input id="searchInput" name="search" type="text" title="Search Wolfpack Wiki [f]" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" title="Go to a page with this exact name if exists" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="Special_3AWhatLinksHere/UO_Protocol" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="Special_3ARecentChangesLinked/UO_Protocol" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="Special_3ASpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="../index.php@title=UO_Protocol&printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="../index.php@title=UO_Protocol&oldid=1960" title="Permanent link to this version of the page">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="../../www.mediawiki.org/default.htm"><img src="../skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+				<div id="f-copyrightico"><a href="../../www.gnu.org/copyleft/fdl.html"><img src="../skins/common/images/gnu-fdl.png" alt='GNU Free Documentation License 1.2' /></a></div>
+			<ul id="f-list">
+					<li id="lastmod"> This page was last modified on 22 March 2007, at 14:18.</li>
+					<li id="viewcount">This page has been accessed 4,560 times.</li>
+					<li id="copyright">Content is available under <a href="../../www.gnu.org/copyleft/fdl.html" class="external " title="http://www.gnu.org/copyleft/fdl.html">GNU Free Documentation License 1.2</a>.</li>
+					<li id="privacy"><a href="Wolfpack_Wiki_3APrivacy_policy" title="Wolfpack Wiki:Privacy policy">Privacy policy</a></li>
+					<li id="about"><a href="Wolfpack_Wiki_3AAbout" title="Wolfpack Wiki:About">About Wolfpack Wiki</a></li>
+					<li id="disclaimer"><a href="Wolfpack_Wiki_3AGeneral_disclaimer" title="Wolfpack Wiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+</div>
+
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.603 secs. --></body></html>

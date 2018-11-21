@@ -1,0 +1,5 @@
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\build.dbg\DbMetal_test.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\build.dbg\DbMetal_test.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\DbMetal\Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\DbMetal\Test\obj\Debug\DbMetal_test.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\DbMetal\Test\obj\Debug\DbMetal_test.pdb

@@ -1,0 +1,1 @@
+ --user=root --password=7z456 --server=localhost --database=euo --language=C# --provider=MySql --dbml=test.dbml --namespace=UOData --generate-equals-hash 

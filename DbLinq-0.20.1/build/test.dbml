@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<Database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mysql" EntityNamespace="UOData" ContextNamespace="UOData" Class="MySQL" BaseType="DbLinq.Data.Linq.DataContext" Provider="MySql" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="mysql.columns_priv" Member="ColumnsPRiV">
+    <Type Name="ColumnsPRiV">
+      <Column Name="Column_name" Member="ColumnName" Storage="_columnName" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Column_priv" Member="ColumnPriv" Storage="_columnPriv" Type="enum Select, Insert, Update, References" DbType="set('Select','Insert','Update','References')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Db" Member="Db" Storage="_db" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Host" Member="Host" Storage="_host" Type="System.String" DbType="char(60)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Table_name" Member="TableName" Storage="_tableName" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Timestamp" Member="Timestamp" Storage="_timestamp" Type="System.DateTime" DbType="timestamp" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="User" Member="User" Storage="_user" Type="System.String" DbType="char(16)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.db" Member="Db">
+    <Type Name="Db">
+      <Column Name="Alter_priv" Member="AlterPriv" Storage="_alterPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Alter_routine_priv" Member="AlterRoutinePriv" Storage="_alterRoutinePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Create_priv" Member="CreatePriv" Storage="_createPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Create_routine_priv" Member="CreateRoutinePriv" Storage="_createRoutinePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Create_tmp_table_priv" Member="CreateTmpTablePriv" Storage="_createTmpTablePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Create_view_priv" Member="CreateViewPriv" Storage="_createViewPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Db" Member="Db1" Storage="_db1" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Delete_priv" Member="DeletePriv" Storage="_deletePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Drop_priv" Member="DropPriv" Storage="_dropPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Event_priv" Member="EventPriv" Storage="_eventPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Execute_priv" Member="ExecutePriv" Storage="_executePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Grant_priv" Member="GrantPriv" Storage="_grantPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Host" Member="Host" Storage="_host" Type="System.String" DbType="char(60)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Index_priv" Member="IndexPriv" Storage="_indexPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Insert_priv" Member="InsertPriv" Storage="_insertPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Lock_tables_priv" Member="LockTablesPriv" Storage="_lockTablesPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="References_priv" Member="ReferencesPriv" Storage="_referencesPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Select_priv" Member="SelectPriv" Storage="_selectPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Show_view_priv" Member="ShowViewPriv" Storage="_showViewPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Trigger_priv" Member="TriggerPriv" Storage="_triggerPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Update_priv" Member="UpdatePriv" Storage="_updatePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="User" Member="User" Storage="_user" Type="System.String" DbType="char(16)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.event" Member="Event">
+    <Type Name="Event">
+      <Column Name="body" Member="Body" Storage="_body" Type="System.Byte[]" DbType="longblob" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="body_utf8" Member="BodyUtF8" Storage="_bodyUtF8" Type="System.Byte[]" DbType="longblob" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="character_set_client" Member="CharacterSetClient" Storage="_characterSetClient" Type="System.String" DbType="char(32)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="collation_connection" Member="CollationConnection" Storage="_collationConnection" Type="System.String" DbType="char(32)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="comment" Member="Comment" Storage="_comment" Type="System.String" DbType="char(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="created" Member="Created" Storage="_created" Type="System.DateTime" DbType="timestamp" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="db" Member="Db" Storage="_db" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="db_collation" Member="DbCollation" Storage="_dbCollation" Type="System.String" DbType="char(32)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="definer" Member="Definer" Storage="_definer" Type="System.String" DbType="char(77)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="ends" Member="Ends" Storage="_ends" Type="System.DateTime" DbType="datetime" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="execute_at" Member="ExecuteAt" Storage="_executeAt" Type="System.DateTime" DbType="datetime" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="interval_field" Member="IntervalField" Storage="_intervalField" Type="enum YEAR, QUARTER, MONTH, DAY, HOUR, MINUTE, WEEK, SECOND, MICROSECOND, YEAR_MONTH, DAY_HOUR, DAY_MINUTE, DAY_SECOND, HOUR_MINUTE, HOUR_SECOND, MINUTE_SECOND, DAY_MICROSECOND, HOUR_MICROSECOND, MINUTE_MICROSECOND, SECOND_MICROSECOND" DbType="enum('YEAR','QUARTER','MONTH','DAY','HOUR','MINUTE','WEEK','SECOND','MICROSECOND','YEAR_MONTH','DAY_HOUR','DAY_MINUTE','DAY_SECOND','HOUR_MINUTE','HOUR_SECOND','MINUTE_SECOND','DAY_MICROSECOND','HOUR_MICROSECOND','MINUTE_MICROSECOND','SECOND_MICROSECOND')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="interval_value" Member="IntervalValue" Storage="_intervalValue" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="last_executed" Member="LastExecuted" Storage="_lastExecuted" Type="System.DateTime" DbType="datetime" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="modified" Member="Modified" Storage="_modified" Type="System.DateTime" DbType="timestamp" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="name" Member="Name" Storage="_name" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="on_completion" Member="OnCompletion" Storage="_onCompletion" Type="enum DROP, PRESERVE" DbType="enum('DROP','PRESERVE')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="originator" Member="Originator" Storage="_originator" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="sql_mode" Member="SQLMode" Storage="_sqlmOde" Type="enum REAL_AS_FLOAT, PIPES_AS_CONCAT, ANSI_QUOTES, IGNORE_SPACE, NOT_USED, ONLY_FULL_GROUP_BY, NO_UNSIGNED_SUBTRACTION, NO_DIR_IN_CREATE, POSTGRESQL, ORACLE, MSSQL, DB2, MAXDB, NO_KEY_OPTIONS, NO_TABLE_OPTIONS, NO_FIELD_OPTIONS, MYSQL323, MYSQL40, ANSI, NO_AUTO_VALUE_ON_ZERO, NO_BACKSLASH_ESCAPES, STRICT_TRANS_TABLES, STRICT_ALL_TABLES, NO_ZERO_IN_DATE, NO_ZERO_DATE, INVALID_DATES, ERROR_FOR_DIVISION_BY_ZERO, TRADITIONAL, NO_AUTO_CREATE_USER, HIGH_NOT_PRECEDENCE, NO_ENGINE_SUBSTITUTION, PAD_CHAR_TO_FULL_LENGTH" DbType="set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="starts" Member="Starts" Storage="_starts" Type="System.DateTime" DbType="datetime" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="status" Member="Status" Storage="_status" Type="enum ENABLED, DISABLED, SLAVESIDE_DISABLED" DbType="enum('ENABLED','DISABLED','SLAVESIDE_DISABLED')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="time_zone" Member="TimeZone" Storage="_timeZone" Type="System.String" DbType="char(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.func" Member="FunC">
+    <Type Name="FunC">
+      <Column Name="dl" Member="DL" Storage="_dl" Type="System.String" DbType="char(128)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="name" Member="Name" Storage="_name" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="ret" Member="Ret" Storage="_ret" Type="System.SByte" DbType="tinyint(1)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="type" Member="Type" Storage="_type" Type="enum function, aggregate" DbType="enum('function','aggregate')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.general_log" Member="GeneralLog">
+    <Type Name="GeneralLog">
+      <Column Name="argument" Member="Argument" Storage="_argument" Type="System.String" DbType="mediumtext" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="command_type" Member="CommandType" Storage="_commandType" Type="System.String" DbType="varchar(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="event_time" Member="EventTime" Storage="_eventTime" Type="System.DateTime" DbType="timestamp" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="server_id" Member="ServerID" Storage="_serverID" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="thread_id" Member="ThreadID" Storage="_threadID" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="user_host" Member="UserHost" Storage="_userHost" Type="System.String" DbType="mediumtext" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.help_category" Member="HelpCategory">
+    <Type Name="HelpCategory">
+      <Column Name="help_category_id" Member="HelpCategoryID" Storage="_helpCategoryID" Type="System.UInt16" DbType="smallint(5) unsigned" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="name" Member="Name" Storage="_name" Type="System.String" DbType="char(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="parent_category_id" Member="ParentCategoryID" Storage="_parentCategoryID" Type="System.UInt16" DbType="smallint(5) unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="url" Member="URL" Storage="_url" Type="System.String" DbType="char(128)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.help_keyword" Member="HelpKeyword">
+    <Type Name="HelpKeyword">
+      <Column Name="help_keyword_id" Member="HelpKeywordID" Storage="_helpKeywordID" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="name" Member="Name" Storage="_name" Type="System.String" DbType="char(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.help_relation" Member="HelpRelation">
+    <Type Name="HelpRelation">
+      <Column Name="help_keyword_id" Member="HelpKeywordID" Storage="_helpKeywordID" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="help_topic_id" Member="HelpTopicID" Storage="_helpTopicID" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.help_topic" Member="HelpTopic">
+    <Type Name="HelpTopic">
+      <Column Name="description" Member="Description" Storage="_description" Type="System.String" DbType="text" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="example" Member="Example" Storage="_example" Type="System.String" DbType="text" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="help_category_id" Member="HelpCategoryID" Storage="_helpCategoryID" Type="System.UInt16" DbType="smallint(5) unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="help_topic_id" Member="HelpTopicID" Storage="_helpTopicID" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="name" Member="Name" Storage="_name" Type="System.String" DbType="char(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="url" Member="URL" Storage="_url" Type="System.String" DbType="char(128)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.host" Member="Host">
+    <Type Name="Host">
+      <Column Name="Alter_priv" Member="AlterPriv" Storage="_alterPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Alter_routine_priv" Member="AlterRoutinePriv" Storage="_alterRoutinePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Create_priv" Member="CreatePriv" Storage="_createPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Create_routine_priv" Member="CreateRoutinePriv" Storage="_createRoutinePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Create_tmp_table_priv" Member="CreateTmpTablePriv" Storage="_createTmpTablePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Create_view_priv" Member="CreateViewPriv" Storage="_createViewPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Db" Member="Db" Storage="_db" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Delete_priv" Member="DeletePriv" Storage="_deletePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Drop_priv" Member="DropPriv" Storage="_dropPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Execute_priv" Member="ExecutePriv" Storage="_executePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Grant_priv" Member="GrantPriv" Storage="_grantPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Host" Member="Host1" Storage="_host1" Type="System.String" DbType="char(60)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Index_priv" Member="IndexPriv" Storage="_indexPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Insert_priv" Member="InsertPriv" Storage="_insertPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Lock_tables_priv" Member="LockTablesPriv" Storage="_lockTablesPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="References_priv" Member="ReferencesPriv" Storage="_referencesPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Select_priv" Member="SelectPriv" Storage="_selectPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Show_view_priv" Member="ShowViewPriv" Storage="_showViewPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Trigger_priv" Member="TriggerPriv" Storage="_triggerPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Update_priv" Member="UpdatePriv" Storage="_updatePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.ndb_binlog_index" Member="NDbBinLogIndex">
+    <Type Name="NDbBinLogIndex">
+      <Column Name="deletes" Member="Deletes" Storage="_deletes" Type="System.Int64" DbType="bigint(20) unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="epoch" Member="Epoch" Storage="_epoch" Type="System.Int64" DbType="bigint(20) unsigned" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="File" Member="File" Storage="_file" Type="System.String" DbType="varchar(255)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="inserts" Member="Inserts" Storage="_inserts" Type="System.Int64" DbType="bigint(20) unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Position" Member="Position" Storage="_position" Type="System.Int64" DbType="bigint(20) unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="schemaops" Member="SchemaOpS" Storage="_schemaOpS" Type="System.Int64" DbType="bigint(20) unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="updates" Member="Updates" Storage="_updates" Type="System.Int64" DbType="bigint(20) unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.plugin" Member="PlugIn">
+    <Type Name="PlugIn">
+      <Column Name="dl" Member="DL" Storage="_dl" Type="System.String" DbType="char(128)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="name" Member="Name" Storage="_name" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.proc" Member="ProC">
+    <Type Name="ProC">
+      <Column Name="body" Member="Body" Storage="_body" Type="System.Byte[]" DbType="longblob" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="body_utf8" Member="BodyUtF8" Storage="_bodyUtF8" Type="System.Byte[]" DbType="longblob" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="character_set_client" Member="CharacterSetClient" Storage="_characterSetClient" Type="System.String" DbType="char(32)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="collation_connection" Member="CollationConnection" Storage="_collationConnection" Type="System.String" DbType="char(32)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="comment" Member="Comment" Storage="_comment" Type="System.String" DbType="char(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="created" Member="Created" Storage="_created" Type="System.DateTime" DbType="timestamp" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="db" Member="Db" Storage="_db" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="db_collation" Member="DbCollation" Storage="_dbCollation" Type="System.String" DbType="char(32)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="definer" Member="Definer" Storage="_definer" Type="System.String" DbType="char(77)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="is_deterministic" Member="IsDeterministic" Storage="_isDeterministic" Type="enum YES, NO" DbType="enum('YES','NO')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="language" Member="Language" Storage="_language" Type="enum SQL" DbType="enum('SQL')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="modified" Member="Modified" Storage="_modified" Type="System.DateTime" DbType="timestamp" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="name" Member="Name" Storage="_name" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="param_list" Member="ParaMList" Storage="_paraMlIst" Type="System.Byte[]" DbType="blob" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="returns" Member="Returns" Storage="_returns" Type="System.Byte[]" DbType="longblob" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="security_type" Member="SecurityType" Storage="_securityType" Type="enum INVOKER, DEFINER" DbType="enum('INVOKER','DEFINER')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="specific_name" Member="SpecificName" Storage="_specificName" Type="System.String" DbType="char(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="sql_data_access" Member="SQLDataAccess" Storage="_sqldAtaAccess" Type="enum CONTAINS_SQL, NO_SQL, READS_SQL_DATA, MODIFIES_SQL_DATA" DbType="enum('CONTAINS_SQL','NO_SQL','READS_SQL_DATA','MODIFIES_SQL_DATA')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="sql_mode" Member="SQLMode" Storage="_sqlmOde" Type="enum REAL_AS_FLOAT, PIPES_AS_CONCAT, ANSI_QUOTES, IGNORE_SPACE, NOT_USED, ONLY_FULL_GROUP_BY, NO_UNSIGNED_SUBTRACTION, NO_DIR_IN_CREATE, POSTGRESQL, ORACLE, MSSQL, DB2, MAXDB, NO_KEY_OPTIONS, NO_TABLE_OPTIONS, NO_FIELD_OPTIONS, MYSQL323, MYSQL40, ANSI, NO_AUTO_VALUE_ON_ZERO, NO_BACKSLASH_ESCAPES, STRICT_TRANS_TABLES, STRICT_ALL_TABLES, NO_ZERO_IN_DATE, NO_ZERO_DATE, INVALID_DATES, ERROR_FOR_DIVISION_BY_ZERO, TRADITIONAL, NO_AUTO_CREATE_USER, HIGH_NOT_PRECEDENCE, NO_ENGINE_SUBSTITUTION, PAD_CHAR_TO_FULL_LENGTH" DbType="set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="type" Member="Type" Storage="_type" Type="enum FUNCTION, PROCEDURE" DbType="enum('FUNCTION','PROCEDURE')" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.procs_priv" Member="ProCsPRiV">
+    <Type Name="ProCsPRiV">
+      <Column Name="Db" Member="Db" Storage="_db" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Grantor" Member="Grantor" Storage="_grantor" Type="System.String" DbType="char(77)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Host" Member="Host" Storage="_host" Type="System.String" DbType="char(60)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Proc_priv" Member="ProcPriv" Storage="_procPriv" Type="enum Execute, Grant" DbType="set('Execute','Alter Routine','Grant')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Routine_name" Member="RoutineName" Storage="_routineName" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Routine_type" Member="RoutineType" Storage="_routineType" Type="enum FUNCTION, PROCEDURE" DbType="enum('FUNCTION','PROCEDURE')" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Timestamp" Member="Timestamp" Storage="_timestamp" Type="System.DateTime" DbType="timestamp" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="User" Member="User" Storage="_user" Type="System.String" DbType="char(16)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.servers" Member="Servers">
+    <Type Name="Servers">
+      <Column Name="Db" Member="Db" Storage="_db" Type="System.String" DbType="char(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Host" Member="Host" Storage="_host" Type="System.String" DbType="char(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Owner" Member="Owner" Storage="_owner" Type="System.String" DbType="char(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Password" Member="Password" Storage="_password" Type="System.String" DbType="char(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Port" Member="Port" Storage="_port" Type="System.Int32" DbType="int(4)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Server_name" Member="ServerName" Storage="_serverName" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Socket" Member="Socket" Storage="_socket" Type="System.String" DbType="char(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Username" Member="Username" Storage="_username" Type="System.String" DbType="char(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Wrapper" Member="Wrapper" Storage="_wrapper" Type="System.String" DbType="char(64)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.slow_log" Member="SlowLog">
+    <Type Name="SlowLog">
+      <Column Name="db" Member="Db" Storage="_db" Type="System.String" DbType="varchar(512)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="insert_id" Member="InsertID" Storage="_insertID" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="last_insert_id" Member="LastInsertID" Storage="_lastInsertID" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="lock_time" Member="LockTime" Storage="_lockTime" Type="System.DateTime" DbType="time" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="query_time" Member="QueryTime" Storage="_queryTime" Type="System.DateTime" DbType="time" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="rows_examined" Member="RowsExamined" Storage="_rowsExamined" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="rows_sent" Member="RowsSent" Storage="_rowsSent" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="server_id" Member="ServerID" Storage="_serverID" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="sql_text" Member="SQLText" Storage="_sqltExt" Type="System.String" DbType="mediumtext" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="start_time" Member="StartTime" Storage="_startTime" Type="System.DateTime" DbType="timestamp" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="user_host" Member="UserHost" Storage="_userHost" Type="System.String" DbType="mediumtext" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.tables_priv" Member="TablesPRiV">
+    <Type Name="TablesPRiV">
+      <Column Name="Column_priv" Member="ColumnPriv" Storage="_columnPriv" Type="enum Select, Insert, Update, References" DbType="set('Select','Insert','Update','References')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Db" Member="Db" Storage="_db" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Grantor" Member="Grantor" Storage="_grantor" Type="System.String" DbType="char(77)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Host" Member="Host" Storage="_host" Type="System.String" DbType="char(60)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Table_name" Member="TableName" Storage="_tableName" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Table_priv" Member="TablePriv" Storage="_tablePriv" Type="enum Select, Insert, Update, Delete, Create, Drop, Grant, References, Index, Alter, Trigger" DbType="set('Select','Insert','Update','Delete','Create','Drop','Grant','References','Index','Alter','Create View','Show view','Trigger')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Timestamp" Member="Timestamp" Storage="_timestamp" Type="System.DateTime" DbType="timestamp" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="User" Member="User" Storage="_user" Type="System.String" DbType="char(16)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.time_zone" Member="TimeZone">
+    <Type Name="TimeZone">
+      <Column Name="Time_zone_id" Member="TimeZoneID" Storage="_timeZoneID" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Use_leap_seconds" Member="UseLeapSeconds" Storage="_useLeapSeconds" Type="enum Y, N" DbType="enum('Y','N')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.time_zone_leap_second" Member="TimeZoneLeapSecond">
+    <Type Name="TimeZoneLeapSecond">
+      <Column Name="Correction" Member="Correction" Storage="_correction" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Transition_time" Member="TransitionTime" Storage="_transitionTime" Type="System.Int64" DbType="bigint(20)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.time_zone_name" Member="TimeZoneName">
+    <Type Name="TimeZoneName">
+      <Column Name="Name" Member="Name" Storage="_name" Type="System.String" DbType="char(64)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Time_zone_id" Member="TimeZoneID" Storage="_timeZoneID" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.time_zone_transition" Member="TimeZoneTransition">
+    <Type Name="TimeZoneTransition">
+      <Column Name="Time_zone_id" Member="TimeZoneID" Storage="_timeZoneID" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Transition_time" Member="TransitionTime" Storage="_transitionTime" Type="System.Int64" DbType="bigint(20)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Transition_type_id" Member="TransitionTypeID" Storage="_transitionTypeID" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.time_zone_transition_type" Member="TimeZoneTransitionType">
+    <Type Name="TimeZoneTransitionType">
+      <Column Name="Abbreviation" Member="Abbreviation" Storage="_abbreviation" Type="System.String" DbType="char(8)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Is_DST" Member="IsDst" Storage="_isDst" Type="System.Byte" DbType="tinyint(3) unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Offset" Member="Offset" Storage="_offset" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Time_zone_id" Member="TimeZoneID" Storage="_timeZoneID" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Transition_type_id" Member="TransitionTypeID" Storage="_transitionTypeID" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="mysql.user" Member="User">
+    <Type Name="User">
+      <Column Name="Alter_priv" Member="AlterPriv" Storage="_alterPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Alter_routine_priv" Member="AlterRoutinePriv" Storage="_alterRoutinePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Create_priv" Member="CreatePriv" Storage="_createPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Create_routine_priv" Member="CreateRoutinePriv" Storage="_createRoutinePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Create_tmp_table_priv" Member="CreateTmpTablePriv" Storage="_createTmpTablePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Create_user_priv" Member="CreateUserPriv" Storage="_createUserPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Create_view_priv" Member="CreateViewPriv" Storage="_createViewPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Delete_priv" Member="DeletePriv" Storage="_deletePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Drop_priv" Member="DropPriv" Storage="_dropPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Event_priv" Member="EventPriv" Storage="_eventPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Execute_priv" Member="ExecutePriv" Storage="_executePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="File_priv" Member="FilePriv" Storage="_filePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Grant_priv" Member="GrantPriv" Storage="_grantPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Host" Member="Host" Storage="_host" Type="System.String" DbType="char(60)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Index_priv" Member="IndexPriv" Storage="_indexPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Insert_priv" Member="InsertPriv" Storage="_insertPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Lock_tables_priv" Member="LockTablesPriv" Storage="_lockTablesPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="max_connections" Member="MaXConnections" Storage="_maXcOnnections" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="max_questions" Member="MaXQuestions" Storage="_maXqUestions" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="max_updates" Member="MaXUpdates" Storage="_maXuPdates" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="max_user_connections" Member="MaXUserConnections" Storage="_maXuSerConnections" Type="System.UInt32" DbType="int unsigned" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Password" Member="Password" Storage="_password" Type="System.String" DbType="char(41)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Process_priv" Member="ProcessPriv" Storage="_processPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="References_priv" Member="ReferencesPriv" Storage="_referencesPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Reload_priv" Member="ReloadPriv" Storage="_reloadPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Repl_client_priv" Member="ReplClientPriv" Storage="_replClientPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Repl_slave_priv" Member="ReplSlavePriv" Storage="_replSlavePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Select_priv" Member="SelectPriv" Storage="_selectPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Show_db_priv" Member="ShowDbPriv" Storage="_showDbPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Show_view_priv" Member="ShowViewPriv" Storage="_showViewPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Shutdown_priv" Member="ShutdownPriv" Storage="_shutdownPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="ssl_cipher" Member="SsLCipher" Storage="_ssLcIpher" Type="System.Byte[]" DbType="blob" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="ssl_type" Member="SsLType" Storage="_ssLtYpe" Type="enum , ANY, X509, SPECIFIED" DbType="enum('','ANY','X509','SPECIFIED')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Super_priv" Member="SuperPriv" Storage="_superPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Trigger_priv" Member="TriggerPriv" Storage="_triggerPriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="Update_priv" Member="UpdatePriv" Storage="_updatePriv" Type="enum N, Y" DbType="enum('N','Y')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="User" Member="User1" Storage="_user1" Type="System.String" DbType="char(16)" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="x509_issuer" Member="X509Issuer" Storage="_x509iSsuer" Type="System.Byte[]" DbType="blob" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="x509_subject" Member="X509Subject" Storage="_x509sUbject" Type="System.Byte[]" DbType="blob" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

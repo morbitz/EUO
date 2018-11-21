@@ -1,0 +1,53 @@
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\Build\MySql.Data.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\Build\MySql.Data.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.MySqlClient.Source.Resources.resources
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.pdb
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\Build\MySql.Data.dll
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\Build\MySql.Data.pdb
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.MySqlClient.Source.Resources.resources
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.dll
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.pdb
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\Build\MySql.Data.dll
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\Build\MySql.Data.pdb
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.MySqlClient.Source.Resources.resources
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.dll
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.pdb
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\Build\MySql.Data.dll
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\Build\MySql.Data.pdb
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\MySQL Connector\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.MySqlClient.Source.Resources.resources
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.dll
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.pdb
+C:\My Dropbox\UO\EUO\Projeto\Build\MySql.Data.dll
+C:\My Dropbox\UO\EUO\Projeto\Build\MySql.Data.pdb
+C:\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\ResolveAssemblyReference.cache
+C:\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.MySqlClient.Source.Resources.resources
+C:\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+C:\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.dll
+C:\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.pdb
+D:\Vinicius\My Dropbox\UO\EUO\Projeto\Build\MySql.Data.dll
+D:\Vinicius\My Dropbox\UO\EUO\Projeto\Build\MySql.Data.pdb
+D:\Vinicius\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\ResolveAssemblyReference.cache
+D:\Vinicius\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.MySqlClient.Source.Resources.resources
+D:\Vinicius\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Vinicius\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Vinicius\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.dll
+D:\Vinicius\My Dropbox\UO\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.pdb
+Z:\Dropbox\UO (3)\EUO\Projeto\Build\MySql.Data.dll
+Z:\Dropbox\UO (3)\EUO\Projeto\Build\MySql.Data.pdb
+Z:\Dropbox\UO (3)\EUO\Projeto\MySQL Connector\obj\Debug\ResolveAssemblyReference.cache
+Z:\Dropbox\UO (3)\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.MySqlClient.Source.Resources.resources
+Z:\Dropbox\UO (3)\EUO\Projeto\MySQL Connector\obj\Debug\GenerateResource-ResGen.read.1.tlog
+Z:\Dropbox\UO (3)\EUO\Projeto\MySQL Connector\obj\Debug\ResGen.read.1.tlog
+Z:\Dropbox\UO (3)\EUO\Projeto\MySQL Connector\obj\Debug\GenerateResource-ResGen.write.1.tlog
+Z:\Dropbox\UO (3)\EUO\Projeto\MySQL Connector\obj\Debug\ResGen.write.1.tlog
+Z:\Dropbox\UO (3)\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.dll
+Z:\Dropbox\UO (3)\EUO\Projeto\MySQL Connector\obj\Debug\MySql.Data.pdb

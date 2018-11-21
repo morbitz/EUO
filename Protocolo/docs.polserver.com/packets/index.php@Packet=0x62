@@ -1,0 +1,361 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="keywords" content="ultima online, ultima online emulator, uo, emu, server, packet, emulator, pol, penultima, custom client" />
+<meta name="author" content="POL Development Team" />
+<meta name="description" content="Penultima Online Emulator for private Ultima Online Server Software" />
+<meta name="revisit-after" content="1 day"/>
+<meta name="robots" content="index, follow" />
+<META name="y_key" content="2429576fcce7a2e4" />
+
+<title>PenUltima Online ( POL )</title>
+
+<link href="../../www.polserver.com/style.css" rel="stylesheet" type="text/css"  media="all"  />
+<link rel="shortcut icon" HREF="../../www.polserver.com/favicon.ico" TYPE="image/x-icon">
+
+<script language="JavaScript1.2" type="text/javascript">
+function ExpandContract(s) {
+  var bulletE = document.getElementById("bullet_"+s);
+  var spanE = document.getElementById("span_"+s);
+  var Expanded = bulletE.innerHTML;
+
+  if(Expanded == '[+]') {
+    spanE.style.display = 'block';
+    bulletE.innerHTML = '[-]';
+  }
+  else { 
+    spanE.style.display = 'none'; 
+    bulletE.innerHTML = '[+]';
+  }
+}
+
+function SwapVis(s) {
+  var spanA = document.getElementById("span_"+s+"_a");
+  var spanB = document.getElementById("span_"+s+"_b");
+
+  if(spanA.style.display == 'block')
+  {
+    spanB.style.display = 'block';
+    spanA.style.display = 'none';
+  }
+  else
+  {
+	spanA.style.display = 'block';
+    spanB.style.display = 'none';
+  }
+}
+
+function CheckLength(frm_, elm_, maxchars) {
+	var thing = document.forms[""+frm_].elements[""+elm_];
+	var len = thing.value.length;
+	if(len > maxchars) {
+		alert('Too much data in the text box! Please remove '+
+		(len - maxchars)+ ' characters');
+		return false; 
+	}
+	
+	return true; 
+}
+
+</script>
+<script language="JavaScript" type="text/javascript" src="../../www.polserver.com/png.js"></script>
+</head>
+
+<body marginheight="0" marginwidth="0">
+
+<div id="header">
+	<div class="container">
+		<div id="logo">
+			<img src="../../www.polserver.com/images/title.png" alt="PenUltima Online"/>
+		</div>
+		<div id="navigation">
+			<ul id="navigate">
+				<li><a href="../../www.polserver.com/irc.php">Chat</a></li>
+				<li><a href="../../forums.polserver.com/tracker.php">Tracker</a></li>
+				<li><a href="../default.htm">Docs</a></li>
+				<li><a href="../../www.polserver.com/shards.php">Shards</a></li>
+				<li><a href="../../downloads.polserver.com/default.htm">Downloads</a></li>
+				<li><a href="../../forums.polserver.com/default.htm">Forums</a></li>
+				<li><a href="../../www.polserver.com/default.htm">Home</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="mini-header">
+	<div class="container">
+		<div id="mini-nav">
+			Welcome to PenUltima Online.  Click to <a href="../../forums.polserver.com/ucp.php@mode=login">login</a> or <a href="../../forums.polserver.com/ucp.php@mode=register">register</a>.<br/>  Downloadable Version <A HREF=archives/pol-packets-2009-09-18.zip>(2009-09-18)</a>		
+	</div>
+		<div id="search-box">
+			<form action="http://www.polserver.com/search.php" method="get">
+				<input type="text" name="q" id="q" /><br />
+				<div id="opts"><br /><input type="radio" name="search_opt" value="forums" checked />Forums&nbsp;&nbsp;&nbsp;<input type="radio" name="search_opt" value="scripts" DISABLED/>Scripts</div>
+				<input type="image" src="../../www.polserver.com/images/search.png" value="Search" onclick="this.parentNode.submit(); return false;" id="search" name="search" />
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="main">
+	<div class="container">
+		<div class="col_12">
+			<div class="mainbox-gold">
+				<h1>Description</h1>
+				<div id="packet-info">
+				  <P>
+<b>Packet Name: </b>Move Static Object<BR />
+Last Modified: 2009-08-02 20:02:51<BR />
+Modified By: MuadDib<BR />
+</P>
+<BR />
+<P>
+<b>Packet: 0x62<BR />
+<INPUT TYPE=HIDDEN NAME=PACKETID VALUE="0x62">
+</b>Sent By:
+Client<BR />
+Size: 15 bytes<BR />
+</P>
+<BR />
+<P>
+<B>Packet Build</B><BR />
+BYTE[1] 0x62<br/>
+BYTE[1] Old X<br/>
+BYTE[1] Old Y<br/>
+BYTE[1] Old Z<br/>
+BYTE[1] Item ID<br/>
+BYTE[1] Z Offset<br/>
+BYTE[1] Y Offset<br/>
+BYTE[1] X Offset<br/>
+</P>
+<BR />
+<P>
+<B>Subcommand Build</B><BR />
+N/A</P>
+<BR />
+<P>
+<B>Notes</B><BR />
+N/A</P>
+				</div>
+			</div>
+		</div>
+
+		<div class="col_3">
+			<div class="smallbox">
+				<h1>Packets</h1>
+				<A HREF=index.php@ShowAll=1&Sort=>Show All</A><BR/>
+<A HREF=index.php@Sort=1>Sort By ID</A><BR/>
+<div class='expander'><a href="javascript:ExpandContract('Both')" id="bullet_Both">[-]</a></div><BR><B>Both</B><BR />
+<span id="span_Both"><A HREF="index.php@Packet=0x15" class="pktBoth">[0x15] Follow</A><BR />
+<A HREF="index.php@Packet=0x22" class="pktBoth">[0x22] Character Move ACK/ Resync Request</A><BR />
+<A HREF="index.php@Packet=0x2C" class="pktBoth">[0x2C] Resurrection Menu</A><BR />
+<A HREF="index.php@Packet=0x39" class="pktBoth">[0x39] Remove (Group)</A><BR />
+<A HREF="index.php@Packet=0x3A" class="pktBoth">[0x3A] Send Skills</A><BR />
+<A HREF="index.php@Packet=0x56" class="pktBoth">[0x56] Map Packet (cartography/treasure)</A><BR />
+<A HREF="index.php@Packet=0x66" class="pktBoth">[0x66] Books (Pages, Old Packet)</A><BR />
+<A HREF="index.php@Packet=0x6C" class="pktBoth">[0x6C] Target Cursor Commands</A><BR />
+<A HREF="index.php@Packet=0x6F" class="pktBoth">[0x6F] Secure Trading</A><BR />
+<A HREF="index.php@Packet=0x71" class="pktBoth">[0x71] Bulletin Board Messages</A><BR />
+<A HREF="index.php@Packet=0x72" class="pktBoth">[0x72] Request War Mode</A><BR />
+<A HREF="index.php@Packet=0x73" class="pktBoth">[0x73] Ping Message</A><BR />
+<A HREF="index.php@Packet=0x93" class="pktBoth">[0x93] Books (Title Page, Old Packet)</A><BR />
+<A HREF="index.php@Packet=0x95" class="pktBoth">[0x95] Dye Window</A><BR />
+<A HREF="index.php@Packet=0x98" class="pktBoth">[0x98] All Names (3D Client Only)</A><BR />
+<A HREF="index.php@Packet=0x99" class="pktBoth">[0x99] Give Boat/House Placement View</A><BR />
+<A HREF="index.php@Packet=0x9A" class="pktBoth">[0x9A] Console Entry Prompt</A><BR />
+<A HREF="index.php@Packet=0xB3" class="pktBoth">[0xB3] Chat Text</A><BR />
+<A HREF="index.php@Packet=0xB8" class="pktBoth">[0xB8] Request/Char Profile</A><BR />
+<A HREF="index.php@Packet=0xBB" class="pktBoth">[0xBB] Ultima Messenger</A><BR />
+<A HREF="index.php@Packet=0xBD" class="pktBoth">[0xBD] Client Version</A><BR />
+<A HREF="index.php@Packet=0xBE" class="pktBoth">[0xBE] Assist Version</A><BR />
+<A HREF="index.php@Packet=0xBF" class="pktBoth">[0xBF] General Information Packet</A><BR />
+<A HREF="index.php@Packet=0xC2" class="pktBoth">[0xC2] Unicode TextEntry</A><BR />
+<A HREF="index.php@Packet=0xC8" class="pktBoth">[0xC8] Client View Range</A><BR />
+<A HREF="index.php@Packet=0xC9" class="pktBoth">[0xC9] Get Area Server Ping</A><BR />
+<A HREF="index.php@Packet=0xCA" class="pktBoth">[0xCA] Get User Server Ping</A><BR />
+<A HREF="index.php@Packet=0xD0" class="pktBoth">[0xD0] Configuration File</A><BR />
+<A HREF="index.php@Packet=0xD1" class="pktBoth">[0xD1] Logout Status</A><BR />
+<A HREF="index.php@Packet=0xD4" class="pktBoth">[0xD4] *New* Book Header</A><BR />
+<A HREF="index.php@Packet=0xD6" class="pktBoth">[0xD6] Mega Cliloc</A><BR />
+<A HREF="index.php@Packet=0xD7" class="pktBoth">[0xD7] Generic AOS Commands</A><BR />
+<A HREF="index.php@Packet=0xF1" class="pktBoth">[0xF1] Freeshard List</A><BR />
+</span><div class='expander'><a href="javascript:ExpandContract('Both?')" id="bullet_Both?">[-]</a></div><BR><B>Both?</B><BR />
+<span id="span_Both?"><A HREF="index.php@Packet=0x0C" class="pktBothMaybe">[0x0C] Edit Tile Data (God Client)</A><BR />
+</span><div class='expander'><a href="javascript:ExpandContract('Client')" id="bullet_Client">[-]</a></div><BR><B>Client</B><BR />
+<span id="span_Client"><A HREF="index.php@Packet=0x00" class="pktClient">[0x00] Create Character</A><BR />
+<A HREF="index.php@Packet=0x01" class="pktClient">[0x01] Disconnect Notification</A><BR />
+<A HREF="index.php@Packet=0x02" class="pktClient">[0x02] Move Request</A><BR />
+<A HREF="index.php@Packet=0x03" class="pktClient">[0x03] Talk Request</A><BR />
+<A HREF="index.php@Packet=0x04" class="pktClient">[0x04] Request God Mode (God Client)</A><BR />
+<A HREF="index.php@Packet=0x05" class="pktClient">[0x05] Request Attack</A><BR />
+<A HREF="index.php@Packet=0x06" class="pktClient">[0x06] Double Click</A><BR />
+<A HREF="index.php@Packet=0x07" class="pktClient">[0x07] Pick Up Item</A><BR />
+<A HREF="index.php@Packet=0x08" class="pktClient">[0x08] Drop Item</A><BR />
+<A HREF="index.php@Packet=0x09" class="pktClient">[0x09] Single Click</A><BR />
+<A HREF="index.php@Packet=0x0A" class="pktClient">[0x0A] Edit (God Client)</A><BR />
+<A HREF="index.php@Packet=0x12" class="pktClient">[0x12] Request Skill etc use</A><BR />
+<A HREF="index.php@Packet=0x13" class="pktClient">[0x13] Drop->Wear Item</A><BR />
+<A HREF="index.php@Packet=0x14" class="pktClient">[0x14] Send Elevation (God Client)</A><BR />
+<A HREF="index.php@Packet=0x16" class="pktClient">[0x16] Request Script Names</A><BR />
+<A HREF="index.php@Packet=0x1E" class="pktClient">[0x1E] Control Animation</A><BR />
+<A HREF="index.php@Packet=0x34" class="pktClient">[0x34] Get Player Status</A><BR />
+<A HREF="index.php@Packet=0x35" class="pktClient">[0x35] Add Resource (God Client)</A><BR />
+<A HREF="index.php@Packet=0x37" class="pktClient">[0x37] Move Item (God Client)</A><BR />
+<A HREF="index.php@Packet=0x38" class="pktClient">[0x38] Pathfinding in Client</A><BR />
+<A HREF="index.php@Packet=0x3B" class="pktClient">[0x3B] Buy Item(s)</A><BR />
+<A HREF="index.php@Packet=0x45" class="pktClient">[0x45] Version OK</A><BR />
+<A HREF="index.php@Packet=0x46" class="pktClient">[0x46] New Artwork</A><BR />
+<A HREF="index.php@Packet=0x47" class="pktClient">[0x47] New Terrain</A><BR />
+<A HREF="index.php@Packet=0x48" class="pktClient">[0x48] New Animation</A><BR />
+<A HREF="index.php@Packet=0x49" class="pktClient">[0x49] New Hues</A><BR />
+<A HREF="index.php@Packet=0x4A" class="pktClient">[0x4A] Delete Art</A><BR />
+<A HREF="index.php@Packet=0x4B" class="pktClient">[0x4B] Check Client Version</A><BR />
+<A HREF="index.php@Packet=0x4C" class="pktClient">[0x4C] Script Names</A><BR />
+<A HREF="index.php@Packet=0x4D" class="pktClient">[0x4D] Edit Script File</A><BR />
+<A HREF="index.php@Packet=0x50" class="pktClient">[0x50] Board Header</A><BR />
+<A HREF="index.php@Packet=0x51" class="pktClient">[0x51] Board Message</A><BR />
+<A HREF="index.php@Packet=0x52" class="pktClient">[0x52] Board Post Message</A><BR />
+<A HREF="index.php@Packet=0x57" class="pktClient">[0x57] Update Regions</A><BR />
+<A HREF="index.php@Packet=0x58" class="pktClient">[0x58] Add Region</A><BR />
+<A HREF="index.php@Packet=0x59" class="pktClient">[0x59] New Context FX</A><BR />
+<A HREF="index.php@Packet=0x5A" class="pktClient">[0x5A] Update Context FX</A><BR />
+<A HREF="index.php@Packet=0x5C" class="pktClient">[0x5C] Restart Version</A><BR />
+<A HREF="index.php@Packet=0x5D" class="pktClient">[0x5D] Login Character</A><BR />
+<A HREF="index.php@Packet=0x5E" class="pktClient">[0x5E] Server Listing</A><BR />
+<A HREF="index.php@Packet=0x5F" class="pktClient">[0x5F] Server List Add Entry</A><BR />
+<A HREF="index.php@Packet=0x60" class="pktClient">[0x60] Server List Remove Entry</A><BR />
+<A HREF="index.php@Packet=0x61" class="pktClient">[0x61] Remove Static Object</A><BR />
+> <I><A HREF="index.php@Packet=0x62" class="pktClient">[0x62] Move Static Object</A><BR />
+</I><A HREF="index.php@Packet=0x63" class="pktClient">[0x63] Load Area</A><BR />
+<A HREF="index.php@Packet=0x64" class="pktClient">[0x64] Load Area Request</A><BR />
+<A HREF="index.php@Packet=0x69" class="pktClient">[0x69] Change Text/Emote Colors</A><BR />
+<A HREF="index.php@Packet=0x75" class="pktClient">[0x75] Rename Character</A><BR />
+<A HREF="index.php@Packet=0x7D" class="pktClient">[0x7D] Response To Dialog Box</A><BR />
+<A HREF="index.php@Packet=0x80" class="pktClient">[0x80] Login Request</A><BR />
+<A HREF="index.php@Packet=0x83" class="pktClient">[0x83] Delete Character</A><BR />
+<A HREF="index.php@Packet=0x8D" class="pktClient">[0x8D] Character Creation (KR)</A><BR />
+<A HREF="index.php@Packet=0x91" class="pktClient">[0x91] Game Server Login</A><BR />
+<A HREF="index.php@Packet=0x97" class="pktClient">[0x97] Move Player</A><BR />
+<A HREF="index.php@Packet=0x9B" class="pktClient">[0x9B] Request Help</A><BR />
+<A HREF="index.php@Packet=0x9F" class="pktClient">[0x9F] Sell List Reply</A><BR />
+<A HREF="index.php@Packet=0xA0" class="pktClient">[0xA0] Select Server</A><BR />
+<A HREF="index.php@Packet=0xA4" class="pktClient">[0xA4] Client Spy</A><BR />
+<A HREF="index.php@Packet=0xA7" class="pktClient">[0xA7] Request Tip/Notice Window</A><BR />
+<A HREF="index.php@Packet=0xAC" class="pktClient">[0xAC] Gump Text Entry Dialog Reply</A><BR />
+<A HREF="index.php@Packet=0xAD" class="pktClient">[0xAD] Unicode/Ascii speech request</A><BR />
+<A HREF="index.php@Packet=0xB1" class="pktClient">[0xB1] Gump Menu Selection</A><BR />
+<A HREF="index.php@Packet=0xB5" class="pktClient">[0xB5] Open Chat Window</A><BR />
+<A HREF="index.php@Packet=0xB6" class="pktClient">[0xB6] Send Help/Tip Request</A><BR />
+<A HREF="index.php@Packet=0xC5" class="pktClient">[0xC5] Invalid Map (Request?)</A><BR />
+<A HREF="index.php@Packet=0xD9" class="pktClient">[0xD9] Spy On Client</A><BR />
+<A HREF="index.php@Packet=0xE0" class="pktClient">[0xE0] Bug Report (KR)</A><BR />
+<A HREF="index.php@Packet=0xE1" class="pktClient">[0xE1] Client Type (KR/SA)</A><BR />
+<A HREF="index.php@Packet=0xEC" class="pktClient">[0xEC] Equip Macro (KR)</A><BR />
+<A HREF="index.php@Packet=0xED" class="pktClient">[0xED] Unequip Item Macro (KR)</A><BR />
+<A HREF="index.php@Packet=0xEF" class="pktClient">[0xEF] KR/2D Client Login/Seed</A><BR />
+</span><div class='expander'><a href="javascript:ExpandContract('Server')" id="bullet_Server">[-]</a></div><BR><B>Server</B><BR />
+<span id="span_Server"><A HREF="index.php@Packet=0x0B" class="pktServer">[0x0B] Damage</A><BR />
+<A HREF="index.php@Packet=0x11" class="pktServer">[0x11] Status Bar Info</A><BR />
+<A HREF="index.php@Packet=0x17" class="pktServer">[0x17] Health bar status update (KR)</A><BR />
+<A HREF="index.php@Packet=0x1A" class="pktServer">[0x1A] Object Info</A><BR />
+<A HREF="index.php@Packet=0x1B" class="pktServer">[0x1B] Char Locale and Body</A><BR />
+<A HREF="index.php@Packet=0x1C" class="pktServer">[0x1C] Send Speech</A><BR />
+<A HREF="index.php@Packet=0x1D" class="pktServer">[0x1D] Delete Object</A><BR />
+<A HREF="index.php@Packet=0x1F" class="pktServer">[0x1F] Explosion</A><BR />
+<A HREF="index.php@Packet=0x20" class="pktServer">[0x20] Draw Game Player</A><BR />
+<A HREF="index.php@Packet=0x21" class="pktServer">[0x21] Char Move Rejection</A><BR />
+<A HREF="index.php@Packet=0x23" class="pktServer">[0x23] Dragging Of Item</A><BR />
+<A HREF="index.php@Packet=0x24" class="pktServer">[0x24] Draw Container</A><BR />
+<A HREF="index.php@Packet=0x25" class="pktServer">[0x25] Add Item To Container</A><BR />
+<A HREF="index.php@Packet=0x26" class="pktServer">[0x26] Kick Player</A><BR />
+<A HREF="index.php@Packet=0x27" class="pktServer">[0x27] Reject Move Item Request</A><BR />
+<A HREF="index.php@Packet=0x28" class="pktServer">[0x28] Drop Item Failed/Clear Square (God Client?)</A><BR />
+<A HREF="index.php@Packet=0x29" class="pktServer">[0x29] Drop Item Approved</A><BR />
+<A HREF="index.php@Packet=0x2A" class="pktServer">[0x2A] Blood</A><BR />
+<A HREF="index.php@Packet=0x2B" class="pktServer">[0x2B] God Mode (God Client)</A><BR />
+<A HREF="index.php@Packet=0x2D" class="pktServer">[0x2D] Mob Attributes</A><BR />
+<A HREF="index.php@Packet=0x2E" class="pktServer">[0x2E] Worn Item</A><BR />
+<A HREF="index.php@Packet=0x2F" class="pktServer">[0x2F] Fight Occuring</A><BR />
+<A HREF="index.php@Packet=0x30" class="pktServer">[0x30] Attack Ok</A><BR />
+<A HREF="index.php@Packet=0x31" class="pktServer">[0x31] Attack Ended</A><BR />
+<A HREF="index.php@Packet=0x32" class="pktServer">[0x32] Unknown</A><BR />
+<A HREF="index.php@Packet=0x33" class="pktServer">[0x33] Pause Client</A><BR />
+<A HREF="index.php@Packet=0x36" class="pktServer">[0x36] Resource Tile Data (God Client</A><BR />
+<A HREF="index.php@Packet=0x3C" class="pktServer">[0x3C] Add multiple Items In Container</A><BR />
+<A HREF="index.php@Packet=0x3E" class="pktServer">[0x3E] Versions (God Client)</A><BR />
+<A HREF="index.php@Packet=0x3F" class="pktServer">[0x3F] Update Statics (God Client)</A><BR />
+<A HREF="index.php@Packet=0x4E" class="pktServer">[0x4E] Personal Light Level</A><BR />
+<A HREF="index.php@Packet=0x4F" class="pktServer">[0x4F] Overall Light Level</A><BR />
+<A HREF="index.php@Packet=0x53" class="pktServer">[0x53] Idle Warning</A><BR />
+<A HREF="index.php@Packet=0x54" class="pktServer">[0x54] Play Sound Effect</A><BR />
+<A HREF="index.php@Packet=0x55" class="pktServer">[0x55] Login Complete</A><BR />
+<A HREF="index.php@Packet=0x5B" class="pktServer">[0x5B] Time</A><BR />
+<A HREF="index.php@Packet=0x65" class="pktServer">[0x65] Set Weather</A><BR />
+<A HREF="index.php@Packet=0x6D" class="pktServer">[0x6D] Play Midi Music</A><BR />
+<A HREF="index.php@Packet=0x6E" class="pktServer">[0x6E] Character Animation</A><BR />
+<A HREF="index.php@Packet=0x70" class="pktServer">[0x70] Graphical Effect</A><BR />
+<A HREF="index.php@Packet=0x74" class="pktServer">[0x74] Open Buy Window</A><BR />
+<A HREF="index.php@Packet=0x76" class="pktServer">[0x76] New Subserver</A><BR />
+<A HREF="index.php@Packet=0x77" class="pktServer">[0x77] Update Player</A><BR />
+<A HREF="index.php@Packet=0x78" class="pktServer">[0x78] Draw Object</A><BR />
+<A HREF="index.php@Packet=0x7C" class="pktServer">[0x7C] Open Dialog Box</A><BR />
+<A HREF="index.php@Packet=0x82" class="pktServer">[0x82] Login Denied</A><BR />
+<A HREF="index.php@Packet=0x86" class="pktServer">[0x86] Resend Characters After Delete</A><BR />
+<A HREF="index.php@Packet=0x88" class="pktServer">[0x88] Open Paperdoll</A><BR />
+<A HREF="index.php@Packet=0x89" class="pktServer">[0x89] Corpse Clothing</A><BR />
+<A HREF="index.php@Packet=0x8C" class="pktServer">[0x8C] Connect To Game Server</A><BR />
+<A HREF="index.php@Packet=0x90" class="pktServer">[0x90] Map Message</A><BR />
+<A HREF="index.php@Packet=0x9C" class="pktServer">[0x9C] Request Assistance</A><BR />
+<A HREF="index.php@Packet=0x9E" class="pktServer">[0x9E] Sell List</A><BR />
+<A HREF="index.php@Packet=0xA1" class="pktServer">[0xA1] Update Current Health</A><BR />
+<A HREF="index.php@Packet=0xA2" class="pktServer">[0xA2] Update Current Mana</A><BR />
+<A HREF="index.php@Packet=0xA3" class="pktServer">[0xA3] Update Current Stamina</A><BR />
+<A HREF="index.php@Packet=0xA5" class="pktServer">[0xA5] Open Web Browser</A><BR />
+<A HREF="index.php@Packet=0xA6" class="pktServer">[0xA6] Tip/Notice Window</A><BR />
+<A HREF="index.php@Packet=0xA8" class="pktServer">[0xA8] Game Server List</A><BR />
+<A HREF="index.php@Packet=0xA9" class="pktServer">[0xA9] Characters / Starting Locations</A><BR />
+<A HREF="index.php@Packet=0xAA" class="pktServer">[0xAA] Allow/Refuse Attack</A><BR />
+<A HREF="index.php@Packet=0xAB" class="pktServer">[0xAB] Gump Text Entry Dialog</A><BR />
+<A HREF="index.php@Packet=0xAE" class="pktServer">[0xAE] Unicode Speech message</A><BR />
+<A HREF="index.php@Packet=0xAF" class="pktServer">[0xAF] Display Death Action</A><BR />
+<A HREF="index.php@Packet=0xB0" class="pktServer">[0xB0] Send Gump Menu Dialog</A><BR />
+<A HREF="index.php@Packet=0xB2" class="pktServer">[0xB2] Chat Message</A><BR />
+<A HREF="index.php@Packet=0xB7" class="pktServer">[0xB7] Help/Tip Data</A><BR />
+<A HREF="index.php@Packet=0xB9" class="pktServer">[0xB9] Enable locked client features</A><BR />
+<A HREF="index.php@Packet=0xBA" class="pktServer">[0xBA] Quest Arrow</A><BR />
+<A HREF="index.php@Packet=0xBC" class="pktServer">[0xBC] Seasonal Information</A><BR />
+<A HREF="index.php@Packet=0xC0" class="pktServer">[0xC0] Graphical Effect</A><BR />
+<A HREF="index.php@Packet=0xC1" class="pktServer">[0xC1] Cliloc Message</A><BR />
+<A HREF="index.php@Packet=0xC4" class="pktServer">[0xC4] Semivisible (Smurf it!)</A><BR />
+<A HREF="index.php@Packet=0xC6" class="pktServer">[0xC6] Invalid Map Enable</A><BR />
+<A HREF="index.php@Packet=0xC7" class="pktServer">[0xC7] 3D Particle Effect</A><BR />
+<A HREF="index.php@Packet=0xCB" class="pktServer">[0xCB] Global Que Count</A><BR />
+<A HREF="index.php@Packet=0xCC" class="pktServer">[0xCC] Cliloc Message Affix</A><BR />
+<A HREF="index.php@Packet=0xD2" class="pktServer">[0xD2] Extended 0x20</A><BR />
+<A HREF="index.php@Packet=0xD3" class="pktServer">[0xD3] Extended 0x78</A><BR />
+<A HREF="index.php@Packet=0xD8" class="pktServer">[0xD8] Send Custom House</A><BR />
+<A HREF="index.php@Packet=0xDB" class="pktServer">[0xDB] Character Transfer Log</A><BR />
+<A HREF="index.php@Packet=0xDC" class="pktServer">[0xDC] SE Introduced Revision</A><BR />
+<A HREF="index.php@Packet=0xDD" class="pktServer">[0xDD] Compressed Gump</A><BR />
+<A HREF="index.php@Packet=0xDE" class="pktServer">[0xDE] Update Mobile Status</A><BR />
+<A HREF="index.php@Packet=0xDF" class="pktServer">[0xDF] Buff/Debuff System</A><BR />
+<A HREF="index.php@Packet=0xE2" class="pktServer">[0xE2] Mobile status/Animation update (KR)</A><BR />
+<A HREF="index.php@Packet=0xE3" class="pktServer">[0xE3] KR Encryption Response</A><BR />
+<A HREF="index.php@Packet=0xF0" class="pktServer">[0xF0] Krrios client special</A><BR />
+<A HREF="index.php@Packet=0xF3" class="pktServer">[0xF3] Object Information (SA)</A><BR />
+</span>			</div>
+		</div>
+
+	</div>
+</div>
+
+<div id="footer">
+	<div class="container">
+		Copyright © 1998-2009 POL Development Team.
+	</div>
+</div>
+
+</body>

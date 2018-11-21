@@ -1,0 +1,12 @@
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ingres.Example\bin\Debug\DbLinq.Ingres.Example.exe
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ingres.Example\bin\Debug\DbLinq.Ingres.Example.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ingres.Example\bin\Debug\DbLinq.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ingres.Example\bin\Debug\DbLinq.Ingres.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ingres.Example\bin\Debug\Ingres.Stereo.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ingres.Example\bin\Debug\Npgsql.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ingres.Example\bin\Debug\Mono.Security.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ingres.Example\bin\Debug\DbLinq.Ingres.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ingres.Example\bin\Debug\DbLinq.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ingres.Example\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ingres.Example\obj\Debug\DbLinq.Ingres.Example.exe
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.Ingres.Example\obj\Debug\DbLinq.Ingres.Example.pdb

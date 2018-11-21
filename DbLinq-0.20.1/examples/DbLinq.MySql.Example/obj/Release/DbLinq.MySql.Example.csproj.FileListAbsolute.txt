@@ -1,0 +1,10 @@
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.MySql.Example\bin\Release\DbLinq.MySql.Example.exe
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.MySql.Example\bin\Release\DbLinq.MySql.Example.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.MySql.Example\bin\Release\DbLinq.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.MySql.Example\bin\Release\DbLinq.MySql.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.MySql.Example\bin\Release\MySql.Data.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.MySql.Example\bin\Release\DbLinq.MySql.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.MySql.Example\bin\Release\DbLinq.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.MySql.Example\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.MySql.Example\obj\Release\DbLinq.MySql.Example.exe
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.MySql.Example\obj\Release\DbLinq.MySql.Example.pdb

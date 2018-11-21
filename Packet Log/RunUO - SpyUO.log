@@ -1,0 +1,435 @@
+Logs created on 4/3/2010 17:44:37 by SpyUO
+
+
+Type - Packet (5D) - Send
+Message - Unknown message
+Time - 17:44:09.35
+Rel time - 423,45s
+Dif time - 0,00s
+Packet - 5D ED ED ED ED 6C 6F 6B 69 73 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0F 00 00 00 00 00 00 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 C0 A8 01 64
+ASCII - ]....lokis......................................a.......................d
+Length - 73
+
+Type - Packet (BD) - Receive
+Message - Unknown message
+Time - 17:44:09.40
+Rel time - 423,50s
+Dif time - 0,05s
+Packet - BD 03 00
+ASCII - ...
+Length - 3
+
+Type - Packet (BD) - Send
+Message - Unknown message
+Time - 17:44:09.40
+Rel time - 423,50s
+Dif time - 0,00s
+Packet - BD 0B 00 34 2E 30 2E 31 31 65 00
+ASCII - ...4.0.11e.
+Length - 11
+
+Type - Packet (1B) - Receive
+Message - Unknown message
+Time - 17:44:10.56
+Rel time - 424,66s
+Dif time - 1,16s
+Packet - 1B 00 00 09 74 00 00 00 00 01 90 01 F4 01 F3 00 00 87 00 FF FF FF FF 00 00 00 00 1C 00 10 00 00 00 00 00 00 00
+ASCII - ....t................................
+Length - 37
+
+Type - Packet (34) - Send
+Message - Unknown message
+Time - 17:44:10.60
+Rel time - 424,70s
+Dif time - 0,05s
+Packet - 34 ED ED ED ED 05 00 00 09 74
+ASCII - 4........t
+Length - 10
+
+Type - Packet (BD) - Send
+Message - Unknown message
+Time - 17:44:10.60
+Rel time - 424,70s
+Dif time - 0,00s
+Packet - BD 0B 00 34 2E 30 2E 31 31 65 00
+ASCII - ...4.0.11e.
+Length - 11
+
+Type - Packet (BF) - Send
+Message - Unknown message
+Time - 17:44:10.60
+Rel time - 424,70s
+Dif time - 0,00s
+Packet - BF 0D 00 00 05 00 00 03 20 01 FF FF A7
+ASCII - ........ ....
+Length - 13
+
+Type - Packet (BF) - Send
+Message - Unknown message
+Time - 17:44:10.60
+Rel time - 424,70s
+Dif time - 0,00s
+Packet - BF 09 00 00 0B 50 54 42 00
+ASCII - .....PTB.
+Length - 9
+
+Type - Packet (BF) - Send
+Message - Unknown message
+Time - 17:44:10.60
+Rel time - 424,70s
+Dif time - 0,00s
+Packet - BF 0A 00 00 0F 0A 00 00 00 0F
+ASCII - ..........
+Length - 10
+
+Type - Packet (BF) - Receive
+Message - Unknown message
+Time - 17:44:10.60
+Rel time - 424,70s
+Dif time - 0,00s
+Packet - BF 06 00 00 08 01
+ASCII - ......
+Length - 6
+
+Type - Packet (BF) - Receive
+Message - Unknown message
+Time - 17:44:10.60
+Rel time - 424,70s
+Dif time - 0,00s
+Packet - BF 29 00 00 18 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ASCII - .).......................................
+Length - 41
+
+Type - Packet (BC) - Receive
+Message - Unknown message
+Time - 17:44:10.65
+Rel time - 424,75s
+Dif time - 0,05s
+Packet - BC 00 01
+ASCII - ...
+Length - 3
+
+Type - Packet (B9) - Receive
+Message - Unknown message
+Time - 17:44:10.65
+Rel time - 424,75s
+Dif time - 0,00s
+Packet - B9 82 FB
+ASCII - ...
+Length - 3
+
+Type - Packet (20) - Receive
+Message - Unknown message
+Time - 17:44:10.65
+Rel time - 424,75s
+Dif time - 0,00s
+Packet - 20 00 00 09 74 01 90 00 83 EA 80 01 F4 01 F3 00 00 87 00
+ASCII -  ...t..............
+Length - 19
+
+Type - Packet (20) - Receive
+Message - Unknown message
+Time - 17:44:10.65
+Rel time - 424,75s
+Dif time - 0,00s
+Packet - 20 00 00 09 74 01 90 00 83 EA 80 01 F4 01 F3 00 00 87 00
+ASCII -  ...t..............
+Length - 19
+
+Type - Packet (4F) - Receive
+Message - Unknown message
+Time - 17:44:10.65
+Rel time - 424,75s
+Dif time - 0,00s
+Packet - 4F 0C
+ASCII - O.
+Length - 2
+
+Type - Packet (4E) - Receive
+Message - Unknown message
+Time - 17:44:10.65
+Rel time - 424,75s
+Dif time - 0,00s
+Packet - 4E 00 00 09 74 00
+ASCII - N...t.
+Length - 6
+
+Type - Packet (20) - Receive
+Message - Unknown message
+Time - 17:44:10.65
+Rel time - 424,75s
+Dif time - 0,00s
+Packet - 20 00 00 09 74 01 90 00 83 EA 80 01 F4 01 F3 00 00 87 00
+ASCII -  ...t..............
+Length - 19
+
+Type - MobileIncoming (78) - Receive
+Message - ModelId: "0x190" Hue: "0x83EA" Position: "(500 499, 0)" Notoriety: "3" Serial: "0x974" Direction: "0x87" Flag: "0x80" EquipmentString: "Serial: "0x40000380", ItemId: "0xE7C", ItemIdName: "metal chest", Layer: "29", Hue: "0x0" - Serial: "0x4000010E", ItemId: "0x204F", ItemIdName: "GM Robe", Layer: "22", Hue: "0x0" - Serial: "0x7FFFD62F", ItemId: "0x203B", ItemIdName: "", Layer: "11", Hue: "0x44E""
+Time - 17:44:10.65
+Rel time - 424,75s
+Dif time - 0,00s
+Packet - 78 2E 00 00 00 09 74 01 90 01 F4 01 F3 00 87 83 EA 80 03 40 00 03 80 0E 7C 1D 40 00 01 0E 20 4F 16 7F FF D6 2F A0 3B 0B 04 4E 00 00 00 00
+ASCII - x.....t............@....|.@... O.../.;..N....
+Length - 46
+
+Type - Packet (11) - Receive
+Message - Unknown message
+Time - 17:44:10.70
+Rel time - 424,80s
+Dif time - 0,05s
+Packet - 11 58 00 00 00 09 74 6C 6F 6B 69 73 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 50 00 50 00 04 00 00 3C 00 0A 00 0A 00 0A 00 0A 00 0A 00 0A 00 00 00 00 00 00 00 0F 00 E1 00 05 00 00 00 00 00 00 00 00 00 00 00 01 00 05 00 00 00 00
+ASCII - .X....tlokis..........................P.P....<..........................................
+Length - 88
+
+Type - Packet (72) - Receive
+Message - Unknown message
+Time - 17:44:10.70
+Rel time - 424,80s
+Dif time - 0,00s
+Packet - 72 00 00 32 00
+ASCII - r..2.
+Length - 5
+
+Type - MobileIncoming (78) - Receive
+Message - ModelId: "0x190" Hue: "0x83EA" Position: "(500 499, 0)" Notoriety: "3" Serial: "0x974" Direction: "0x87" Flag: "0x80" EquipmentString: "Serial: "0x40000380", ItemId: "0xE7C", ItemIdName: "metal chest", Layer: "29", Hue: "0x0" - Serial: "0x4000010E", ItemId: "0x204F", ItemIdName: "GM Robe", Layer: "22", Hue: "0x0" - Serial: "0x7FFFD62F", ItemId: "0x203B", ItemIdName: "", Layer: "11", Hue: "0x44E""
+Time - 17:44:10.70
+Rel time - 424,80s
+Dif time - 0,00s
+Packet - 78 2E 00 00 00 09 74 01 90 01 F4 01 F3 00 87 83 EA 80 03 40 00 03 80 0E 7C 1D 40 00 01 0E 20 4F 16 7F FF D6 2F A0 3B 0B 04 4E 00 00 00 00
+ASCII - x.....t............@....|.@... O.../.;..N....
+Length - 46
+
+Type - Packet (DC) - Receive
+Message - Unknown message
+Time - 17:44:10.76
+Rel time - 424,86s
+Dif time - 0,06s
+Packet - DC 00 00 09 74 43 01 BA EE
+ASCII - ....tC...
+Length - 9
+
+Type - Packet (B9) - Receive
+Message - Unknown message
+Time - 17:44:10.76
+Rel time - 424,86s
+Dif time - 0,00s
+Packet - B9 82 FB
+ASCII - ...
+Length - 3
+
+Type - Packet (20) - Receive
+Message - Unknown message
+Time - 17:44:10.76
+Rel time - 424,86s
+Dif time - 0,00s
+Packet - 20 00 00 09 74 01 90 00 83 EA 80 01 F4 01 F3 00 00 87 00
+ASCII -  ...t..............
+Length - 19
+
+Type - Packet (11) - Receive
+Message - Unknown message
+Time - 17:44:10.76
+Rel time - 424,86s
+Dif time - 0,00s
+Packet - 11 58 00 00 00 09 74 6C 6F 6B 69 73 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 50 00 50 00 04 00 00 3C 00 0A 00 0A 00 0A 00 0A 00 0A 00 0A 00 00 00 00 00 00 00 0F 00 E1 00 05 00 00 00 00 00 00 00 00 00 00 00 01 00 05 00 00 00 00
+ASCII - .X....tlokis..........................P.P....<..........................................
+Length - 88
+
+Type - Packet (72) - Receive
+Message - Unknown message
+Time - 17:44:10.76
+Rel time - 424,86s
+Dif time - 0,00s
+Packet - 72 00 00 32 00
+ASCII - r..2.
+Length - 5
+
+Type - MobileIncoming (78) - Receive
+Message - ModelId: "0x190" Hue: "0x83EA" Position: "(500 499, 0)" Notoriety: "3" Serial: "0x974" Direction: "0x87" Flag: "0x80" EquipmentString: "Serial: "0x40000380", ItemId: "0xE7C", ItemIdName: "metal chest", Layer: "29", Hue: "0x0" - Serial: "0x4000010E", ItemId: "0x204F", ItemIdName: "GM Robe", Layer: "22", Hue: "0x0" - Serial: "0x7FFFD62F", ItemId: "0x203B", ItemIdName: "", Layer: "11", Hue: "0x44E""
+Time - 17:44:10.76
+Rel time - 424,86s
+Dif time - 0,00s
+Packet - 78 2E 00 00 00 09 74 01 90 01 F4 01 F3 00 87 83 EA 80 03 40 00 03 80 0E 7C 1D 40 00 01 0E 20 4F 16 7F FF D6 2F A0 3B 0B 04 4E 00 00 00 00
+ASCII - x.....t............@....|.@... O.../.;..N....
+Length - 46
+
+Type - Packet (55) - Receive
+Message - Unknown message
+Time - 17:44:10.76
+Rel time - 424,86s
+Dif time - 0,00s
+Packet - 55
+ASCII - U
+Length - 1
+
+Type - DoubleClick (06) - Send
+Message - Serial: "0x80000974"
+Time - 17:44:10.79
+Rel time - 424,89s
+Dif time - 0,03s
+Packet - 06 80 00 09 74
+ASCII - ....t
+Length - 5
+
+Type - Packet (34) - Send
+Message - Unknown message
+Time - 17:44:10.79
+Rel time - 424,89s
+Dif time - 0,00s
+Packet - 34 ED ED ED ED 05 00 00 09 74
+ASCII - 4........t
+Length - 10
+
+Type - Packet (5B) - Receive
+Message - Unknown message
+Time - 17:44:10.92
+Rel time - 425,02s
+Dif time - 0,13s
+Packet - 5B 11 2C 0A
+ASCII - [.,.
+Length - 4
+
+Type - Packet (BC) - Receive
+Message - Unknown message
+Time - 17:44:10.92
+Rel time - 425,02s
+Dif time - 0,00s
+Packet - BC 00 01
+ASCII - ...
+Length - 3
+
+Type - Packet (BF) - Receive
+Message - Unknown message
+Time - 17:44:10.92
+Rel time - 425,02s
+Dif time - 0,00s
+Packet - BF 06 00 00 08 01
+ASCII - ......
+Length - 6
+
+Type - Packet (4F) - Receive
+Message - Unknown message
+Time - 17:44:10.92
+Rel time - 425,02s
+Dif time - 0,00s
+Packet - 4F 0C
+ASCII - O.
+Length - 2
+
+Type - Packet (4E) - Receive
+Message - Unknown message
+Time - 17:44:10.92
+Rel time - 425,02s
+Dif time - 0,00s
+Packet - 4E 00 00 09 74 00
+ASCII - N...t.
+Length - 6
+
+Type - UnicodeMessage (AE) - Receive
+Message - Text: "Welcome, lokis! There is currently 1 user online, with 100016 items and 2420 mobiles in the world." SpeechType: "0x0" Hue: "0x3B2" Font: "3" SourceName: "System" Lang: "ENU" Serial: "0xFFFFFFFF" ModelId: "0xFFFF"
+Time - 17:44:10.92
+Rel time - 425,02s
+Dif time - 0,00s
+Packet - AE F6 00 FF FF FF FF FF FF 00 03 B2 00 03 45 4E 55 00 53 79 73 74 65 6D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 57 00 65 00 6C 00 63 00 6F 00 6D 00 65 00 2C 00 20 00 6C 00 6F 00 6B 00 69 00 73 00 21 00 20 00 54 00 68 00 65 00 72 00 65 00 20 00 69 00 73 00 20 00 63 00 75 00 72 00 72 00 65 00 6E 00 74 00 6C 00 79 00 20 00 31 00 20 00 75 00 73 00 65 00 72 00 20 00 6F 00 6E 00 6C 00 69 00 6E 00 65 00 2C 00 20 00 77 00 69 00 74 00 68 00 20 00 31 00 30 00 30 00 30 00 31 00 36 00 20 00 69 00 74 00 65 00 6D 00 73 00 20 00 61 00 6E 00 64 00 20 00 32 00 34 00 32 00 30 00 20 00 6D 00 6F 00 62 00 69 00 6C 00 65 00 73 00 20 00 69 00 6E 00 20 00 74 00 68 00 65 00 20 00 77 00 6F 00 72 00 6C 00 64 00 2E 00 00
+ASCII - ..............ENU.System.........................W.e.l.c.o.m.e.,. .l.o.k.i.s.!. .T.h.e.r.e. .i.s. .c.u.r.r.e.n.t.l.y. .1. .u.s.e.r. .o.n.l.i.n.e.,. .w.i.t.h. .1.0.0.0.1.6. .i.t.e.m.s. .a.n.d. .2.4.2.0. .m.o.b.i.l.e.s. .i.n. .t.h.e. .w.o.r.l.d....
+Length - 246
+
+Type - ObjectProperties (D6) - Send
+Message - Serial: "0x0" HashCode: "0x0" PropertiesString: "Empty" Type: "0"
+Time - 17:44:10.93
+Rel time - 425,03s
+Dif time - 0,02s
+Packet - D6 07 00 00 00 09 74
+ASCII - ......t
+Length - 7
+
+Type - ASCIIMessage (1C) - Receive
+Message - Text: "You will enjoy the benefits and relatively safe status of a young player for 39 more hours." SpeechType: "0x0" Hue: "0x3B2" Font: "3" SourceName: "System" Serial: "0xFFFFFFFF" ModelId: "0xFFFF"
+Time - 17:44:11.04
+Rel time - 425,14s
+Dif time - 0,11s
+Packet - 1C 88 00 FF FF FF FF FF FF 00 03 B2 00 03 53 79 73 74 65 6D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 59 6F 75 20 77 69 6C 6C 20 65 6E 6A 6F 79 20 74 68 65 20 62 65 6E 65 66 69 74 73 20 61 6E 64 20 72 65 6C 61 74 69 76 65 6C 79 20 73 61 66 65 20 73 74 61 74 75 73 20 6F 66 20 61 20 79 6F 75 6E 67 20 70 6C 61 79 65 72 20 66 6F 72 20 33 39 20 6D 6F 72 65 20 68 6F 75 72 73 2E 00
+ASCII - ..............System........................You will enjoy the benefits and relatively safe status of a young player for 39 more hours..
+Length - 136
+
+Type - Packet (3A) - Receive
+Message - Unknown message
+Time - 17:44:11.06
+Rel time - 425,16s
+Dif time - 0,02s
+Packet - 3A F5 01 02 00 01 00 00 00 00 00 03 E8 00 02 00 00 00 00 00 03 E8 00 03 00 00 00 00 00 03 E8 00 04 00 00 00 00 00 03 E8 00 05 01 2C 01 2C 00 03 E8 00 06 00 00 00 00 00 03 E8 00 07 00 00 00 00 00 03 E8 00 08 01 F4 01 F4 00 03 E8 00 09 00 00 00 00 00 03 E8 00 0A 00 00 00 00 00 03 E8 00 0B 00 00 00 00 00 03 E8 00 0C 00 00 00 00 00 03 E8 00 0D 00 00 00 00 00 03 E8 00 0E 00 00 00 00 00 03 E8 00 0F 00 00 00 00 00 03 E8 00 10 00 00 00 00 00 03 E8 00 11 00 00 00 00 00 03 E8 00 12 00 00 00 00 00 03 E8 00 13 00 00 00 00 00 03 E8 00 14 00 00 00 00 00 03 E8 00 15 00 00 00 00 00 03 E8 00 16 00 08 00 08 00 03 E8 00 17 00 00 00 00 00 03 E8 00 18 00 00 00 00 00 03 E8 00 19 00 00 00 00 00 03 E8 00 1A 00 00 00 00 00 03 E8 00 1B 00 00 00 00 00 03 E8 00 1C 00 00 00 00 00 03 E8 00 1D 00 00 00 00 00 03 E8 00 1E 00 00 00 00 00 03 E8 00 1F 00 00 00 00 00 03 E8 00 20 00 00 00 00 00 03 E8 00 21 00 00 00 00 00 03 E8 00 22 00 00 00 00 00 03 E8 00 23 00 00 00 00 00 03 E8 00 24 00 00 00 00 00 03 E8 00 25 00 00 00 00 00 03 E8 00 26 01 F4 01 F4 00 03 E8 00 27 00 00 00 00 00 03 E8 00 28 00 00 00 00 00 03 E8 00 29 00 00 00 00 00 03 E8 00 2A 00 00 00 00 00 03 E8 00 2B 00 00 00 00 00 03 E8 00 2C 00 00 00 00 00 03 E8 00 2D 00 00 00 00 00 03 E8 00 2E 01 2C 01 2C 00 03 E8 00 2F 00 05 00 05 00 03 E8 00 30 00 00 00 00 00 03 E8 00 31 00 00 00 00 00 03 E8 00 32 00 00 00 00 00 03 E8 00 33 00 07 00 07 00 03 E8 00 34 00 00 00 00 00 03 E8 00 35 00 00 00 00 00 03 E8 00 36 00 00 00 00 00 03 E8 00 37 00 00 00 00 00 03 E8 00 00
+ASCII - :..........................................,.,.............................................................................................................................................................................................................................................. ........!........"........#........$........%........&........'........(........)........*........+........,........-..........,.,..../........0........1........2........3........4........5........6........7.........
+Length - 501
+
+Type - Packet (88) - Receive
+Message - Unknown message
+Time - 17:44:11.09
+Rel time - 425,19s
+Dif time - 0,03s
+Packet - 88 00 00 09 74 6C 6F 6B 69 73 2C 20 41 70 70 72 65 6E 74 69 63 65 20 53 6D 69 74 68 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02
+ASCII - ....tlokis, Apprentice Smith......................................
+Length - 66
+
+Type - Packet (DC) - Receive
+Message - Unknown message
+Time - 17:44:11.12
+Rel time - 425,22s
+Dif time - 0,03s
+Packet - DC 40 00 03 80 41 97 CD 24
+ASCII - .@...A..$
+Length - 9
+
+Type - Packet (DC) - Receive
+Message - Unknown message
+Time - 17:44:11.12
+Rel time - 425,22s
+Dif time - 0,00s
+Packet - DC 40 00 01 0E 41 D5 59 87
+ASCII - .@...A.Y.
+Length - 9
+
+Type - ObjectProperties (D6) - Send
+Message - Serial: "0x0" HashCode: "0x0" PropertiesString: "Empty" Type: "16384"
+Time - 17:44:11.14
+Rel time - 425,23s
+Dif time - 0,02s
+Packet - D6 0B 00 40 00 01 0E 40 00 03 80
+ASCII - ...@...@...
+Length - 11
+
+Type - Packet (3A) - Receive
+Message - Unknown message
+Time - 17:44:11.32
+Rel time - 425,42s
+Dif time - 0,19s
+Packet - 3A F5 01 02 00 01 00 00 00 00 00 03 E8 00 02 00 00 00 00 00 03 E8 00 03 00 00 00 00 00 03 E8 00 04 00 00 00 00 00 03 E8 00 05 01 2C 01 2C 00 03 E8 00 06 00 00 00 00 00 03 E8 00 07 00 00 00 00 00 03 E8 00 08 01 F4 01 F4 00 03 E8 00 09 00 00 00 00 00 03 E8 00 0A 00 00 00 00 00 03 E8 00 0B 00 00 00 00 00 03 E8 00 0C 00 00 00 00 00 03 E8 00 0D 00 00 00 00 00 03 E8 00 0E 00 00 00 00 00 03 E8 00 0F 00 00 00 00 00 03 E8 00 10 00 00 00 00 00 03 E8 00 11 00 00 00 00 00 03 E8 00 12 00 00 00 00 00 03 E8 00 13 00 00 00 00 00 03 E8 00 14 00 00 00 00 00 03 E8 00 15 00 00 00 00 00 03 E8 00 16 00 08 00 08 00 03 E8 00 17 00 00 00 00 00 03 E8 00 18 00 00 00 00 00 03 E8 00 19 00 00 00 00 00 03 E8 00 1A 00 00 00 00 00 03 E8 00 1B 00 00 00 00 00 03 E8 00 1C 00 00 00 00 00 03 E8 00 1D 00 00 00 00 00 03 E8 00 1E 00 00 00 00 00 03 E8 00 1F 00 00 00 00 00 03 E8 00 20 00 00 00 00 00 03 E8 00 21 00 00 00 00 00 03 E8 00 22 00 00 00 00 00 03 E8 00 23 00 00 00 00 00 03 E8 00 24 00 00 00 00 00 03 E8 00 25 00 00 00 00 00 03 E8 00 26 01 F4 01 F4 00 03 E8 00 27 00 00 00 00 00 03 E8 00 28 00 00 00 00 00 03 E8 00 29 00 00 00 00 00 03 E8 00 2A 00 00 00 00 00 03 E8 00 2B 00 00 00 00 00 03 E8 00 2C 00 00 00 00 00 03 E8 00 2D 00 00 00 00 00 03 E8 00 2E 01 2C 01 2C 00 03 E8 00 2F 00 05 00 05 00 03 E8 00 30 00 00 00 00 00 03 E8 00 31 00 00 00 00 00 03 E8 00 32 00 00 00 00 00 03 E8 00 33 00 07 00 07 00 03 E8 00 34 00 00 00 00 00 03 E8 00 35 00 00 00 00 00 03 E8 00 36 00 00 00 00 00 03 E8 00 37 00 00 00 00 00 03 E8 00 00
+ASCII - :..........................................,.,.............................................................................................................................................................................................................................................. ........!........"........#........$........%........&........'........(........)........*........+........,........-..........,.,..../........0........1........2........3........4........5........6........7.........
+Length - 501
+
+Type - Packet (BF) - Send
+Message - Unknown message
+Time - 17:44:15.56
+Rel time - 429,66s
+Dif time - 4,23s
+Packet - BF 06 00 00 24 83
+ASCII - ....$.
+Length - 6
+
+Type - Packet (BF) - Send
+Message - Unknown message
+Time - 17:44:18.73
+Rel time - 432,83s
+Dif time - 3,17s
+Packet - BF 06 00 00 24 72
+ASCII - ....$r
+Length - 6
+
+Type - Packet (BF) - Send
+Message - Unknown message
+Time - 17:44:22.96
+Rel time - 437,06s
+Dif time - 4,23s
+Packet - BF 06 00 00 24 82
+ASCII - ....$.
+Length - 6
+

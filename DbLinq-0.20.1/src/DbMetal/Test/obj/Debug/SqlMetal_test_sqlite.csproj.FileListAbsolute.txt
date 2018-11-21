@@ -1,0 +1,6 @@
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\build.dbg\sqlmetal.exe.config
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\build.dbg\SqlMetal_test_sqlite.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\build.dbg\SqlMetal_test_sqlite.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\DbMetal\Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\DbMetal\Test\obj\Debug\SqlMetal_test_sqlite.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\DbMetal\Test\obj\Debug\SqlMetal_test_sqlite.pdb

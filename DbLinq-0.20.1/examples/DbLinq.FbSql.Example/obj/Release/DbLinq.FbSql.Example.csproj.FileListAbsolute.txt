@@ -1,0 +1,10 @@
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.FbSql.Example\bin\Release\DbLinq.FbSql.Example.exe
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.FbSql.Example\bin\Release\DbLinq.FbSql.Example.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.FbSql.Example\bin\Release\DbLinq.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.FbSql.Example\bin\Release\DbLinq.Firebird.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.FbSql.Example\bin\Release\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.FbSql.Example\bin\Release\DbLinq.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.FbSql.Example\bin\Release\DbLinq.Firebird.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.FbSql.Example\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.FbSql.Example\obj\Release\DbLinq.FbSql.Example.exe
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\examples\DbLinq.FbSql.Example\obj\Release\DbLinq.FbSql.Example.pdb

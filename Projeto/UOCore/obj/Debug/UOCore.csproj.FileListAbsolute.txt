@@ -1,0 +1,72 @@
+C:\Documents and Settings\Administrador\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOCore.dll
+C:\Documents and Settings\Administrador\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOCore.pdb
+C:\Documents and Settings\Administrador\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\UOCore.dll
+C:\Documents and Settings\Administrador\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\UOCore.pdb
+C:\Documents and Settings\Administrador\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOPackets.dll
+C:\Documents and Settings\Administrador\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOPackets.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOCore.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOCore.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOPackets.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOPackets.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\UOCore.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\UOCore.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\MySql.Data.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\MySql.Data.pdb
+C:\Documents and Settings\Administrador\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\MySql.Data.dll
+C:\Documents and Settings\Administrador\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\MySql.Data.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOData.dll
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOData.pdb
+C:\Documents and Settings\Administrador\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOData.dll
+C:\Documents and Settings\Administrador\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOData.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\Database.xml
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\Database.xml
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOCore.dll
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOCore.pdb
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\MySql.Data.dll
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOData.dll
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOPackets.dll
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOData.pdb
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOPackets.pdb
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\MySql.Data.pdb
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\UOCore.dll
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\UOCore.pdb
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\Database.xml
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOCore.dll
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOCore.pdb
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\MySql.Data.dll
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOData.dll
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOPackets.dll
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOData.pdb
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOPackets.pdb
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\MySql.Data.pdb
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\UOCore.dll
+C:\Documents and Settings\Vinicius\Meus documentos\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\UOCore.pdb
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\UOCore\bin\Debug\Database.xml
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\UOCore\bin\Debug\UOCore.dll
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\UOCore\bin\Debug\UOCore.pdb
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\UOCore\bin\Debug\MySql.Data.dll
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\UOCore\bin\Debug\UOData.dll
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\UOCore\bin\Debug\UOPackets.dll
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\UOCore\bin\Debug\UOData.pdb
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\UOCore\bin\Debug\UOPackets.pdb
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\UOCore\bin\Debug\MySql.Data.pdb
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\UOCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\UOCore\obj\Debug\UOCore.dll
+C:\Documents and Settings\Danilo\Desktop\My Dropbox\UO (3)\EUO\Projeto\UOCore\obj\Debug\UOCore.pdb
+C:\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\Database.xml
+C:\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOCore.dll
+C:\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOCore.pdb
+C:\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\MySql.Data.dll
+C:\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOData.dll
+C:\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOPackets.dll
+C:\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOData.pdb
+C:\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\UOPackets.pdb
+C:\My Dropbox\UO\EUO\Projeto\UOCore\bin\Debug\MySql.Data.pdb
+C:\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\ResolveAssemblyReference.cache
+C:\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\UOCore.dll
+C:\My Dropbox\UO\EUO\Projeto\UOCore\obj\Debug\UOCore.pdb
+Z:\Dropbox\UO (3)\EUO\Projeto\UOCore\obj\Debug\ResolveAssemblyReference.cache

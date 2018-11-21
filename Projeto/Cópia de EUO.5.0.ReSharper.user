@@ -1,0 +1,35 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="z" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:PacketHandler.cs" caret="1128" fromTop="4" />
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:Account.cs" caret="3934" fromTop="25" />
+      <File id="40F62933-0761-4F03-91C5-694486566C50/f:MainForm.cs" caret="2642" fromTop="32" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:Account.cs" caret="3827" fromTop="23" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

@@ -1,0 +1,526 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="generator" content="MediaWiki 1.14.0" />
+		<meta name="keywords" content="Wolfpack.xml" />
+		<link rel="shortcut icon" href="../favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="Wolfpack Wiki (en)" />
+		<link title="Creative Commons" type="application/rdf+xml" href="../index.php@title=Wolfpack.xml&action=creativecommons" rel="meta" />
+		<link rel="copyright" href="../../www.gnu.org/copyleft/fdl.html" />
+		<link rel="alternate" type="application/rss+xml" title="Wolfpack Wiki RSS Feed" href="../index.php@title=Special_3ARecentChanges&feed=rss" />
+		<link rel="alternate" type="application/atom+xml" title="Wolfpack Wiki Atom Feed" href="../index.php@title=Special_3ARecentChanges&feed=atom" />
+		<title>Wolfpack.xml - Wolfpack Wiki</title>
+		<link rel="stylesheet" href="../skins/common/shared.css@195" type="text/css" media="screen" />
+		<link rel="stylesheet" href="../skins/common/commonPrint.css@195" type="text/css" media="print" />
+		<link rel="stylesheet" href="../skins/monobook/main.css@195" type="text/css" media="screen" />
+		<!--[if lt IE 5.5000]><link rel="stylesheet" href="../skins/monobook/IE50Fixes.css@195" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 5.5000]><link rel="stylesheet" href="../skins/monobook/IE55Fixes.css@195" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 6]><link rel="stylesheet" href="../skins/monobook/IE60Fixes.css@195" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" href="../skins/monobook/IE70Fixes.css@195" type="text/css" media="screen" /><![endif]-->
+		<link rel="stylesheet" href="../index.php@title=MediaWiki_3ACommon.css&usemsgcache=yes&ctype=text_252Fcss&smaxage=18000&action=raw&maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="../index.php@title=MediaWiki_3APrint.css&usemsgcache=yes&ctype=text_252Fcss&smaxage=18000&action=raw&maxage=18000" type="text/css" media="print" />
+		<link rel="stylesheet" href="../index.php@title=MediaWiki_3AMonobook.css&usemsgcache=yes&ctype=text_252Fcss&smaxage=18000&action=raw&maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="../index.php@title=-&action=raw&maxage=18000&gen=css" type="text/css" />
+		<!--[if lt IE 7]><script type="text/javascript" src="../skins/common/IEFixes.js@195"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+
+		<script type= "text/javascript">/*<![CDATA[*/
+		var skin = "monobook";
+		var stylepath = "../skins";
+		var wgArticlePath = "$1";
+		var wgScriptPath = "";
+		var wgScript = "../index.php";
+		var wgVariantArticlePath = false;
+		var wgActionPaths = {};
+		var wgServer = "../";
+		var wgCanonicalNamespace = "";
+		var wgCanonicalSpecialPageName = false;
+		var wgNamespaceNumber = 0;
+		var wgPageName = "Wolfpack.xml";
+		var wgTitle = "Wolfpack.xml";
+		var wgAction = "view";
+		var wgArticleId = "942";
+		var wgIsArticle = true;
+		var wgUserName = null;
+		var wgUserGroups = null;
+		var wgUserLanguage = "en";
+		var wgContentLanguage = "en";
+		var wgBreakFrames = false;
+		var wgCurRevisionId = "1047";
+		var wgVersion = "1.14.0";
+		var wgEnableAPI = true;
+		var wgEnableWriteAPI = true;
+		var wgSeparatorTransformTable = ["", ""];
+		var wgDigitTransformTable = ["", ""];
+		var wgRestrictionEdit = [];
+		var wgRestrictionMove = [];
+		/*]]>*/</script>
+
+		<script type="text/javascript" src="../skins/common/wikibits.js@195"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+		<script type="text/javascript" src="../skins/common/ajax.js@195"></script>
+		<script type="text/javascript" src="../index.php@title=-&action=raw&gen=js&useskin=monobook"><!-- site js --></script>
+	</head>
+<body class="mediawiki ltr ns-0 ns-subject page-Wolfpack_xml skin-monobook">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 id="firstHeading" class="firstHeading">Wolfpack.xml</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From Wolfpack Wiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<p>Wolfpack.xml contains settings you can change to change the behaviour of different things. The settings are divided into several groups.
+Take care: Wolfpack.xml is always saved when the server is shut down. Changes made between serverstart and shutdown will be lost!
+</p>
+<table id="toc" class="toc" summary="Contents"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="#AI"><span class="tocnumber">1</span> <span class="toctext">AI</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Default_AI_Check_Time"><span class="tocnumber">1.1</span> <span class="toctext">Default AI Check Time</span></a></li>
+<li class="toclevel-2"><a href="#Guard_dispel_time_.28sec.29"><span class="tocnumber">1.2</span> <span class="toctext">Guard dispel time (sec)</span></a></li>
+<li class="toclevel-2"><a href="#Wild_animals_flee_range"><span class="tocnumber">1.3</span> <span class="toctext">Wild animals flee range</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Accounts"><span class="tocnumber">2</span> <span class="toctext">Accounts</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Auto_Create"><span class="tocnumber">2.1</span> <span class="toctext">Auto Create</span></a></li>
+<li class="toclevel-2"><a href="#Auto_Create_ACL"><span class="tocnumber">2.2</span> <span class="toctext">Auto Create ACL</span></a></li>
+<li class="toclevel-2"><a href="#Automatically_Hash_Loaded_Passwords"><span class="tocnumber">2.3</span> <span class="toctext">Automatically Hash Loaded Passwords</span></a></li>
+<li class="toclevel-2"><a href="#Database_Driver"><span class="tocnumber">2.4</span> <span class="toctext">Database Driver</span></a></li>
+<li class="toclevel-2"><a href="#Database_Host"><span class="tocnumber">2.5</span> <span class="toctext">Database Host</span></a></li>
+<li class="toclevel-2"><a href="#Database_Name"><span class="tocnumber">2.6</span> <span class="toctext">Database Name</span></a></li>
+<li class="toclevel-2"><a href="#Database_Password"><span class="tocnumber">2.7</span> <span class="toctext">Database Password</span></a></li>
+<li class="toclevel-2"><a href="#Database_Username"><span class="tocnumber">2.8</span> <span class="toctext">Database Username</span></a></li>
+<li class="toclevel-2"><a href="#Maximum_Number_of_Characters"><span class="tocnumber">2.9</span> <span class="toctext">Maximum Number of Characters</span></a></li>
+<li class="toclevel-2"><a href="#Use_MD5_Hashed_Passwords"><span class="tocnumber">2.10</span> <span class="toctext">Use MD5 Hashed Passwords</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Binary_Save_Driver"><span class="tocnumber">3</span> <span class="toctext">Binary Save Driver</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Compress_Backups"><span class="tocnumber">3.1</span> <span class="toctext">Compress Backups</span></a></li>
+<li class="toclevel-2"><a href="#Number_Of_Backups"><span class="tocnumber">3.2</span> <span class="toctext">Number Of Backups</span></a></li>
+<li class="toclevel-2"><a href="#Save_Path"><span class="tocnumber">3.3</span> <span class="toctext">Save Path</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Combat"><span class="tocnumber">4</span> <span class="toctext">Combat</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Attack_Distance"><span class="tocnumber">4.1</span> <span class="toctext">Attack Distance</span></a></li>
+<li class="toclevel-2"><a href="#Attack_Stamina"><span class="tocnumber">4.2</span> <span class="toctext">Attack Stamina</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Database"><span class="tocnumber">5</span> <span class="toctext">Database</span></a></li>
+<li class="toclevel-1"><a href="#Headline_text"><span class="tocnumber">6</span> <span class="toctext">Headline text</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Database_Driver_2"><span class="tocnumber">6.1</span> <span class="toctext">Database Driver</span></a></li>
+<li class="toclevel-2"><a href="#Database_Host_2"><span class="tocnumber">6.2</span> <span class="toctext">Database Host</span></a></li>
+<li class="toclevel-2"><a href="#Database_Name_2"><span class="tocnumber">6.3</span> <span class="toctext">Database Name</span></a></li>
+<li class="toclevel-2"><a href="#Database_Password_2"><span class="tocnumber">6.4</span> <span class="toctext">Database Password</span></a></li>
+<li class="toclevel-2"><a href="#Database_Username_2"><span class="tocnumber">6.5</span> <span class="toctext">Database Username</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Game_Speed"><span class="tocnumber">7</span> <span class="toctext">Game Speed</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Boat_Speed"><span class="tocnumber">7.1</span> <span class="toctext">Boat Speed</span></a></li>
+<li class="toclevel-2"><a href="#House_Decay-Sec."><span class="tocnumber">7.2</span> <span class="toctext">House Decay-Sec.</span></a></li>
+<li class="toclevel-2"><a href="#Hunger_Damage_Rate"><span class="tocnumber">7.3</span> <span class="toctext">Hunger Damage Rate</span></a></li>
+<li class="toclevel-2"><a href="#Hunger_Rate"><span class="tocnumber">7.4</span> <span class="toctext">Hunger Rate</span></a></li>
+<li class="toclevel-2"><a href="#Item_Decay_Time"><span class="tocnumber">7.5</span> <span class="toctext">Item Decay Time</span></a></li>
+<li class="toclevel-2"><a href="#Max_Stealth_Steps"><span class="tocnumber">7.6</span> <span class="toctext">Max Stealth Steps</span></a></li>
+<li class="toclevel-2"><a href="#NPC_Corpse_Decay_Time"><span class="tocnumber">7.7</span> <span class="toctext">NPC Corpse Decay Time</span></a></li>
+<li class="toclevel-2"><a href="#NPC_Move_Time"><span class="tocnumber">7.8</span> <span class="toctext">NPC Move Time</span></a></li>
+<li class="toclevel-2"><a href="#NPCs_Check_Time"><span class="tocnumber">7.9</span> <span class="toctext">NPCs Check Time</span></a></li>
+<li class="toclevel-2"><a href="#Nice_Level"><span class="tocnumber">7.10</span> <span class="toctext">Nice Level</span></a></li>
+<li class="toclevel-2"><a href="#ObjectDelay"><span class="tocnumber">7.11</span> <span class="toctext">ObjectDelay</span></a></li>
+<li class="toclevel-2"><a href="#Player_Corpse_Decay_Time"><span class="tocnumber">7.12</span> <span class="toctext">Player Corpse Decay Time</span></a></li>
+<li class="toclevel-2"><a href="#Running_Stamina_Steps"><span class="tocnumber">7.13</span> <span class="toctext">Running Stamina Steps</span></a></li>
+<li class="toclevel-2"><a href="#Seconds_Per_UO_Minute"><span class="tocnumber">7.14</span> <span class="toctext">Seconds Per UO Minute</span></a></li>
+<li class="toclevel-2"><a href="#SkillDelay"><span class="tocnumber">7.15</span> <span class="toctext">SkillDelay</span></a></li>
+<li class="toclevel-2"><a href="#SkillLevel"><span class="tocnumber">7.16</span> <span class="toctext">SkillLevel</span></a></li>
+<li class="toclevel-2"><a href="#Snoop_Delay"><span class="tocnumber">7.17</span> <span class="toctext">Snoop Delay</span></a></li>
+<li class="toclevel-2"><a href="#SpawnRegion_Check_Time"><span class="tocnumber">7.18</span> <span class="toctext">SpawnRegion Check Time</span></a></li>
+<li class="toclevel-2"><a href="#Tamed_Check_Time"><span class="tocnumber">7.19</span> <span class="toctext">Tamed Check Time</span></a></li>
+<li class="toclevel-2"><a href="#Tamed_NPC_Move_Time"><span class="tocnumber">7.20</span> <span class="toctext">Tamed NPC Move Time</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#General"><span class="tocnumber">8</span> <span class="toctext">General</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Anti_Speed_Hack"><span class="tocnumber">8.1</span> <span class="toctext">Anti Speed Hack</span></a></li>
+<li class="toclevel-2"><a href="#Anti_Speed_Hack_Delay"><span class="tocnumber">8.2</span> <span class="toctext">Anti Speed Hack Delay</span></a></li>
+<li class="toclevel-2"><a href="#Anti_Speed_Hack_Delay_Mounted"><span class="tocnumber">8.3</span> <span class="toctext">Anti Speed Hack Delay Mounted</span></a></li>
+<li class="toclevel-2"><a href="#Bodyinfo_File"><span class="tocnumber">8.4</span> <span class="toctext">Bodyinfo File</span></a></li>
+<li class="toclevel-2"><a href="#Build_AddMenu_by_Category_Tags"><span class="tocnumber">8.5</span> <span class="toctext">Build AddMenu by Category Tags</span></a></li>
+<li class="toclevel-2"><a href="#Cache_Mul_Files"><span class="tocnumber">8.6</span> <span class="toctext">Cache Mul Files</span></a></li>
+<li class="toclevel-2"><a href="#Char_Time_Out"><span class="tocnumber">8.7</span> <span class="toctext">Char Time Out</span></a></li>
+<li class="toclevel-2"><a href="#Command_Prefix"><span class="tocnumber">8.8</span> <span class="toctext">Command Prefix</span></a></li>
+<li class="toclevel-2"><a href="#Definitions"><span class="tocnumber">8.9</span> <span class="toctext">Definitions</span></a></li>
+<li class="toclevel-2"><a href="#Disable_Spawnregions"><span class="tocnumber">8.10</span> <span class="toctext">Disable Spawnregions</span></a></li>
+<li class="toclevel-2"><a href="#Don.27t_Stack_Spawned_Objects"><span class="tocnumber">8.11</span> <span class="toctext">Don't Stack Spawned Objects</span></a></li>
+<li class="toclevel-2"><a href="#Enable_Felucca_Season"><span class="tocnumber">8.12</span> <span class="toctext">Enable Felucca Season</span></a></li>
+<li class="toclevel-2"><a href="#Enable_Trammel_Season"><span class="tocnumber">8.13</span> <span class="toctext">Enable Trammel Season</span></a></li>
+<li class="toclevel-2"><a href="#Fancy_Worldsave_Status"><span class="tocnumber">8.14</span> <span class="toctext">Fancy Worldsave Status</span></a></li>
+<li class="toclevel-2"><a href="#Guards_Enabled"><span class="tocnumber">8.15</span> <span class="toctext">Guards Enabled</span></a></li>
+<li class="toclevel-2"><a href="#House_In_Town"><span class="tocnumber">8.16</span> <span class="toctext">House In Town</span></a></li>
+<li class="toclevel-2"><a href="#Hunger_Damage"><span class="tocnumber">8.17</span> <span class="toctext">Hunger Damage</span></a></li>
+<li class="toclevel-2"><a href="#Insta_Logout_from_Guarded_Regions"><span class="tocnumber">8.18</span> <span class="toctext">Insta Logout from Guarded Regions</span></a></li>
+<li class="toclevel-2"><a href="#InvisTimer"><span class="tocnumber">8.19</span> <span class="toctext">InvisTimer</span></a></li>
+<li class="toclevel-2"><a href="#Language_File"><span class="tocnumber">8.20</span> <span class="toctext">Language File</span></a></li>
+<li class="toclevel-2"><a href="#LogPath"><span class="tocnumber">8.21</span> <span class="toctext">LogPath</span></a></li>
+<li class="toclevel-2"><a href="#LogRotate"><span class="tocnumber">8.22</span> <span class="toctext">LogRotate</span></a></li>
+<li class="toclevel-2"><a href="#Logging_Mask"><span class="tocnumber">8.23</span> <span class="toctext">Logging Mask</span></a></li>
+<li class="toclevel-2"><a href="#Loot_Decays_With_Corpse"><span class="tocnumber">8.24</span> <span class="toctext">Loot Decays With Corpse</span></a></li>
+<li class="toclevel-2"><a href="#Mount_Range"><span class="tocnumber">8.25</span> <span class="toctext">Mount Range</span></a></li>
+<li class="toclevel-2"><a href="#MulPath"><span class="tocnumber">8.26</span> <span class="toctext">MulPath</span></a></li>
+<li class="toclevel-2"><a href="#New_Tooltip_Packets"><span class="tocnumber">8.27</span> <span class="toctext">New Tooltip Packets</span></a></li>
+<li class="toclevel-2"><a href="#Overwrite_Definitions"><span class="tocnumber">8.28</span> <span class="toctext">Overwrite Definitions</span></a></li>
+<li class="toclevel-2"><a href="#Pay_From_Pack_Only"><span class="tocnumber">8.29</span> <span class="toctext">Pay From Pack Only</span></a></li>
+<li class="toclevel-2"><a href="#Percent_Hits_after_Ress"><span class="tocnumber">8.30</span> <span class="toctext">Percent Hits after Ress</span></a></li>
+<li class="toclevel-2"><a href="#Percent_Mana_after_Ress"><span class="tocnumber">8.31</span> <span class="toctext">Percent Mana after Ress</span></a></li>
+<li class="toclevel-2"><a href="#Percent_Stamina_after_Ress"><span class="tocnumber">8.32</span> <span class="toctext">Percent Stamina after Ress</span></a></li>
+<li class="toclevel-2"><a href="#PoisonTimer"><span class="tocnumber">8.33</span> <span class="toctext">PoisonTimer</span></a></li>
+<li class="toclevel-2"><a href="#Python_Searchpath"><span class="tocnumber">8.34</span> <span class="toctext">Python Searchpath</span></a></li>
+<li class="toclevel-2"><a href="#Refresh_Characters_Maximum_Values"><span class="tocnumber">8.35</span> <span class="toctext">Refresh Characters Maximum Values</span></a></li>
+<li class="toclevel-2"><a href="#Save_Interval"><span class="tocnumber">8.36</span> <span class="toctext">Save Interval</span></a></li>
+<li class="toclevel-2"><a href="#Save_Spawned_Regions"><span class="tocnumber">8.37</span> <span class="toctext">Save Spawned Regions</span></a></li>
+<li class="toclevel-2"><a href="#Send_ASCII_Character_Names"><span class="tocnumber">8.38</span> <span class="toctext">Send ASCII Character Names</span></a></li>
+<li class="toclevel-2"><a href="#Shop_Restock"><span class="tocnumber">8.39</span> <span class="toctext">Shop Restock</span></a></li>
+<li class="toclevel-2"><a href="#Show_Npc_Titles"><span class="tocnumber">8.40</span> <span class="toctext">Show Npc Titles</span></a></li>
+<li class="toclevel-2"><a href="#ShowSkillTitles"><span class="tocnumber">8.41</span> <span class="toctext">ShowSkillTitles</span></a></li>
+<li class="toclevel-2"><a href="#Skill_Advance_Modifier"><span class="tocnumber">8.42</span> <span class="toctext">Skill Advance Modifier</span></a></li>
+<li class="toclevel-2"><a href="#SkillCap"><span class="tocnumber">8.43</span> <span class="toctext">SkillCap</span></a></li>
+<li class="toclevel-2"><a href="#Stats_Advance_Modifier"><span class="tocnumber">8.44</span> <span class="toctext">Stats Advance Modifier</span></a></li>
+<li class="toclevel-2"><a href="#StatsCap"><span class="tocnumber">8.45</span> <span class="toctext">StatsCap</span></a></li>
+<li class="toclevel-2"><a href="#Stealing_Enabled"><span class="tocnumber">8.46</span> <span class="toctext">Stealing Enabled</span></a></li>
+<li class="toclevel-2"><a href="#Tamed_Disappear"><span class="tocnumber">8.47</span> <span class="toctext">Tamed Disappear</span></a></li>
+<li class="toclevel-2"><a href="#UO_Time"><span class="tocnumber">8.48</span> <span class="toctext">UO Time</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#HTML_Status"><span class="tocnumber">9</span> <span class="toctext">HTML Status</span></a>
+<ul>
+<li class="toclevel-2"><a href="#HTML_Template"><span class="tocnumber">9.1</span> <span class="toctext">HTML Template</span></a></li>
+<li class="toclevel-2"><a href="#Interval_in_Seconds"><span class="tocnumber">9.2</span> <span class="toctext">Interval in Seconds</span></a></li>
+<li class="toclevel-2"><a href="#Output_Path"><span class="tocnumber">9.3</span> <span class="toctext">Output Path</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Light"><span class="tocnumber">10</span> <span class="toctext">Light</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Dungeon_Level"><span class="tocnumber">10.1</span> <span class="toctext">Dungeon Level</span></a></li>
+<li class="toclevel-2"><a href="#World_Bright_Level"><span class="tocnumber">10.2</span> <span class="toctext">World Bright Level</span></a></li>
+<li class="toclevel-2"><a href="#World_Dark_Level"><span class="tocnumber">10.3</span> <span class="toctext">World Dark Level</span></a></li>
+<li class="toclevel-2"><a href="#World_Fixed_Level"><span class="tocnumber">10.4</span> <span class="toctext">World Fixed Level</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#LoginServer"><span class="tocnumber">11</span> <span class="toctext">LoginServer</span></a></li>
+<li class="toclevel-1"><a href="#Network"><span class="tocnumber">12</span> <span class="toctext">Network</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Allow_Stat_Request"><span class="tocnumber">12.1</span> <span class="toctext">Allow Stat Request</span></a></li>
+<li class="toclevel-2"><a href="#Allow_Unencrypted_Clients"><span class="tocnumber">12.2</span> <span class="toctext">Allow Unencrypted Clients</span></a></li>
+<li class="toclevel-2"><a href="#Enable_Gameserver"><span class="tocnumber">12.3</span> <span class="toctext">Enable Gameserver</span></a></li>
+<li class="toclevel-2"><a href="#Enable_Loginserver"><span class="tocnumber">12.4</span> <span class="toctext">Enable Loginserver</span></a></li>
+<li class="toclevel-2"><a href="#Gameserver_Port"><span class="tocnumber">12.5</span> <span class="toctext">Gameserver Port</span></a></li>
+<li class="toclevel-2"><a href="#Loginserver_Port"><span class="tocnumber">12.6</span> <span class="toctext">Loginserver Port</span></a></li>
+<li class="toclevel-2"><a href="#Remoteadmin_Port"><span class="tocnumber">12.7</span> <span class="toctext">Remoteadmin Port</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Path_Finding"><span class="tocnumber">13</span> <span class="toctext">Path Finding</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Activate_for_Combat"><span class="tocnumber">13.1</span> <span class="toctext">Activate for Combat</span></a></li>
+<li class="toclevel-2"><a href="#Activate_for_Following"><span class="tocnumber">13.2</span> <span class="toctext">Activate for Following</span></a></li>
+<li class="toclevel-2"><a href="#Flee_Radius"><span class="tocnumber">13.3</span> <span class="toctext">Flee Radius</span></a></li>
+<li class="toclevel-2"><a href="#Follow_Radius"><span class="tocnumber">13.4</span> <span class="toctext">Follow Radius</span></a></li>
+<li class="toclevel-2"><a href="#Follow_min._estimated_Cost"><span class="tocnumber">13.5</span> <span class="toctext">Follow min. estimated Cost</span></a></li>
+<li class="toclevel-2"><a href="#Maximum_Iterations_during_Calculation"><span class="tocnumber">13.6</span> <span class="toctext">Maximum Iterations during Calculation</span></a></li>
+<li class="toclevel-2"><a href="#Maximum_Steps_for_Calculation"><span class="tocnumber">13.7</span> <span class="toctext">Maximum Steps for Calculation</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Repsys"><span class="tocnumber">14</span> <span class="toctext">Repsys</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Criminal_Time"><span class="tocnumber">14.1</span> <span class="toctext">Criminal Time</span></a></li>
+<li class="toclevel-2"><a href="#Max_Kills"><span class="tocnumber">14.2</span> <span class="toctext">Max Kills</span></a></li>
+<li class="toclevel-2"><a href="#Murder_Decay"><span class="tocnumber">14.3</span> <span class="toctext">Murder Decay</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Resources"><span class="tocnumber">15</span> <span class="toctext">Resources</span></a>
+<ul>
+<li class="toclevel-2"><a href="#ResourceItem_Decay_Time_.28not_empty.29"><span class="tocnumber">15.1</span> <span class="toctext">ResourceItem Decay Time (not empty)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#StartLocation"><span class="tocnumber">16</span> <span class="toctext">StartLocation</span></a></li>
+</ul>
+</td></tr></table><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<a name="AI" id="AI"></a><h2> <span class="mw-headline"> AI </span></h2>
+<p>Everything concerning the artificial intelligence of NPCs.
+</p>
+<a name="Default_AI_Check_Time" id="Default_AI_Check_Time"></a><h3> <span class="mw-headline"> Default AI Check Time </span></h3>
+<a name="Guard_dispel_time_.28sec.29" id="Guard_dispel_time_.28sec.29"></a><h3> <span class="mw-headline"> Guard dispel time (sec) </span></h3>
+<a name="Wild_animals_flee_range" id="Wild_animals_flee_range"></a><h3> <span class="mw-headline"> Wild animals flee range </span></h3>
+<a name="Accounts" id="Accounts"></a><h2> <span class="mw-headline"> Accounts </span></h2>
+<a name="Auto_Create" id="Auto_Create"></a><h3> <span class="mw-headline"> Auto Create </span></h3>
+<p>If you want accounts to be created automatically, i.e. the user types in the wished accountname and password in his UO login screen, set this option to "true". Otherwise leave it to "false".
+<i>Default value: "false"</i>
+</p>
+<a name="Auto_Create_ACL" id="Auto_Create_ACL"></a><h3> <span class="mw-headline"> Auto Create ACL </span></h3>
+<p>The ACL a newly created account gets.
+<i>Default value: "player"</i>
+</p>
+<a name="Automatically_Hash_Loaded_Passwords" id="Automatically_Hash_Loaded_Passwords"></a><h3> <span class="mw-headline"> Automatically Hash Loaded Passwords </span></h3>
+<p><i>Default value: "false"</i>
+</p>
+<a name="Database_Driver" id="Database_Driver"></a><h3> <span class="mw-headline"> Database Driver </span></h3>
+<p><i>Default value: "sqlite"</i>
+</p>
+<a name="Database_Host" id="Database_Host"></a><h3> <span class="mw-headline"> Database Host </span></h3>
+<p><i>Default value: ""</i>
+</p>
+<a name="Database_Name" id="Database_Name"></a><h3> <span class="mw-headline"> Database Name </span></h3>
+<p><i>Default value: "accounts.db"</i>
+</p>
+<a name="Database_Password" id="Database_Password"></a><h3> <span class="mw-headline"> Database Password </span></h3>
+<p><i>Default value: ""</i>
+</p>
+<a name="Database_Username" id="Database_Username"></a><h3> <span class="mw-headline"> Database Username </span></h3>
+<p><i>Default value: ""</i>
+</p>
+<a name="Maximum_Number_of_Characters" id="Maximum_Number_of_Characters"></a><h3> <span class="mw-headline"> Maximum Number of Characters </span></h3>
+<p>Set the number of Characters an account can make. The max is 6.
+<i>Default value: "6"</i>
+</p>
+<a name="Use_MD5_Hashed_Passwords" id="Use_MD5_Hashed_Passwords"></a><h3> <span class="mw-headline"> Use MD5 Hashed Passwords </span></h3>
+<p><i>Default value: "false"</i>
+</p>
+<a name="Binary_Save_Driver" id="Binary_Save_Driver"></a><h2> <span class="mw-headline"> Binary Save Driver </span></h2>
+<a name="Compress_Backups" id="Compress_Backups"></a><h3> <span class="mw-headline"> Compress Backups </span></h3>
+<a name="Number_Of_Backups" id="Number_Of_Backups"></a><h3> <span class="mw-headline"> Number Of Backups </span></h3>
+<a name="Save_Path" id="Save_Path"></a><h3> <span class="mw-headline"> Save Path </span></h3>
+<a name="Combat" id="Combat"></a><h2> <span class="mw-headline"> Combat </span></h2>
+<a name="Attack_Distance" id="Attack_Distance"></a><h3> <span class="mw-headline"> Attack Distance </span></h3>
+<a name="Attack_Stamina" id="Attack_Stamina"></a><h3> <span class="mw-headline"> Attack Stamina </span></h3>
+<a name="Database" id="Database"></a><h2> <span class="mw-headline"> Database </span></h2>
+<p>mysql
+</p>
+<a name="Headline_text" id="Headline_text"></a><h2> <span class="mw-headline"> Headline text </span></h2>
+<p><b>Bold text</b>
+</p>
+<hr />
+<a name="Database_Driver_2" id="Database_Driver_2"></a><h3> <span class="mw-headline"> Database Driver </span></h3>
+<p><i>Default value: "binary"</i>
+</p>
+<a name="Database_Host_2" id="Database_Host_2"></a><h3> <span class="mw-headline"> Database Host </span></h3>
+<p><i>Default value: ""</i>
+</p>
+<a name="Database_Name_2" id="Database_Name_2"></a><h3> <span class="mw-headline"> Database Name </span></h3>
+<p><i>Default value: "world.db"</i>
+</p>
+<a name="Database_Password_2" id="Database_Password_2"></a><h3> <span class="mw-headline"> Database Password </span></h3>
+<a name="Database_Username_2" id="Database_Username_2"></a><h3> <span class="mw-headline"> Database Username </span></h3>
+<a name="Game_Speed" id="Game_Speed"></a><h2> <span class="mw-headline"> Game Speed </span></h2>
+<a name="Boat_Speed" id="Boat_Speed"></a><h3> <span class="mw-headline"> Boat Speed </span></h3>
+<a name="House_Decay-Sec." id="House_Decay-Sec."></a><h3> <span class="mw-headline"> House Decay-Sec. </span></h3>
+<a name="Hunger_Damage_Rate" id="Hunger_Damage_Rate"></a><h3> <span class="mw-headline"> Hunger Damage Rate </span></h3>
+<a name="Hunger_Rate" id="Hunger_Rate"></a><h3> <span class="mw-headline"> Hunger Rate </span></h3>
+<a name="Item_Decay_Time" id="Item_Decay_Time"></a><h3> <span class="mw-headline"> Item Decay Time </span></h3>
+<p><i>Default value: "300"</i> (in seconds)
+</p>
+<a name="Max_Stealth_Steps" id="Max_Stealth_Steps"></a><h3> <span class="mw-headline"> Max Stealth Steps </span></h3>
+<a name="NPC_Corpse_Decay_Time" id="NPC_Corpse_Decay_Time"></a><h3> <span class="mw-headline"> NPC Corpse Decay Time </span></h3>
+<a name="NPC_Move_Time" id="NPC_Move_Time"></a><h3> <span class="mw-headline"> NPC Move Time </span></h3>
+<a name="NPCs_Check_Time" id="NPCs_Check_Time"></a><h3> <span class="mw-headline"> NPCs Check Time </span></h3>
+<a name="Nice_Level" id="Nice_Level"></a><h3> <span class="mw-headline"> Nice Level </span></h3>
+<a name="ObjectDelay" id="ObjectDelay"></a><h3> <span class="mw-headline"> ObjectDelay </span></h3>
+<a name="Player_Corpse_Decay_Time" id="Player_Corpse_Decay_Time"></a><h3> <span class="mw-headline"> Player Corpse Decay Time </span></h3>
+<a name="Running_Stamina_Steps" id="Running_Stamina_Steps"></a><h3> <span class="mw-headline"> Running Stamina Steps </span></h3>
+<a name="Seconds_Per_UO_Minute" id="Seconds_Per_UO_Minute"></a><h3> <span class="mw-headline"> Seconds Per UO Minute </span></h3>
+<a name="SkillDelay" id="SkillDelay"></a><h3> <span class="mw-headline"> SkillDelay </span></h3>
+<a name="SkillLevel" id="SkillLevel"></a><h3> <span class="mw-headline"> SkillLevel </span></h3>
+<a name="Snoop_Delay" id="Snoop_Delay"></a><h3> <span class="mw-headline"> Snoop Delay </span></h3>
+<a name="SpawnRegion_Check_Time" id="SpawnRegion_Check_Time"></a><h3> <span class="mw-headline"> SpawnRegion Check Time </span></h3>
+<a name="Tamed_Check_Time" id="Tamed_Check_Time"></a><h3> <span class="mw-headline"> Tamed Check Time </span></h3>
+<a name="Tamed_NPC_Move_Time" id="Tamed_NPC_Move_Time"></a><h3> <span class="mw-headline"> Tamed NPC Move Time </span></h3>
+<a name="General" id="General"></a><h2> <span class="mw-headline"> General </span></h2>
+<a name="Anti_Speed_Hack" id="Anti_Speed_Hack"></a><h3> <span class="mw-headline"> Anti Speed Hack </span></h3>
+<a name="Anti_Speed_Hack_Delay" id="Anti_Speed_Hack_Delay"></a><h3> <span class="mw-headline"> Anti Speed Hack Delay </span></h3>
+<a name="Anti_Speed_Hack_Delay_Mounted" id="Anti_Speed_Hack_Delay_Mounted"></a><h3> <span class="mw-headline"> Anti Speed Hack Delay Mounted </span></h3>
+<a name="Bodyinfo_File" id="Bodyinfo_File"></a><h3> <span class="mw-headline"> Bodyinfo File </span></h3>
+<a name="Build_AddMenu_by_Category_Tags" id="Build_AddMenu_by_Category_Tags"></a><h3> <span class="mw-headline"> Build AddMenu by Category Tags </span></h3>
+<a name="Cache_Mul_Files" id="Cache_Mul_Files"></a><h3> <span class="mw-headline"> Cache Mul Files </span></h3>
+<a name="Char_Time_Out" id="Char_Time_Out"></a><h3> <span class="mw-headline"> Char Time Out </span></h3>
+<a name="Command_Prefix" id="Command_Prefix"></a><h3> <span class="mw-headline"> Command Prefix </span></h3>
+<a name="Definitions" id="Definitions"></a><h3> <span class="mw-headline"> Definitions </span></h3>
+<p>It indicates the path to Definition XML files.
+</p><p><i>Default value: "definitions/index.xml"</i>
+</p>
+<a name="Disable_Spawnregions" id="Disable_Spawnregions"></a><h3> <span class="mw-headline"> Disable Spawnregions </span></h3>
+<a name="Don.27t_Stack_Spawned_Objects" id="Don.27t_Stack_Spawned_Objects"></a><h3> <span class="mw-headline"> Don't Stack Spawned Objects </span></h3>
+<a name="Enable_Felucca_Season" id="Enable_Felucca_Season"></a><h3> <span class="mw-headline"> Enable Felucca Season </span></h3>
+<a name="Enable_Trammel_Season" id="Enable_Trammel_Season"></a><h3> <span class="mw-headline"> Enable Trammel Season </span></h3>
+<a name="Fancy_Worldsave_Status" id="Fancy_Worldsave_Status"></a><h3> <span class="mw-headline"> Fancy Worldsave Status </span></h3>
+<a name="Guards_Enabled" id="Guards_Enabled"></a><h3> <span class="mw-headline"> Guards Enabled </span></h3>
+<a name="House_In_Town" id="House_In_Town"></a><h3> <span class="mw-headline"> House In Town </span></h3>
+<a name="Hunger_Damage" id="Hunger_Damage"></a><h3> <span class="mw-headline"> Hunger Damage </span></h3>
+<a name="Insta_Logout_from_Guarded_Regions" id="Insta_Logout_from_Guarded_Regions"></a><h3> <span class="mw-headline"> Insta Logout from Guarded Regions </span></h3>
+<a name="InvisTimer" id="InvisTimer"></a><h3> <span class="mw-headline"> InvisTimer </span></h3>
+<a name="Language_File" id="Language_File"></a><h3> <span class="mw-headline"> Language File </span></h3>
+<a name="LogPath" id="LogPath"></a><h3> <span class="mw-headline"> LogPath </span></h3>
+<a name="LogRotate" id="LogRotate"></a><h3> <span class="mw-headline"> LogRotate </span></h3>
+<a name="Logging_Mask" id="Logging_Mask"></a><h3> <span class="mw-headline"> Logging Mask </span></h3>
+<a name="Loot_Decays_With_Corpse" id="Loot_Decays_With_Corpse"></a><h3> <span class="mw-headline"> Loot Decays With Corpse </span></h3>
+<a name="Mount_Range" id="Mount_Range"></a><h3> <span class="mw-headline"> Mount Range </span></h3>
+<a name="MulPath" id="MulPath"></a><h3> <span class="mw-headline"> MulPath </span></h3>
+<a name="New_Tooltip_Packets" id="New_Tooltip_Packets"></a><h3> <span class="mw-headline"> New Tooltip Packets </span></h3>
+<a name="Overwrite_Definitions" id="Overwrite_Definitions"></a><h3> <span class="mw-headline"> Overwrite Definitions </span></h3>
+<a name="Pay_From_Pack_Only" id="Pay_From_Pack_Only"></a><h3> <span class="mw-headline"> Pay From Pack Only </span></h3>
+<a name="Percent_Hits_after_Ress" id="Percent_Hits_after_Ress"></a><h3> <span class="mw-headline"> Percent Hits after Ress </span></h3>
+<a name="Percent_Mana_after_Ress" id="Percent_Mana_after_Ress"></a><h3> <span class="mw-headline"> Percent Mana after Ress </span></h3>
+<a name="Percent_Stamina_after_Ress" id="Percent_Stamina_after_Ress"></a><h3> <span class="mw-headline"> Percent Stamina after Ress </span></h3>
+<a name="PoisonTimer" id="PoisonTimer"></a><h3> <span class="mw-headline"> PoisonTimer </span></h3>
+<a name="Python_Searchpath" id="Python_Searchpath"></a><h3> <span class="mw-headline"> Python Searchpath </span></h3>
+<a name="Refresh_Characters_Maximum_Values" id="Refresh_Characters_Maximum_Values"></a><h3> <span class="mw-headline"> Refresh Characters Maximum Values </span></h3>
+<a name="Save_Interval" id="Save_Interval"></a><h3> <span class="mw-headline"> Save Interval </span></h3>
+<a name="Save_Spawned_Regions" id="Save_Spawned_Regions"></a><h3> <span class="mw-headline"> Save Spawned Regions </span></h3>
+<a name="Send_ASCII_Character_Names" id="Send_ASCII_Character_Names"></a><h3> <span class="mw-headline"> Send ASCII Character Names </span></h3>
+<a name="Shop_Restock" id="Shop_Restock"></a><h3> <span class="mw-headline"> Shop Restock </span></h3>
+<a name="Show_Npc_Titles" id="Show_Npc_Titles"></a><h3> <span class="mw-headline"> Show Npc Titles </span></h3>
+<a name="ShowSkillTitles" id="ShowSkillTitles"></a><h3> <span class="mw-headline"> ShowSkillTitles </span></h3>
+<a name="Skill_Advance_Modifier" id="Skill_Advance_Modifier"></a><h3> <span class="mw-headline"> Skill Advance Modifier </span></h3>
+<a name="SkillCap" id="SkillCap"></a><h3> <span class="mw-headline"> SkillCap </span></h3>
+<p><i>Default value: "700"</i>
+</p>
+<a name="Stats_Advance_Modifier" id="Stats_Advance_Modifier"></a><h3> <span class="mw-headline"> Stats Advance Modifier </span></h3>
+<a name="StatsCap" id="StatsCap"></a><h3> <span class="mw-headline"> StatsCap </span></h3>
+<a name="Stealing_Enabled" id="Stealing_Enabled"></a><h3> <span class="mw-headline"> Stealing Enabled </span></h3>
+<a name="Tamed_Disappear" id="Tamed_Disappear"></a><h3> <span class="mw-headline"> Tamed Disappear </span></h3>
+<a name="UO_Time" id="UO_Time"></a><h3> <span class="mw-headline"> UO Time </span></h3>
+<a name="HTML_Status" id="HTML_Status"></a><h2> <span class="mw-headline"> HTML Status </span></h2>
+<a name="HTML_Template" id="HTML_Template"></a><h3> <span class="mw-headline"> HTML Template </span></h3>
+<a name="Interval_in_Seconds" id="Interval_in_Seconds"></a><h3> <span class="mw-headline"> Interval in Seconds </span></h3>
+<a name="Output_Path" id="Output_Path"></a><h3> <span class="mw-headline"> Output Path </span></h3>
+<a name="Light" id="Light"></a><h2> <span class="mw-headline"> Light </span></h2>
+<a name="Dungeon_Level" id="Dungeon_Level"></a><h3> <span class="mw-headline"> Dungeon Level </span></h3>
+<a name="World_Bright_Level" id="World_Bright_Level"></a><h3> <span class="mw-headline"> World Bright Level </span></h3>
+<a name="World_Dark_Level" id="World_Dark_Level"></a><h3> <span class="mw-headline"> World Dark Level </span></h3>
+<a name="World_Fixed_Level" id="World_Fixed_Level"></a><h3> <span class="mw-headline"> World Fixed Level </span></h3>
+<a name="LoginServer" id="LoginServer"></a><h2> <span class="mw-headline"> LoginServer </span></h2>
+<a name="Network" id="Network"></a><h2> <span class="mw-headline"> Network </span></h2>
+<a name="Allow_Stat_Request" id="Allow_Stat_Request"></a><h3> <span class="mw-headline"> Allow Stat Request </span></h3>
+<a name="Allow_Unencrypted_Clients" id="Allow_Unencrypted_Clients"></a><h3> <span class="mw-headline"> Allow Unencrypted Clients </span></h3>
+<a name="Enable_Gameserver" id="Enable_Gameserver"></a><h3> <span class="mw-headline"> Enable Gameserver </span></h3>
+<a name="Enable_Loginserver" id="Enable_Loginserver"></a><h3> <span class="mw-headline"> Enable Loginserver </span></h3>
+<a name="Gameserver_Port" id="Gameserver_Port"></a><h3> <span class="mw-headline"> Gameserver Port </span></h3>
+<p><i>Default value: "2592" </i>
+</p>
+<a name="Loginserver_Port" id="Loginserver_Port"></a><h3> <span class="mw-headline"> Loginserver Port </span></h3>
+<p><i>Default value: "2593"</i>
+</p>
+<a name="Remoteadmin_Port" id="Remoteadmin_Port"></a><h3> <span class="mw-headline"> Remoteadmin Port </span></h3>
+<p><i>Default value: 2594</i>
+</p>
+<a name="Path_Finding" id="Path_Finding"></a><h2> <span class="mw-headline"> Path Finding </span></h2>
+<a name="Activate_for_Combat" id="Activate_for_Combat"></a><h3> <span class="mw-headline"> Activate for Combat </span></h3>
+<a name="Activate_for_Following" id="Activate_for_Following"></a><h3> <span class="mw-headline"> Activate for Following </span></h3>
+<a name="Flee_Radius" id="Flee_Radius"></a><h3> <span class="mw-headline"> Flee Radius </span></h3>
+<a name="Follow_Radius" id="Follow_Radius"></a><h3> <span class="mw-headline"> Follow Radius </span></h3>
+<a name="Follow_min._estimated_Cost" id="Follow_min._estimated_Cost"></a><h3> <span class="mw-headline"> Follow min. estimated Cost </span></h3>
+<a name="Maximum_Iterations_during_Calculation" id="Maximum_Iterations_during_Calculation"></a><h3> <span class="mw-headline"> Maximum Iterations during Calculation </span></h3>
+<a name="Maximum_Steps_for_Calculation" id="Maximum_Steps_for_Calculation"></a><h3> <span class="mw-headline"> Maximum Steps for Calculation </span></h3>
+<a name="Repsys" id="Repsys"></a><h2> <span class="mw-headline"> Repsys </span></h2>
+<a name="Criminal_Time" id="Criminal_Time"></a><h3> <span class="mw-headline"> Criminal Time </span></h3>
+<a name="Max_Kills" id="Max_Kills"></a><h3> <span class="mw-headline"> Max Kills </span></h3>
+<a name="Murder_Decay" id="Murder_Decay"></a><h3> <span class="mw-headline"> Murder Decay </span></h3>
+<a name="Resources" id="Resources"></a><h2> <span class="mw-headline"> Resources </span></h2>
+<a name="ResourceItem_Decay_Time_.28not_empty.29" id="ResourceItem_Decay_Time_.28not_empty.29"></a><h3> <span class="mw-headline">ResourceItem Decay Time (not empty)</span></h3>
+<a name="StartLocation" id="StartLocation"></a><h2> <span class="mw-headline"> StartLocation </span></h2>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 133/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wolfpack-wiki:pcache:idhash:942-0!1!0!!en!2!edit=0 and timestamp 20091119192303 -->
+<div class="printfooter">
+Retrieved from "<a href="Wolfpack.xml">http://www.wpdev.org/index.php/Wolfpack.xml</a>"</div>
+						<!-- end content -->
+						<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+	
+				 <li id="ca-nstab-main" class="selected"><a href="Wolfpack.xml" title="View the content page [c]" accesskey="c">Page</a></li>
+				 <li id="ca-talk" class="new"><a href="../index.php@title=Talk_3AWolfpack.xml&action=edit&redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-viewsource"><a href="../index.php@title=Wolfpack.xml&action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+				 <li id="ca-history"><a href="../index.php@title=Wolfpack.xml&action=history" title="Past versions of this page [h]" accesskey="h">History</a></li>			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="../index.php@title=Special_3AUserLogin&returnto=Wolfpack.xml" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(../skins/common/images/wiki.png);" href="Main_Page" title="Visit the main page [z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="Main_Page">Main Page</a></li>
+				<li id="n-portal"><a href="Wolfpack_Wiki_3ACommunity_Portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+				<li id="n-currentevents"><a href="Wolfpack_Wiki_3ACurrent_events" title="Find background information on current events">Current events</a></li>
+				<li id="n-recentchanges"><a href="Special_3ARecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+				<li id="n-randompage"><a href="Special_3ARandom" title="Load a random page [x]" accesskey="x">Random page</a></li>
+				<li id="n-help"><a href="Help_3AContents" title="The place to find out">Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php/Special:Search" id="searchform"><div>
+				<input id="searchInput" name="search" type="text" title="Search Wolfpack Wiki [f]" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" title="Go to a page with this exact name if exists" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="Special_3AWhatLinksHere/Wolfpack.xml" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="Special_3ARecentChangesLinked/Wolfpack.xml" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="Special_3ASpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="../index.php@title=Wolfpack.xml&printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="../index.php@title=Wolfpack.xml&oldid=1047" title="Permanent link to this version of the page">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="../../www.mediawiki.org/default.htm"><img src="../skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+				<div id="f-copyrightico"><a href="../../www.gnu.org/copyleft/fdl.html"><img src="../skins/common/images/gnu-fdl.png" alt='GNU Free Documentation License 1.2' /></a></div>
+			<ul id="f-list">
+					<li id="lastmod"> This page was last modified on 25 February 2006, at 05:02.</li>
+					<li id="viewcount">This page has been accessed 4,188 times.</li>
+					<li id="copyright">Content is available under <a href="../../www.gnu.org/copyleft/fdl.html" class="external " title="http://www.gnu.org/copyleft/fdl.html">GNU Free Documentation License 1.2</a>.</li>
+					<li id="privacy"><a href="Wolfpack_Wiki_3APrivacy_policy" title="Wolfpack Wiki:Privacy policy">Privacy policy</a></li>
+					<li id="about"><a href="Wolfpack_Wiki_3AAbout" title="Wolfpack Wiki:About">About Wolfpack Wiki</a></li>
+					<li id="disclaimer"><a href="Wolfpack_Wiki_3AGeneral_disclaimer" title="Wolfpack Wiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+</div>
+
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.508 secs. --></body></html>

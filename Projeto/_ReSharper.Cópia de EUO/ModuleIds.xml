@@ -1,0 +1,8 @@
+<Modules>
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0" ModuleId="UOCore" />
+  <Module PersistentId="E6DAD5DC-1FF5-4A62-B77D-D29A70D33897" ModuleId="UOPackets" />
+  <Module PersistentId="FC336ADC-55EA-48D8-B07B-659CF6D700E4" ModuleId="UOData" />
+  <Module PersistentId="E9DF5ED1-4CBD-4226-B931-9A51610AC14D" ModuleId="MySql.Data" />
+  <Module PersistentId="40F62933-0761-4F03-91C5-694486566C50" ModuleId="EUO" />
+</Modules>

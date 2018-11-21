@@ -1,0 +1,264 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:Database.cs" caret="106" fromTop="5" />
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:PacketHandler.cs" caret="396" fromTop="21" />
+      <File id="E6DAD5DC-1FF5-4A62-B77D-D29A70D33897/f:LoginPackets.cs" caret="3982" fromTop="40" />
+      <File id="E6DAD5DC-1FF5-4A62-B77D-D29A70D33897/f:Packets.cs" caret="1033" fromTop="17" />
+      <File id="40F62933-0761-4F03-91C5-694486566C50/f:Program.cs" caret="0" fromTop="0" />
+      <File id="40F62933-0761-4F03-91C5-694486566C50/f:MainForm.cs" caret="7703" fromTop="31" />
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:Database.xml" caret="116" fromTop="5" />
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:Account.cs" caret="1591" fromTop="11" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="E6DAD5DC-1FF5-4A62-B77D-D29A70D33897/f:LoginPackets.cs" caret="3827" fromTop="19" />
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:Database.cs" caret="106" fromTop="5" />
+      <File id="E6DAD5DC-1FF5-4A62-B77D-D29A70D33897/f:LoginPackets.cs" caret="1927" fromTop="0" />
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:Account.cs" caret="169" fromTop="5" />
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:PacketHandler.cs" caret="176" fromTop="8" />
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:Account.cs" caret="691" fromTop="12" />
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:PacketHandler.cs" caret="524" fromTop="24" />
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:Account.cs" caret="2075" fromTop="29" />
+      <File id="E6DAD5DC-1FF5-4A62-B77D-D29A70D33897/f:LoginPackets.cs" caret="1736" fromTop="4" />
+      <File id="E6DAD5DC-1FF5-4A62-B77D-D29A70D33897/f:LoginPackets.cs" caret="3980" fromTop="40" />
+      <File id="E6DAD5DC-1FF5-4A62-B77D-D29A70D33897/f:Packets.cs" caret="853" fromTop="8" />
+      <File id="E6DAD5DC-1FF5-4A62-B77D-D29A70D33897/f:Packets.cs" caret="1042" fromTop="17" />
+      <File id="40F62933-0761-4F03-91C5-694486566C50/f:MainForm.cs" caret="7716" fromTop="10" />
+      <File id="40F62933-0761-4F03-91C5-694486566C50/f:MainForm.cs" caret="5992" fromTop="15" />
+      <File id="40F62933-0761-4F03-91C5-694486566C50/f:MainForm.cs" caret="7462" fromTop="13" />
+      <File id="40F62933-0761-4F03-91C5-694486566C50/f:MainForm.cs" caret="7693" fromTop="16" />
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:Database.xml" caret="19" fromTop="1" />
+      <File id="B3DB48E3-59FB-4D88-B5CD-5F27FA1B4CD0/f:Database.xml" caret="116" fromTop="5" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="57" />
+      <Item value="class" priority="7" />
+      <Item value="byte" priority="34" />
+      <Item value="new" priority="31" />
+      <Item value="interface" priority="1" />
+      <Item value="m_Data" priority="9" />
+      <Item value="packetSizes" priority="0" />
+      <Item value="CreateCharacter" priority="0" />
+      <Item value="base" priority="2" />
+      <Item value="Int64" priority="3" />
+      <Item value="String" priority="9" />
+      <Item value="enum" priority="1" />
+      <Item value="Sex" priority="0" />
+      <Item value="Int32" priority="13" />
+      <Item value="Skill" priority="0" />
+      <Item value="Double" priority="0" />
+      <Item value="int" priority="5" />
+      <Item value="data" priority="8" />
+      <Item value="m_Pattern3" priority="1" />
+      <Item value="m_Pattern2" priority="0" />
+      <Item value="m_CharName" priority="0" />
+      <Item value="Convert" priority="2" />
+      <Item value="BitConverter" priority="6" />
+      <Item value="m_Unknown1" priority="1" />
+      <Item value="m_Gender" priority="0" />
+      <Item value="m_Server" priority="3" />
+      <Item value="listBoxLog" priority="0" />
+      <Item value="listBoxClients" priority="0" />
+      <Item value="Packet" priority="1" />
+      <Item value="new_client" priority="2" />
+      <Item value="buffer" priority="0" />
+      <Item value="Length" priority="7" />
+      <Item value="SocketType" priority="0" />
+      <Item value="AsyncCallback" priority="2" />
+      <Item value="void" priority="7" />
+      <Item value="DoBeginReceive" priority="0" />
+      <Item value="IAsyncResult" priority="0" />
+      <Item value="DoReceiveCallback" priority="1" />
+      <Item value="try" priority="2" />
+      <Item value="catch" priority="0" />
+      <Item value="Exception" priority="1" />
+      <Item value="ex" priority="1" />
+      <Item value="LoginRequestShardList" priority="2" />
+      <Item value="m_Id" priority="2" />
+      <Item value="Id" priority="0" />
+      <Item value="private" priority="13" />
+      <Item value="m_AccountName" priority="2" />
+      <Item value="m_AccountPassword" priority="4" />
+      <Item value="using" priority="0" />
+      <Item value="loginData" priority="1" />
+      <Item value="Encoding" priority="1" />
+      <Item value="Encryption" priority="0" />
+      <Item value="static" priority="2" />
+      <Item value="string" priority="0" />
+      <Item value="accountPassword" priority="1" />
+      <Item value="Database" priority="0" />
+      <Item value="db" priority="0" />
+      <Item value="MySqlDataReader" priority="0" />
+      <Item value="if" priority="1" />
+      <Item value="result" priority="0" />
+      <Item value="return" priority="1" />
+      <Item value="true" priority="0" />
+      <Item value="false" priority="0" />
+      <Item value="Account" priority="7" />
+      <Item value="loginPacket" priority="1" />
+      <Item value="else" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="Core" priority="12" />
+      <Item value="MainForm" priority="2" />
+      <Item value="Acccount" priority="0" />
+      <Item value="event" priority="0" />
+      <Item value="AccountEventArgs" priority="2" />
+      <Item value="TcpServer" priority="7" />
+      <Item value="tcpClient" priority="1" />
+      <Item value="m_LoggedAccounts" priority="0" />
+      <Item value="List&lt;Account&gt;" priority="0" />
+      <Item value="srv" priority="0" />
+      <Item value="AccountEventHandler" priority="0" />
+      <Item value="TcpClient" priority="0" />
+      <Item value="m_TcpClient" priority="3" />
+      <Item value="e" priority="1" />
+      <Item value="ServerList" priority="2" />
+      <Item value="Int16" priority="3" />
+      <Item value="offset" priority="0" />
+      <Item value="protected" priority="2" />
+      <Item value="InsertInt16" priority="7" />
+      <Item value="m_PacketSize" priority="10" />
+      <Item value="Byte" priority="0" />
+      <Item value="ibyte" priority="0" />
+      <Item value="InsertByte" priority="0" />
+      <Item value="m_Flag" priority="0" />
+      <Item value="m_NumberOfServers" priority="0" />
+      <Item value="m_ServerNumber" priority="1" />
+      <Item value="InterfaceMapping" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="for" priority="2" />
+      <Item value="i" priority="7" />
+      <Item value="st" priority="2" />
+      <Item value="size" priority="2" />
+      <Item value="m_PercentFull" priority="0" />
+      <Item value="m_TimeZone" priority="0" />
+      <Item value="b" priority="1" />
+      <Item value="DataMisalignedException" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="Buffer" priority="0" />
+      <Item value="m_Buffer" priority="2" />
+      <Item value="SocketFlags" priority="0" />
+      <Item value="PacketHandler" priority="2" />
+      <Item value="switch" priority="0" />
+      <Item value="packet" priority="0" />
+      <Item value="case" priority="0" />
+      <Item value="UOCore" priority="0" />
+      <Item value="break" priority="0" />
+      <Item value="serverList" priority="3" />
+      <Item value="packetHandler" priority="0" />
+      <Item value="IPacketHandler" priority="1" />
+      <Item value="a" priority="0" />
+      <Item value="this" priority="0" />
+      <Item value="source" priority="1" />
+      <Item value="ZLibError" priority="0" />
+      <Item value="ref" priority="0" />
+      <Item value="destL" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.BitConverter">
+      <Item value="ToString" priority="2" />
+      <Item value="GetBytes" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.TcpClient">
+      <Item value="Close" priority="0" />
+      <Item value="Client" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EUO.TcpServer">
+      <Item value="Clients" priority="0" />
+      <Item value="AccountLogged" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="RemoveAt" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.Socket">
+      <Item value="BeginReceive" priority="2" />
+      <Item value="Receive" priority="0" />
+      <Item value="Send" priority="2" />
+      <Item value="BeginSend" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.Sockets.SocketFlags">
+      <Item value="None" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="ASCII" priority="1" />
+      <Item value="UTF8" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.Encoding">
+      <Item value="GetString" priority="0" />
+      <Item value="GetBytes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Trim" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@UOPackets.Encryption">
+      <Item value="HashMD5" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EUO.Database">
+      <Item value="ExecuteQuery" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MySql.Data.MySqlClient.MySqlDataReader">
+      <Item value="HasRows" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EUO.Account">
+      <Item value="Authenticate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UOPackets.LoginRequestShardList">
+      <Item value="AccountName" priority="0" />
+      <Item value="AccountPassword" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EUO.MainForm">
+      <Item value="Core" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EUO.Core">
+      <Item value="LoggedAccounts" priority="1" />
+      <Item value="AccountLogged" priority="0" />
+      <Item value="m_Server" priority="2" />
+      <Item value="m_Server_AccountLogged" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EUO.AccountEventArgs">
+      <Item value="Account" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EUO.Account">
+      <Item value="TcpClient" priority="0" />
+      <Item value="BeginReceive" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UOPackets.ServerList">
+      <Item value="Build" priority="0" />
+      <Item value="m_Data" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UOCore.IPacketHandler">
+      <Item value="Receive" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UOCore.Account">
+      <Item value="TcpClient" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@UOCore.Compression">
+      <Item value="Compressor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UOCore.ICompressor">
+      <Item value="Decompress" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

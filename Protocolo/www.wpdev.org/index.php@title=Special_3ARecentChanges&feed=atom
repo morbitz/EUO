@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="../skins/common/feed.css@195"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+		<id>../index.php@title=Special_3ARecentChanges&amp;limit=50&amp;from=20071231014024&amp;feed=atom</id>
+		<title>Wolfpack Wiki  - Recent changes [en]</title>
+		<link rel="self" type="application/atom+xml" href="../index.php@title=Special_3ARecentChanges&amp;limit=50&amp;from=20071231014024&amp;feed=atom"/>
+		<link rel="alternate" type="text/html" href="Special_3ARecentChanges"/>
+		<updated>2009-11-19T18:33:02Z</updated>
+		<subtitle>Track the most recent changes to the wiki in this feed.</subtitle>
+		<generator>MediaWiki 1.14.0</generator>
+
+	</feed>

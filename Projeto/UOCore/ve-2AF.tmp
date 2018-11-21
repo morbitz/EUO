@@ -1,0 +1,81 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Sockets;
+using System.Text;
+using System.Threading;
+using MySql.Data.MySqlClient;
+using UOData;
+
+namespace UOCore
+{
+    public class Account
+    {
+        private String m_AccountName;
+        public string AccountName
+        {
+            get { return m_AccountName; }
+            set { m_AccountName = value; }
+        }
+        public List<Character> CharList = new List<Character>(6);
+        private TcpClient m_TcpClient;
+        public TcpClient TcpClient
+        {
+            get { return m_TcpClient; }
+            set { m_TcpClient = value; }
+        }
+
+        private byte[] m_Buffer = new byte[4096];
+        private PacketHandler packetHandler = new PacketHandler();
+
+        public Account()
+        {
+        }
+
+        public Account(TcpClient tcpClient)
+        {
+            m_TcpClient = tcpClient;
+        }
+
+        /// <summary>
+        /// Authenticate the username and password for the account
+        /// </summary>
+        /// <param name="accountName">Account name</param>
+        /// <param name="accountPassword">Account password</param>
+        /// <returns>Return true if the account name and password are correct</returns>
+        public static bool Authenticate(String accountName, String accountPassword)
+        {
+            Database db = new Database();
+            string query = "SELECT * FROM account WHERE Username = '" + accountName + "' AND Passwd = '" + accountPassword +
+            "'";
+            MySqlDataReader result = db.ExecuteQuery(query);
+
+            if (result.HasRows)
+                return true;
+                return false;
+        }
+
+        private Thread m_ThreadReceivePacket;
+
+        public void BeginReceive()
+        {
+            m_ThreadReceivePacket = new Thread(new ThreadStart(DoReceive));
+
+            //m_TcpClient.Client.BeginReceive(m_Buffer, 0, m_Buffer.Length, SocketFlags.None,
+            //                                 new AsyncCallback(DoReceiveCallback), m_TcpClient.Client);
+  
+        }
+
+        public void DoReceive()
+        {
+            while (m_TcpClient.Client.Connected)
+            {
+                if (m_TcpClient.Client.Receive(m_Buffer) > 0)
+                {
+                    packetHandler.Process(m_Buffer, this);
+                }
+                Thread.Sleep(100);
+            }
+        }
+    }
+}

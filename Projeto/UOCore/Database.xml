@@ -1,0 +1,7 @@
+<Database>
+	<Host>localhost</Host>
+	<Port>3306</Port>
+	<User>root</User>
+	<Password>7z456</Password>
+	<Name>euo</Name>
+</Database>

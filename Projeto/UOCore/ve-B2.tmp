@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using UOCore;
+using UOPackets;
+
+namespace UOCore
+{
+    public class PacketHandler
+    {
+        public PacketHandler()
+        {
+            
+        }
+
+        public void Receive(byte[] packet, Account a)
+        {
+            switch (packet[0])
+            {
+                case 0x80:
+                    ServerList serverList = new ServerList();
+                    serverList.Build();
+
+                    //a.TcpClient.Client.Send(serverList.m_Data);
+                    break;
+
+                case 0xA0:
+                    ServerConnect serverConnect = new ServerConnect();
+                    serverConnect.Build();
+
+                    break;
+            }
+        }
+    }
+}

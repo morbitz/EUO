@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="generator" content="MediaWiki 1.14.0" />
+		<meta name="robots" content="noindex,nofollow" />
+		<link rel="shortcut icon" href="../favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="Wolfpack Wiki (en)" />
+		<link rel="copyright" href="../../www.gnu.org/copyleft/fdl.html" />
+		<link rel="alternate" type="application/rss+xml" title="Wolfpack Wiki RSS Feed" href="../index.php@title=Special_3ARecentChanges&feed=rss" />
+		<link rel="alternate" type="application/atom+xml" title="Wolfpack Wiki Atom Feed" href="../index.php@title=Special_3ARecentChanges&feed=atom" />
+		<title>Special pages - Wolfpack Wiki</title>
+		<link rel="stylesheet" href="../skins/common/shared.css@195" type="text/css" media="screen" />
+		<link rel="stylesheet" href="../skins/common/commonPrint.css@195" type="text/css" media="print" />
+		<link rel="stylesheet" href="../skins/monobook/main.css@195" type="text/css" media="screen" />
+		<!--[if lt IE 5.5000]><link rel="stylesheet" href="../skins/monobook/IE50Fixes.css@195" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 5.5000]><link rel="stylesheet" href="../skins/monobook/IE55Fixes.css@195" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 6]><link rel="stylesheet" href="../skins/monobook/IE60Fixes.css@195" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" href="../skins/monobook/IE70Fixes.css@195" type="text/css" media="screen" /><![endif]-->
+		<link rel="stylesheet" href="../index.php@title=MediaWiki_3ACommon.css&usemsgcache=yes&ctype=text_252Fcss&smaxage=18000&action=raw&maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="../index.php@title=MediaWiki_3APrint.css&usemsgcache=yes&ctype=text_252Fcss&smaxage=18000&action=raw&maxage=18000" type="text/css" media="print" />
+		<link rel="stylesheet" href="../index.php@title=MediaWiki_3AMonobook.css&usemsgcache=yes&ctype=text_252Fcss&smaxage=18000&action=raw&maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="../index.php@title=-&action=raw&maxage=18000&gen=css" type="text/css" />
+		<!--[if lt IE 7]><script type="text/javascript" src="../skins/common/IEFixes.js@195"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+
+		<script type= "text/javascript">/*<![CDATA[*/
+		var skin = "monobook";
+		var stylepath = "../skins";
+		var wgArticlePath = "$1";
+		var wgScriptPath = "";
+		var wgScript = "../index.php";
+		var wgVariantArticlePath = false;
+		var wgActionPaths = {};
+		var wgServer = "../";
+		var wgCanonicalNamespace = "Special";
+		var wgCanonicalSpecialPageName = "Specialpages";
+		var wgNamespaceNumber = -1;
+		var wgPageName = "Special:SpecialPages";
+		var wgTitle = "SpecialPages";
+		var wgAction = "view";
+		var wgArticleId = 0;
+		var wgIsArticle = false;
+		var wgUserName = null;
+		var wgUserGroups = null;
+		var wgUserLanguage = "en";
+		var wgContentLanguage = "en";
+		var wgBreakFrames = false;
+		var wgCurRevisionId = 0;
+		var wgVersion = "1.14.0";
+		var wgEnableAPI = true;
+		var wgEnableWriteAPI = true;
+		var wgSeparatorTransformTable = ["", ""];
+		var wgDigitTransformTable = ["", ""];
+		var wgRestrictionEdit = [];
+		var wgRestrictionMove = [];
+		/*]]>*/</script>
+
+		<script type="text/javascript" src="../skins/common/wikibits.js@195"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+		<script type="text/javascript" src="../skins/common/ajax.js@195"></script>
+		<script type="text/javascript" src="../index.php@title=-&action=raw&gen=js&useskin=monobook"><!-- site js --></script>
+	</head>
+<body class="mediawiki ltr ns--1 ns-special page-Special_SpecialPages skin-monobook">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 id="firstHeading" class="firstHeading">Special pages</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From Wolfpack Wiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<h4 class='mw-specialpagesgroup'>Maintenance reports</h4>
+<table style='width: 100%;' class='mw-specialpages-table'><tr><td width='30%' valign='top'><ul>
+<li><a href="Special_3ABrokenRedirects" title="Special:BrokenRedirects">Broken redirects</a></li>
+<li><a href="Special_3ADeadendPages" title="Special:DeadendPages">Dead-end pages</a></li>
+<li><a href="Special_3ADoubleRedirects" title="Special:DoubleRedirects">Double redirects</a></li>
+<li><a href="Special_3ALongPages" title="Special:LongPages">Long pages</a></li>
+<li><a href="Special_3AAncientPages" title="Special:AncientPages">Oldest pages</a></li>
+<li><a href="Special_3ALonelyPages" title="Special:LonelyPages">Orphaned pages</a></li>
+<li><a href="Special_3AFewestRevisions" title="Special:FewestRevisions">Pages with the fewest revisions</a></li>
+<li><a href="Special_3AWithoutInterwiki" title="Special:WithoutInterwiki">Pages without language links</a></li>
+<li><a href="Special_3AProtectedPages" title="Special:ProtectedPages">Protected pages</a></li>
+<li><a href="Special_3AProtectedTitles" title="Special:ProtectedTitles">Protected titles</a></li>
+<li><a href="Special_3AShortPages" title="Special:ShortPages">Short pages</a></li>
+</ul></td><td width='10%'></td><td width='30%' valign='top'><ul><li><a href="Special_3AUncategorizedCategories" title="Special:UncategorizedCategories">Uncategorized categories</a></li>
+<li><a href="Special_3AUncategorizedFiles" title="Special:UncategorizedFiles">Uncategorized files</a></li>
+<li><a href="Special_3AUncategorizedPages" title="Special:UncategorizedPages">Uncategorized pages</a></li>
+<li><a href="Special_3AUncategorizedTemplates" title="Special:UncategorizedTemplates">Uncategorized templates</a></li>
+<li><a href="Special_3AUnusedCategories" title="Special:UnusedCategories">Unused categories</a></li>
+<li><a href="Special_3AUnusedFiles" title="Special:UnusedFiles">Unused files</a></li>
+<li><a href="Special_3AUnusedTemplates" title="Special:UnusedTemplates">Unused templates</a></li>
+<li><a href="Special_3AWantedCategories" title="Special:WantedCategories">Wanted categories</a></li>
+<li><a href="Special_3AWantedFiles" title="Special:WantedFiles">Wanted files</a></li>
+<li><a href="Special_3AWantedPages" title="Special:WantedPages">Wanted pages</a></li>
+<li><a href="Special_3AWantedTemplates" title="Special:WantedTemplates">Wanted templates</a></li>
+</ul></td><td width='30%' valign='top'></td></tr></table>
+<h4 class='mw-specialpagesgroup'>List of pages</h4>
+<table style='width: 100%;' class='mw-specialpages-table'><tr><td width='30%' valign='top'><ul>
+<li><a href="Special_3AAllPages" title="Special:AllPages">All pages</a></li>
+<li><a href="Special_3APrefixIndex" title="Special:PrefixIndex">All pages with prefix</a></li>
+<li><a href="Special_3ACategories" title="Special:Categories">Categories</a></li>
+</ul></td><td width='10%'></td><td width='30%' valign='top'><ul><li><a href="Special_3ADisambiguations" title="Special:Disambiguations">Disambiguation pages</a></li>
+<li><a href="Special_3AListRedirects" title="Special:ListRedirects">List of redirects</a></li>
+</ul></td><td width='30%' valign='top'></td></tr></table>
+<h4 class='mw-specialpagesgroup'>Login / sign up</h4>
+<table style='width: 100%;' class='mw-specialpages-table'><tr><td width='30%' valign='top'><ul>
+<li><a href="Special_3AUserLogin" title="Special:UserLogin">Log in / create account</a></li>
+</ul></td><td width='30%' valign='top'></td></tr></table>
+<h4 class='mw-specialpagesgroup'>Users and rights</h4>
+<table style='width: 100%;' class='mw-specialpages-table'><tr><td width='30%' valign='top'><ul>
+<li><a href="Special_3ABlockList" title="Special:BlockList">Blocked IP addresses and usernames</a></li>
+<li><a href="Special_3AChangePassword" title="Special:ChangePassword">Change password</a></li>
+<li><a href="Special_3APreferences" title="Special:Preferences">Preferences</a></li>
+</ul></td><td width='10%'></td><td width='30%' valign='top'><ul><li><a href="Special_3AContributions" title="Special:Contributions">User contributions</a></li>
+<li><a href="Special_3AListGroupRights" title="Special:ListGroupRights">User group rights</a></li>
+<li><a href="Special_3AListUsers" title="Special:ListUsers">User list</a></li>
+</ul></td><td width='30%' valign='top'></td></tr></table>
+<h4 class='mw-specialpagesgroup'>Recent changes and logs</h4>
+<table style='width: 100%;' class='mw-specialpages-table'><tr><td width='30%' valign='top'><ul>
+<li><a href="Special_3ANewFiles" title="Special:NewFiles">Gallery of new files</a></li>
+<li><a href="Special_3ALog" title="Special:Log">Logs</a></li>
+<li><a href="Special_3AWatchlist" title="Special:Watchlist">My watchlist</a></li>
+</ul></td><td width='10%'></td><td width='30%' valign='top'><ul><li><a href="Special_3ANewPages" title="Special:NewPages">New pages</a></li>
+<li><a href="Special_3ARecentChanges" title="Special:RecentChanges">Recent changes</a></li>
+<li><a href="Special_3ARecentChangesLinked" title="Special:RecentChangesLinked">Related changes</a></li>
+</ul></td><td width='30%' valign='top'></td></tr></table>
+<h4 class='mw-specialpagesgroup'>Media reports and uploads</h4>
+<table style='width: 100%;' class='mw-specialpages-table'><tr><td width='30%' valign='top'><ul>
+<li><a href="Special_3AListFiles" title="Special:ListFiles">File list</a></li>
+<li><a href="Special_3AFilePath" title="Special:FilePath">File path</a></li>
+<li><a href="Special_3AMIMESearch" title="Special:MIMESearch">MIME search</a></li>
+</ul></td><td width='10%'></td><td width='30%' valign='top'><ul><li><a href="Special_3AFileDuplicateSearch" title="Special:FileDuplicateSearch">Search for duplicate files</a></li>
+<li><a href="Special_3AUpload" title="Special:Upload">Upload file</a></li>
+</ul></td><td width='30%' valign='top'></td></tr></table>
+<h4 class='mw-specialpagesgroup'>Wiki data and tools</h4>
+<table style='width: 100%;' class='mw-specialpages-table'><tr><td width='30%' valign='top'><ul>
+<li><a href="Special_3APopularPages" title="Special:PopularPages">Popular pages</a></li>
+<li><a href="Special_3AStatistics" title="Special:Statistics">Statistics</a></li>
+</ul></td><td width='10%'></td><td width='30%' valign='top'><ul><li><a href="Special_3AAllMessages" title="Special:AllMessages">System messages</a></li>
+<li><a href="Special_3AVersion" title="Special:Version">Version</a></li>
+</ul></td><td width='30%' valign='top'></td></tr></table>
+<h4 class='mw-specialpagesgroup'>Redirecting special pages</h4>
+<table style='width: 100%;' class='mw-specialpages-table'><tr><td width='30%' valign='top'><ul>
+<li><a href="Special_3ALinkSearch" title="Special:LinkSearch">External links</a></li>
+<li><a href="Special_3ARandom" title="Special:Random">Random page</a></li>
+</ul></td><td width='10%'></td><td width='30%' valign='top'><ul><li><a href="Special_3ARandomRedirect" title="Special:RandomRedirect">Random redirect</a></li>
+<li><a href="Special_3ASearch" title="Special:Search">Search</a></li>
+</ul></td><td width='30%' valign='top'></td></tr></table>
+<h4 class='mw-specialpagesgroup'>High use pages</h4>
+<table style='width: 100%;' class='mw-specialpages-table'><tr><td width='30%' valign='top'><ul>
+<li><a href="Special_3AMostLinkedCategories" title="Special:MostLinkedCategories">Most linked-to categories</a></li>
+<li><a href="Special_3AMostLinkedFiles" title="Special:MostLinkedFiles">Most linked-to files</a></li>
+<li><a href="Special_3AMostLinkedPages" title="Special:MostLinkedPages">Most linked-to pages</a></li>
+</ul></td><td width='10%'></td><td width='30%' valign='top'><ul><li><a href="Special_3AMostLinkedTemplates" title="Special:MostLinkedTemplates">Most linked-to templates</a></li>
+<li><a href="Special_3AMostCategories" title="Special:MostCategories">Pages with the most categories</a></li>
+<li><a href="Special_3AMostRevisions" title="Special:MostRevisions">Pages with the most revisions</a></li>
+</ul></td><td width='30%' valign='top'></td></tr></table>
+<h4 class='mw-specialpagesgroup'>Page tools</h4>
+<table style='width: 100%;' class='mw-specialpages-table'><tr><td width='30%' valign='top'><ul>
+<li><a href="Special_3AExport" title="Special:Export">Export pages</a></li>
+<li><a href="Special_3AWhatLinksHere" title="Special:WhatLinksHere">What links here</a></li>
+</ul></td><td width='30%' valign='top'></td></tr></table>
+<h4 class='mw-specialpagesgroup'>Other special pages</h4>
+<table style='width: 100%;' class='mw-specialpages-table'><tr><td width='30%' valign='top'><ul>
+<li><a href="Special_3ABookSources" title="Special:BookSources">Book sources</a></li>
+</ul></td><td width='30%' valign='top'></td></tr></table>
+<div class="mw-specialpages-notes"><hr />
+<ul><li> Normal special pages.
+</li><li> <span class="mw-specialpagerestricted">Restricted special pages.</span>
+</li></ul>
+</div><div class="printfooter">
+Retrieved from "<a href="Special_3ASpecialPages">http://www.wpdev.org/index.php/Special:SpecialPages</a>"</div>
+						<!-- end content -->
+						<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+	
+				 <li id="ca-nstab-special" class="selected"><a href="Special_3ASpecialPages" title="This is a special page, you cannot edit the page itself">Special page</a></li>			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="../index.php@title=Special_3AUserLogin&returnto=Special_3ASpecialPages" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(../skins/common/images/wiki.png);" href="Main_Page" title="Visit the main page [z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="Main_Page">Main Page</a></li>
+				<li id="n-portal"><a href="Wolfpack_Wiki_3ACommunity_Portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+				<li id="n-currentevents"><a href="Wolfpack_Wiki_3ACurrent_events" title="Find background information on current events">Current events</a></li>
+				<li id="n-recentchanges"><a href="Special_3ARecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+				<li id="n-randompage"><a href="Special_3ARandom" title="Load a random page [x]" accesskey="x">Random page</a></li>
+				<li id="n-help"><a href="Help_3AContents" title="The place to find out">Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php/Special:Search" id="searchform"><div>
+				<input id="searchInput" name="search" type="text" title="Search Wolfpack Wiki [f]" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" title="Go to a page with this exact name if exists" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+<li id="t-specialpages"><a href="Special_3ASpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="../../www.mediawiki.org/default.htm"><img src="../skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+				<div id="f-copyrightico"><a href="../../www.gnu.org/copyleft/fdl.html"><img src="../skins/common/images/gnu-fdl.png" alt='GNU Free Documentation License 1.2' /></a></div>
+			<ul id="f-list">
+					<li id="privacy"><a href="Wolfpack_Wiki_3APrivacy_policy" title="Wolfpack Wiki:Privacy policy">Privacy policy</a></li>
+					<li id="about"><a href="Wolfpack_Wiki_3AAbout" title="Wolfpack Wiki:About">About Wolfpack Wiki</a></li>
+					<li id="disclaimer"><a href="Wolfpack_Wiki_3AGeneral_disclaimer" title="Wolfpack Wiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+</div>
+
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.811 secs. --></body></html>

@@ -1,0 +1,6 @@
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\Tools\TestNamespaceWriter\bin\Debug\TestNamespaceWriter.exe.config
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\Tools\TestNamespaceWriter\bin\Debug\TestNamespaceWriter.exe
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\Tools\TestNamespaceWriter\bin\Debug\TestNamespaceWriter.pdb
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\Tools\TestNamespaceWriter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\Tools\TestNamespaceWriter\obj\Debug\TestNamespaceWriter.exe
+C:\Users\Adminsitrator\Documents\My Dropbox\UO\EUO\DbLinq-0.20.1\src\Tools\TestNamespaceWriter\obj\Debug\TestNamespaceWriter.pdb

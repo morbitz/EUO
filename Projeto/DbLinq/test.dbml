@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="euo2" EntityNamespace="UOData" ContextNamespace="UOData" Class="EUO2" BaseType="DbLinq.Data.Linq.DataContext" Provider="MySql" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="euo2.account" Member="Account">
+    <Type Name="Account">
+      <Column Name="accesslevel" Member="AccessLevel" Storage="_accessLevel" Type="enum Player, Owner" DbType="enum('Player','Owner')" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="created" Member="Created" Storage="_created" Type="System.DateTime" DbType="timestamp" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="flags" Member="Flags" Storage="_flags" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="lastlogin" Member="LastLogIn" Storage="_lastLogIn" Type="System.DateTime" DbType="timestamp" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="passwd" Member="PassWD" Storage="_passWd" Type="System.String" DbType="varchar(50)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="totalgametime" Member="TotalGameTime" Storage="_totalGameTime" Type="System.DateTime" DbType="time" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="username" Member="UserName" Storage="_userName" Type="System.String" DbType="varchar(50)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="youngduration" Member="YoungDuration" Storage="_youngDuration" Type="System.DateTime" DbType="time" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="euo2.attributereq" Member="AttributeReQ">
+    <Type Name="AttributeReQ">
+      <Column Name="dex" Member="DEx" Storage="_deX" Type="System.Double" DbType="double" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="hitpoint" Member="HitPoint" Storage="_hitPoint" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="int" Member="Int" Storage="_int" Type="System.Double" DbType="double" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="mana" Member="ManA" Storage="_manA" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="str" Member="STR" Storage="_str" Type="System.Double" DbType="double" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="euo2.attributes" Member="Attributes">
+    <Type Name="Attributes">
+      <Column Name="dexterity" Member="Dexterity" Storage="_dexterity" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="intelligence" Member="Intelligence" Storage="_intelligence" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="strength" Member="Strength" Storage="_strength" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="euo2.bank" Member="Bank">
+    <Type Name="Bank">
+      <Column Name="container_id" Member="ContainerID" Storage="_containerID" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="euo2.container" Member="Container">
+    <Type Name="Container">
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="item_id" Member="ItemID" Storage="_itemID" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="euo2.container_has_item" Member="ContainerHasItem">
+    <Type Name="ContainerHasItem">
+      <Column Name="container_id" Member="ContainerID" Storage="_containerID" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="item_id" Member="ItemID" Storage="_itemID" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="euo2.crafting" Member="Crafting">
+    <Type Name="Crafting">
+      <Column Name="consume" Member="Consume" Storage="_consume" Type="System.SByte" DbType="tinyint(1)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="crafted_item" Member="CraftedItem" Storage="_craftedItem" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="quantity" Member="Quantity" Storage="_quantity" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="resource_needed" Member="ResourceNeeded" Storage="_resourceNeeded" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="euo2.gears" Member="Gears">
+    <Type Name="Gears">
+      <Column Name="arms" Member="Arms" Storage="_arms" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="bracelet" Member="Bracelet" Storage="_bracelet" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="chest" Member="Chest" Storage="_chest" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="gloves" Member="Gloves" Storage="_gloves" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="head" Member="Head" Storage="_head" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="lefthand" Member="LeftHand" Storage="_leftHand" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="legs" Member="Legs" Storage="_legs" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="righthand" Member="RightHand" Storage="_rightHand" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="ring" Member="Ring" Storage="_ring" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="shoes" Member="Shoes" Storage="_shoes" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="euo2.guild" Member="Guild">
+    <Type Name="Guild">
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="name" Member="Name" Storage="_name" Type="System.String" DbType="varchar(45)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="owner" Member="Owner" Storage="_owner" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="euo2.item" Member="Item">
+    <Type Name="Item">
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="itemtype_id" Member="ItemTypeID" Storage="_itemTypeID" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="resistances_id" Member="ResistancesID" Storage="_resistancesID" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="styles_id" Member="StylesID" Storage="_stylesID" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="euo2.itemtype" Member="ItemType">
+    <Type Name="ItemType">
+      <Column Name="attributereq_id" Member="AttributeReQID" Storage="_attributeReQid" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="skillreq_id" Member="SkillReQID" Storage="_skillReQid" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="euo2.resistances" Member="Resistances">
+    <Type Name="Resistances">
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="euo2.skilllist" Member="SkillList">
+    <Type Name="SkillList">
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="name" Member="Name" Storage="_name" Type="System.String" DbType="varchar(45)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="euo2.skillreq" Member="SkillReQ">
+    <Type Name="SkillReQ">
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="skill_id" Member="SkillID" Storage="_skillID" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+      <Column Name="value" Member="Value" Storage="_value" Type="System.Double" DbType="double" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="euo2.styles" Member="Styles">
+    <Type Name="Styles">
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Int32" DbType="int" IsPrimaryKey="true" IsDbGenerated="false" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

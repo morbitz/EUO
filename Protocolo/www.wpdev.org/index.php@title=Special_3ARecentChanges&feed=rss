@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="../skins/common/feed.css@195"?>
+<rss version="2.0" xmlns:dc="../../purl.org/dc/elements/1.1/default.htm">
+	<channel>
+		<title>Wolfpack Wiki  - Recent changes [en]</title>
+		<link>Special_3ARecentChanges</link>
+		<description>Track the most recent changes to the wiki in this feed.</description>
+		<language>en</language>
+		<generator>MediaWiki 1.14.0</generator>
+		<lastBuildDate>Wed, 18 Nov 2009 16:58:41 GMT</lastBuildDate>
+	</channel>
+</rss>

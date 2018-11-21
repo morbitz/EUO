@@ -1,0 +1,140 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+
+namespace UOPackets
+{
+    public class Encryption
+    {
+        public static string HashMD5(string pass)
+        {
+            MD5 md5 = MD5CryptoServiceProvider.Create();
+            byte[] dataMd5 = md5.ComputeHash(Encoding.Default.GetBytes(pass));
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < dataMd5.Length; i++)
+            {
+                sb.AppendFormat("{0:x2}", dataMd5[i]);
+            }
+            return sb.ToString();
+        }
+    }
+
+
+    public class LoginRequestShardList : Packet
+    {
+        private String m_AccountName;
+        private String m_AccountPassword;
+
+        public string AccountName
+        {
+            get { return m_AccountName; }
+            set { m_AccountName = value; }
+        }
+        public string AccountPassword
+        {
+            get { return m_AccountPassword; }
+            set { m_AccountPassword = value; }
+        }
+
+        public LoginRequestShardList() : base (0x80)
+        {
+            m_Data = new byte[62];
+        }
+
+        public LoginRequestShardList(byte[] data) : base(0x80)
+        {
+            m_Data = data;
+            m_AccountName = System.Text.Encoding.GetEncoding("utf-8").GetString(data, 1, 30);
+            m_AccountPassword = System.Text.Encoding.GetEncoding("utf-8").GetString(data, 31, 30);
+
+            m_AccountName = m_AccountName.Trim('\0');
+            m_AccountPassword = Encryption.HashMD5(m_AccountPassword.Trim('\0'));
+
+        }
+
+    }
+
+    public class ServerList : Packet
+    {
+        private byte m_Flag = 0xFF;
+        private Int16 m_NumberOfServers = 1;
+        private Int16 m_ServerNumber = 0;
+        private String m_ServerName = "EUO";
+        private Int16 m_Unknown1 = 0;
+        private byte m_PercentFull = 50;
+        private sbyte m_TimeZone = -3;
+        private byte[] m_ServerIpAddress = new byte[4];
+
+        public byte Flag
+        {
+            get { return m_Flag; }
+            set { m_Flag = value; }
+        }
+        public short NumberOfServers
+        {
+            get { return m_NumberOfServers; }
+            set { m_NumberOfServers = value; }
+        }
+        public short ServerNumber
+        {
+            get { return m_ServerNumber; }
+            set { m_ServerNumber = value; }
+        }
+        public string ServerName
+        {
+            get { return m_ServerName; }
+            set { m_ServerName = value; }
+        }
+        public short Unknown1
+        {
+            get { return m_Unknown1; }
+            set { m_Unknown1 = value; }
+        }
+        public byte PercentFull
+        {
+            get { return m_PercentFull; }
+            set { m_PercentFull = value; }
+        }
+        public sbyte TimeZone
+        {
+            get { return m_TimeZone; }
+            set { m_TimeZone = value; }
+        }
+        public byte[] ServerIpAddress
+        {
+            get { return m_ServerIpAddress; }
+            set { m_ServerIpAddress = value; }
+        }
+
+
+        public ServerList() : base(0xA8)
+        {
+            m_Data = new byte[46];
+        }
+
+        public void Build()
+        {
+            //Set the packet Id
+            m_Data[0] = m_Id;
+            m_PacketSize++;
+
+            //Start inserting the data
+            InsertInt16(m_PacketSize);
+            InsertByte(m_Flag);
+            InsertInt16(m_NumberOfServers);
+            InsertInt16(m_ServerNumber);
+            InsertString(m_ServerName, 30);
+            InsertInt16(m_Unknown1);
+            InsertByte(m_PercentFull);
+            InsertByte((byte)m_TimeZone);
+            InsertByte(new byte[] {0x01, 0x00, 0xa8, 0xc0});
+
+            m_Data[1] = BitConverter.GetBytes(m_PacketSize)[1];
+            m_Data[2] = BitConverter.GetBytes(m_PacketSize)[0];
+
+        }
+
+    }
+}

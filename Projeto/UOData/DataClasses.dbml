@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="euo" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=IMAGEM3\SQLEXPRESS;Initial Catalog=euo;Persist Security Info=True;User ID=sa" SettingsObjectName="UOData.Properties.Settings" SettingsPropertyName="euoConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.account" Member="accounts">
+    <Type Name="account">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="passwd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="accesslevel" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Column Name="flags" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="lastlogin" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="totalgametime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="youngduration" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="account_player" Member="players" ThisKey="id" OtherKey="account_id" Type="player" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vendor" Member="vendors">
+    <Type Name="vendor">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="mobile_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="player_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="mobile_vendor" Member="mobile" ThisKey="mobile_id" OtherKey="id" Type="mobile" IsForeignKey="true" />
+      <Association Name="player_vendor" Member="player" ThisKey="player_id" OtherKey="id" Type="player" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.attributereq" Member="attributereqs">
+    <Type Name="attributereq">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="int" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dex" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="str" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="hitpoint" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mana" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="attributereq_itemtype" Member="itemtypes" ThisKey="id" OtherKey="attributereq_id" Type="itemtype" />
+      <Association Name="attributereq_spell" Member="spells" ThisKey="id" OtherKey="attributereq_id" Type="spell" />
+    </Type>
+  </Table>
+  <Table Name="dbo.attributes" Member="attributes">
+    <Type Name="attribute">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="strength" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="dexterity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="intelligence" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="hitpoints" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mana" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="attribute_mobile" Member="mobiles" ThisKey="id" OtherKey="attributes_id" Type="mobile" />
+    </Type>
+  </Table>
+  <Table Name="dbo.bank" Member="banks">
+    <Type Name="bank">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="container_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="bank_player" Member="players" ThisKey="id" OtherKey="bank_id" Type="player" />
+      <Association Name="container_bank" Member="container" ThisKey="container_id" OtherKey="id" Type="container" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.container" Member="containers">
+    <Type Name="container">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="item_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="container_bank" Member="banks" ThisKey="id" OtherKey="container_id" Type="bank" />
+      <Association Name="container_container_has_item" Member="container_has_items" ThisKey="id" OtherKey="container_id" Type="container_has_item" />
+      <Association Name="container_mobile" Member="mobiles" ThisKey="id" OtherKey="backpack_id" Type="mobile" />
+      <Association Name="item_container" Member="item" ThisKey="item_id" OtherKey="id" Type="item" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.container_has_item" Member="container_has_items">
+    <Type Name="container_has_item">
+      <Column Name="container_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="item_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="container_container_has_item" Member="container" ThisKey="container_id" OtherKey="id" Type="container" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="item_container_has_item" Member="item" ThisKey="item_id" OtherKey="id" Type="item" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.crafting" Member="craftings">
+    <Type Name="crafting">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="resource_needed" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="crafted_item" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="consume" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="itemtype_crafting" Member="itemtype" ThisKey="resource_needed" OtherKey="id" Type="itemtype" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="itemtype_crafting1" Member="itemtype1" ThisKey="crafted_item" OtherKey="id" Type="itemtype" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.gears" Member="gears">
+    <Type Name="gear">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="head" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chest" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="arms" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="gloves" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="legs" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="shoes" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ring" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="lefthand" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="righthand" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bracelet" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="gear_mobile" Member="mobiles" ThisKey="id" OtherKey="gears_id" Type="mobile" />
+      <Association Name="item_gear" Member="item" ThisKey="head" OtherKey="id" Type="item" IsForeignKey="true" DeleteRule="SET NULL" />
+      <Association Name="item_gear1" Member="item1" ThisKey="righthand" OtherKey="id" Type="item" IsForeignKey="true" />
+      <Association Name="item_gear2" Member="item2" ThisKey="chest" OtherKey="id" Type="item" IsForeignKey="true" />
+      <Association Name="item_gear3" Member="item3" ThisKey="arms" OtherKey="id" Type="item" IsForeignKey="true" />
+      <Association Name="item_gear4" Member="item4" ThisKey="gloves" OtherKey="id" Type="item" IsForeignKey="true" />
+      <Association Name="item_gear5" Member="item5" ThisKey="legs" OtherKey="id" Type="item" IsForeignKey="true" />
+      <Association Name="item_gear6" Member="item6" ThisKey="shoes" OtherKey="id" Type="item" IsForeignKey="true" />
+      <Association Name="item_gear7" Member="item7" ThisKey="ring" OtherKey="id" Type="item" IsForeignKey="true" />
+      <Association Name="item_gear8" Member="item8" ThisKey="lefthand" OtherKey="id" Type="item" IsForeignKey="true" />
+      <Association Name="item_gear9" Member="item9" ThisKey="bracelet" OtherKey="id" Type="item" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.guild" Member="guilds">
+    <Type Name="guild">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="owner" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(45)" CanBeNull="true" />
+      <Association Name="guild_player" Member="players" ThisKey="id" OtherKey="guild_id" Type="player" />
+      <Association Name="player_guild" Member="player" ThisKey="owner" OtherKey="id" Type="player" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.item" Member="items">
+    <Type Name="item">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="itemtype_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="resistances_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="styles_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="item_container" Member="containers" ThisKey="id" OtherKey="item_id" Type="container" />
+      <Association Name="item_container_has_item" Member="container_has_items" ThisKey="id" OtherKey="item_id" Type="container_has_item" />
+      <Association Name="item_gear" Member="gears" ThisKey="id" OtherKey="head" Type="gear" />
+      <Association Name="item_gear1" Member="gears1" ThisKey="id" OtherKey="righthand" Type="gear" />
+      <Association Name="item_gear2" Member="gears2" ThisKey="id" OtherKey="chest" Type="gear" />
+      <Association Name="item_gear3" Member="gears3" ThisKey="id" OtherKey="arms" Type="gear" />
+      <Association Name="item_gear4" Member="gears4" ThisKey="id" OtherKey="gloves" Type="gear" />
+      <Association Name="item_gear5" Member="gears5" ThisKey="id" OtherKey="legs" Type="gear" />
+      <Association Name="item_gear6" Member="gears6" ThisKey="id" OtherKey="shoes" Type="gear" />
+      <Association Name="item_gear7" Member="gears7" ThisKey="id" OtherKey="ring" Type="gear" />
+      <Association Name="item_gear8" Member="gears8" ThisKey="id" OtherKey="lefthand" Type="gear" />
+      <Association Name="item_gear9" Member="gears9" ThisKey="id" OtherKey="bracelet" Type="gear" />
+      <Association Name="itemtype_item" Member="itemtype" ThisKey="itemtype_id" OtherKey="id" Type="itemtype" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="resistance_item" Member="resistance" ThisKey="resistances_id" OtherKey="id" Type="resistance" IsForeignKey="true" />
+      <Association Name="style_item" Member="style" ThisKey="styles_id" OtherKey="id" Type="style" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.itemtype" Member="itemtypes">
+    <Type Name="itemtype">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="attributereq_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="skillreq_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="itemtype_crafting" Member="craftings" ThisKey="id" OtherKey="resource_needed" Type="crafting" />
+      <Association Name="itemtype_crafting1" Member="craftings1" ThisKey="id" OtherKey="crafted_item" Type="crafting" />
+      <Association Name="itemtype_item" Member="items" ThisKey="id" OtherKey="itemtype_id" Type="item" />
+      <Association Name="itemtype_spellreag" Member="spellreags" ThisKey="id" OtherKey="itemtype_id" Type="spellreag" />
+      <Association Name="attributereq_itemtype" Member="attributereq" ThisKey="attributereq_id" OtherKey="id" Type="attributereq" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="skillreq_itemtype" Member="skillreq" ThisKey="skillreq_id" OtherKey="id" Type="skillreq" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.mobile" Member="mobiles">
+    <Type Name="mobile">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="accesslevel" Type="System.String" DbType="NChar(13)" CanBeNull="true" />
+      <Column Name="alive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="attributes_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="backpack_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="resistances_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="gears_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="styles_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="model" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="x" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="y" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="z" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="direction" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="notoriety" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Association Name="mobile_vendor" Member="vendors" ThisKey="id" OtherKey="mobile_id" Type="vendor" />
+      <Association Name="mobile_monster" Member="monsters" ThisKey="id" OtherKey="mobile_id" Type="monster" />
+      <Association Name="mobile_npc" Member="npcs" ThisKey="id" OtherKey="mobile_id" Type="npc" />
+      <Association Name="mobile_player" Member="players" ThisKey="id" OtherKey="mobile_id" Type="player" />
+      <Association Name="mobile_skill" Member="skills" ThisKey="id" OtherKey="mobile_id" Type="skill" />
+      <Association Name="attribute_mobile" Member="attribute" ThisKey="attributes_id" OtherKey="id" Type="attribute" IsForeignKey="true" />
+      <Association Name="gear_mobile" Member="gear" ThisKey="gears_id" OtherKey="id" Type="gear" IsForeignKey="true" />
+      <Association Name="container_mobile" Member="container" ThisKey="backpack_id" OtherKey="id" Type="container" IsForeignKey="true" />
+      <Association Name="resistance_mobile" Member="resistance" ThisKey="resistances_id" OtherKey="id" Type="resistance" IsForeignKey="true" />
+      <Association Name="style_mobile" Member="style" ThisKey="styles_id" OtherKey="id" Type="style" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.monster" Member="monsters">
+    <Type Name="monster">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="mobile_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="mobile_monster" Member="mobile" ThisKey="mobile_id" OtherKey="id" Type="mobile" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.npc" Member="npcs">
+    <Type Name="npc">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="mobile_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="mobile_npc" Member="mobile" ThisKey="mobile_id" OtherKey="id" Type="mobile" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.player" Member="players">
+    <Type Name="player">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="account_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bank_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mobile_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="guild_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="player_vendor" Member="vendors" ThisKey="id" OtherKey="player_id" Type="vendor" />
+      <Association Name="player_guild" Member="guilds" ThisKey="id" OtherKey="owner" Type="guild" />
+      <Association Name="account_player" Member="account" ThisKey="account_id" OtherKey="id" Type="account" IsForeignKey="true" />
+      <Association Name="bank_player" Member="bank" ThisKey="bank_id" OtherKey="id" Type="bank" IsForeignKey="true" />
+      <Association Name="mobile_player" Member="mobile" ThisKey="mobile_id" OtherKey="id" Type="mobile" IsForeignKey="true" />
+      <Association Name="guild_player" Member="guild" ThisKey="guild_id" OtherKey="id" Type="guild" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.resistances" Member="resistances">
+    <Type Name="resistance">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="resistance_item" Member="items" ThisKey="id" OtherKey="resistances_id" Type="item" />
+      <Association Name="resistance_mobile" Member="mobiles" ThisKey="id" OtherKey="resistances_id" Type="mobile" />
+    </Type>
+  </Table>
+  <Table Name="dbo.skill" Member="skills">
+    <Type Name="skill">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="skilllist_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="value" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="mobile_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="skill_skillreq" Member="skillreqs" ThisKey="id" OtherKey="skill_id" Type="skillreq" />
+      <Association Name="mobile_skill" Member="mobile" ThisKey="mobile_id" OtherKey="id" Type="mobile" IsForeignKey="true" />
+      <Association Name="skilllist_skill" Member="skilllist" ThisKey="skilllist_id" OtherKey="id" Type="skilllist" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.skilllist" Member="skilllists">
+    <Type Name="skilllist">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(45)" CanBeNull="true" />
+      <Association Name="skilllist_skill" Member="skills" ThisKey="id" OtherKey="skilllist_id" Type="skill" />
+    </Type>
+  </Table>
+  <Table Name="dbo.skillreq" Member="skillreqs">
+    <Type Name="skillreq">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="skill_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="value" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="skillreq_itemtype" Member="itemtypes" ThisKey="id" OtherKey="skillreq_id" Type="itemtype" />
+      <Association Name="skillreq_spell" Member="spells" ThisKey="id" OtherKey="skillreq_id" Type="spell" />
+      <Association Name="skill_skillreq" Member="skill" ThisKey="skill_id" OtherKey="id" Type="skill" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.spell" Member="spells">
+    <Type Name="spell">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="skillreq_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="attributereq_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(45)" CanBeNull="true" />
+      <Association Name="spell_spellreag" Member="spellreags" ThisKey="id" OtherKey="spell_id" Type="spellreag" />
+      <Association Name="skillreq_spell" Member="skillreq" ThisKey="skillreq_id" OtherKey="id" Type="skillreq" IsForeignKey="true" />
+      <Association Name="attributereq_spell" Member="attributereq" ThisKey="attributereq_id" OtherKey="id" Type="attributereq" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.spellreag" Member="spellreags">
+    <Type Name="spellreag">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="itemtype_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="quantity" Type="System.String" DbType="NVarChar(45)" CanBeNull="true" />
+      <Column Name="spell_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="itemtype_spellreag" Member="itemtype" ThisKey="itemtype_id" OtherKey="id" Type="itemtype" IsForeignKey="true" />
+      <Association Name="spell_spellreag" Member="spell" ThisKey="spell_id" OtherKey="id" Type="spell" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.styles" Member="styles">
+    <Type Name="style">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="style_item" Member="items" ThisKey="id" OtherKey="styles_id" Type="item" />
+      <Association Name="style_mobile" Member="mobiles" ThisKey="id" OtherKey="styles_id" Type="mobile" />
+    </Type>
+  </Table>
+</Database>
