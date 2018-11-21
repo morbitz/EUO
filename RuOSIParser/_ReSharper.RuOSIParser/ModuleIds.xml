@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="E120BAA0-D213-4894-A90E-4D2C93739B71" ModuleId="RuOSIParser" />
+  <Module PersistentId="66AEEDFD-084D-49F1-A0F7-C36CBAF9ACDD" ModuleId="Packets" />
+</Modules>
